@@ -3,6 +3,7 @@ import HorizontalRule from "@/components/HorizontalRule"
 import ContactMeBtn from "@/components/ContactMeBtn"
 import Navbar from "@/components/Navbar"
 import MySkills from "@/components/MySkills"
+import ContactSection from "@/components/ContactSection"
 
 export default function Home() {
   return (
@@ -82,6 +83,8 @@ export default function Home() {
           <h1>MY SKILLS</h1>
           <MySkills />
         </div>
+
+        <ContactSection />
 
       </section>
     </>
