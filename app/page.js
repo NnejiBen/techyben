@@ -4,6 +4,7 @@ import ContactMeBtn from "@/components/ContactMeBtn"
 import Navbar from "@/components/Navbar"
 import MySkills from "@/components/MySkills"
 import ContactSection from "@/components/ContactSection"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -85,6 +86,7 @@ export default function Home() {
         </div>
 
         <ContactSection />
+        <Footer />
 
       </section>
     </>

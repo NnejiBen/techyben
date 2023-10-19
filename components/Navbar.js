@@ -4,7 +4,7 @@ import profilePic from "../public/images/ben-nneji.webp"
 
 const Navbar = () => {
   return (
-    <div className="flex">
+    <nav className="flex">
         <div className="flex flex-col">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Image src={profilePic} alt="Ben Nneji profile picture" className="w-full"/>
             </div>
         </div>
-    </div>
+    </nav>
   )
 }
 
