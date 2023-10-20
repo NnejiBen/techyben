@@ -12,14 +12,26 @@
   --background:  linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: #F9F8F8;
   font-family: 'Oswald', sans-serif;
+  max-width: 1440px;
 }
 
 .section {
-  padding: 0 120px;
+  padding: 0 12em;
 }
 
 h1, h2 {
@@ -30,6 +42,6 @@ h1, h2 {
 
 .home-page-title {
   color: #EAEAEA;
-  font-size: 120px;
+  font-size: 12rem;
   line-height: 90%;
 }
