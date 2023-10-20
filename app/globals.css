@@ -10,6 +10,22 @@
 
 :root {
   --background:  linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%);
+  --clr-dark-blue-bg: #00162B;
+  --clr-orange-accent: #FB8500;
+  --clr-gray-text: #F9F8F8;
+  --clr-dark-text: #1E1E1E;
+  --clr-gray-heading: #EAEAEA;
+  --clr-gray-card-bg: #C0D6DF;
+  --clr-dark-btn-text: #00162B;
+  --clr-dark-blue-navbar-text: #023047;
+  --clr-light-blue-img-border: #8ECAE6;
+  --clr-gold-card: #FFB703;
+  --clr-blue-card: #219EBC;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
 }
 
 * {
@@ -25,7 +41,7 @@ html {
 
 body {
   background: var(--background);
-  color: #F9F8F8;
+  color: var(--clr-gray-text);
   font-family: 'Oswald', sans-serif;
   max-width: 1440px;
 }
@@ -48,4 +64,14 @@ p {
   color: #EAEAEA;
   font-size: 12rem;
   line-height: 90%;
+}
+
+.solid-btn {
+  background-color: var(--clr-orange-accent);
+  color: var(--clr-dark-blue-bg);
+  padding: 14.5px 32px;
+  border: none;
+  border-radius: 24px;
+  font-size: 1.8rem;
+  font-weight: var(--fw-medium);
 }

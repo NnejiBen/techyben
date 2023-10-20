@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const ContactMeBtn = () => {
   return (
-    <Link href="/contact">Contact Me</Link>
+    <Link href="/contact" className="solid-btn">CONTACT ME</Link>
   )
 }
 
