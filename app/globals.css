@@ -1,16 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@font-face {
+  font-family: 'AkiraFont';
+  src: url('/fonts/akira-expanded.otf') format('woff');
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --ff-oswald: font-family: 'Oswald', sans-serif;
   --background:  linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%);
-
 }
 
 body {
   background: var(--background);
-  color: white;
+  color: #F9F8F8;
+  font-family: 'Oswald', sans-serif;
+}
+
+.section {
+  padding: 0 120px;
+}
+
+h1, h2 {
+  font-family: 'AkiraFont', sans-serif;
+}
+
+/* CSS Styles */
+
+.home-page-title {
+  color: #EAEAEA;
+  font-size: 120px;
+  line-height: 90%;
 }

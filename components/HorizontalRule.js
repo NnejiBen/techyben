@@ -1,6 +1,6 @@
 const HorizontalRule = () => {
   return (
-      <hr className="my-8"/>
+      <hr className="my-8 py-0"/>
   )
 }
 

@@ -11,23 +11,25 @@ export default function Home() {
     <>
       <section>
 
-        <div className="hero-section h-screen">
+        <div className="hero-section h-screen flex flex-col justify-between">
           <HorizontalRule />
-          <h1>BENJAMIN</h1>
-          <h1>NNEJI</h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
-          <ContactMeBtn />
-          <Navbar />
+          <div className="section">
+            <h1 className="home-page-title">BENJAMIN</h1>
+            <h1 className="home-page-title text-right">NNEJI</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <ContactMeBtn />
+            <Navbar />
+          </div>
           <HorizontalRule />
         </div>
 
-        <div className="about-section">
+        <div className="about-section section">
           <h1>HI THERE, BEN HERE</h1>
           <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
           <Link href="/about">READ MORE</Link>
         </div>
 
-        <div className="portfolio-section flex">
+        <div className="portfolio-section section flex">
           <div className="portfolio--left flex flex-col">
             <div className="portfolio-card">
               <div>
@@ -35,7 +37,10 @@ export default function Home() {
                 <div></div>
                 <div></div>
               </div>
-              <div className="portfolio-card--title"></div>
+              <div className="portfolio-card--title flex">
+                <div><h3>1</h3></div>
+                <div><h3>ELECTETRA</h3></div>
+              </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
@@ -49,7 +54,10 @@ export default function Home() {
                 <div></div>
                 <div></div>
               </div>
-              <div className="portfolio-card--title"></div>
+              <div className="portfolio-card--title flex">
+                <div><h3>1</h3></div>
+                <div><h3>ELECTETRA</h3></div>
+              </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
@@ -69,7 +77,10 @@ export default function Home() {
                 <div></div>
                 <div></div>
               </div>
-              <div className="portfolio-card--title"></div>
+              <div className="portfolio-card--title flex">
+                <div><h3>1</h3></div>
+                <div><h3>ELECTETRA</h3></div>
+              </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
@@ -80,7 +91,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="skills-section">
+        <div className="skills-section section">
           <h1>MY SKILLS</h1>
           <MySkills />
         </div>
