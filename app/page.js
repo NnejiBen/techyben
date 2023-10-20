@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <section>
 
-        <div className="hero-section max-h-screen flex flex-col mb-32">
+        <div className="home-hero-section max-h-screen flex flex-col mb-48">
           <HorizontalRule />
           <div className="section">
             <h1 className="home-page-title">BENJAMIN</h1>
@@ -29,7 +29,7 @@ export default function Home() {
           <HorizontalRule />
         </div>
 
-        <div className="about-section section flex mb-32">
+        <div className="home-about-section section flex mb-52">
           <div className="flex-1">
             <h1 className="heading mb-8">HI THERE, BEN HERE</h1>
             <p className="mb-12">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
@@ -38,23 +38,25 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-1 justify-end">
-            <div className="about--img-cont flex">
-              <Image src={benTall} alt="Photo of Ben Nneji standing" className="about--img object-cover"/>
+            <div className="home-about-section--img-cont flex">
+              <Image src={benTall} alt="Photo of Ben Nneji standing" className="home-about-section--img object-cover"/>
             </div>
           </div>
         </div>
 
-        <div className="portfolio-section section flex">
-          <div className="portfolio--left flex flex-col">
-            <div className="portfolio-card">
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
+        <div className="home-portfolio-section section flex gap-32">
+          <div className="home-portfolio-section--left flex flex-col gap-24">
+            {/* Portfolio card 01 */}
+            <div className="home-portfolio-card">
+              <div className="card--dots-cont flex gap-4 px-12 py-6">
+                <div className="card-dot-01"></div>
+                <div className="card-dot-02"></div>
+                <div className="card-dot-03"></div>
               </div>
-              <div className="portfolio-card--title flex">
-                <div><h3>1</h3></div>
-                <div><h3>ELECTETRA</h3></div>
+              <hr className="card-hr"/>
+              <div className="portfolio-card--title flex items-center gap-8 px-8 py-12">
+                <div><p className="home-portfolio-card--number">1</p></div>
+                <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
@@ -63,7 +65,8 @@ export default function Home() {
                 <Link href="/portfolio">READ MORE</Link>
               </div>
             </div>
-            <div className="portfolio-card">
+            {/* Portfolio card 02 */}
+            <div className="home-portfolio-card">
               <div>
                 <div></div>
                 <div></div>
@@ -71,7 +74,7 @@ export default function Home() {
               </div>
               <div className="portfolio-card--title flex">
                 <div><h3>1</h3></div>
-                <div><h3>ELECTETRA</h3></div>
+                <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
@@ -81,12 +84,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="portfolio--right flex flex-col">
+          <div className="portfolio--right flex flex-col gap-32">
             <div className="portfolio--text">
-              <h2>WHAT I DO</h2>
+              <h2 className="heading mb-12">WHAT I DO</h2>
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
             </div>
-            <div className="portfolio-card">
+            {/* Portfolio card 03 */}
+            <div className="home-portfolio-card">
               <div>
                 <div></div>
                 <div></div>
@@ -94,7 +98,7 @@ export default function Home() {
               </div>
               <div className="portfolio-card--title flex">
                 <div><h3>1</h3></div>
-                <div><h3>ELECTETRA</h3></div>
+                <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
               <div className="portfolio-card--body">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>

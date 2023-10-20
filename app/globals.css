@@ -31,11 +31,13 @@
   --home-title-lh: 90%;
   --heading-fs: 6.4rem;
   --heading-lh: 110%;
+  --subheading-fs: 3.2rem;
   --body-fs-18px: 1.8rem;
   --body-fs-20px: 2.0rem;
   --body-fs-24px: 2.4rem;
   --body-fs-32px: 3.2rem;
   --body-fs-40px: 4.0rem;
+  --body-fs-48px: 4.8rem;
 }
 
 * {
@@ -62,13 +64,19 @@ body {
   padding: 0 12em;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--ff-akira);
 }
 
 .heading {
   font-size: var(--heading-fs);
   line-height: var(--heading-lh);
+  color: var(--clr-gray-heading);
+}
+
+.subheading {
+  font-size: var(--subheading-fs);
+  color: var(--clr-dark-btn-text);
 }
 
 p {
@@ -112,12 +120,42 @@ p {
   border-radius: 50%;
 }
 
-.about--img-cont {
+.home-about-section--img-cont {
   width: 60%;
   border: 8px solid var(--clr-light-blue-img-border);
   border-radius: 272.5px;
 }
 
-.about--img {
+.home-about-section--img {
   border-radius: 272.5px;
+}
+
+.home-portfolio-card {
+  background-color: var(--clr-gray-card-bg);
+  border-radius: 24px;
+  /* padding: 1.5em 3em 3em; */
+}
+
+.card-dot-01,
+.card-dot-02,
+.card-dot-03 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.card-dot-01 { background-color: var(--clr-gold-card); }
+.card-dot-02 { background-color: var(--clr-blue-card); }
+.card-dot-03 { background-color: var(--clr-orange-accent); }
+
+.card-hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+.home-portfolio-card--number {
+  color: var(--clr-dark-blue-bg);
+  font-size: var(--body-fs-48px);
+  font-weight: var(--fw-bold);
 }
