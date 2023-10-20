@@ -11,11 +11,11 @@ export default function Home() {
     <>
       <section>
 
-        <div className="hero-section h-screen flex flex-col justify-between">
+        <div className="hero-section max-h-screen flex flex-col">
           <HorizontalRule />
           <div className="section">
             <h1 className="home-page-title">BENJAMIN</h1>
-            <h1 className="home-page-title text-right mb-5">NNEJI</h1>
+            <h1 className="home-page-title text-right mb-4">NNEJI</h1>
             <div className="flex justify-end mb-10">
               <p className="text-right w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
             </div>

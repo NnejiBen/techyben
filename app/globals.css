@@ -27,8 +27,15 @@
   --fw-medium: 500;
   --fw-semi-bold: 600;
   --fw-bold: 700;
-
-
+  --home-title-fs: 11rem;
+  --home-title-lh: 90%;
+  --heading-fs: 6.4rem;
+  --heading-lh: 90%;
+  --body-fs-18px: 1.8rem;
+  --body-fs-20px: 2.0rem;
+  --body-fs-24px: 2.4rem;
+  --body-fs-32px: 3.2rem;
+  --body-fs-40px: 4.0rem;
 }
 
 * {
@@ -60,15 +67,15 @@ h1, h2 {
 }
 
 p {
-  font-size: 2.4rem;
+  font-size: var(--body-fs-24px);
 }
 
 /* CSS Styles */
 
 .home-page-title {
-  color: #EAEAEA;
-  font-size: 12rem;
-  line-height: 90%;
+  color: var(--clr-gray-heading);
+  font-size: var(--home-title-fs);
+  line-height: var(--home-title-lh);
 }
 
 .solid-btn {
@@ -77,6 +84,25 @@ p {
   padding: 14.5px 32px;
   border: none;
   border-radius: 24px;
-  font-size: 1.8rem;
+  font-size: var(--body-fs-18px);
   font-weight: var(--fw-medium);
+}
+
+.navbar {
+  display: flex;
+  gap: 2em;
+  width: max-content;
+  border-top-right-radius: 110px;
+  border-bottom-right-radius: 110px;
+  background-color: var(--clr-gray-text);
+  color: var(--clr-dark-blue-navbar-text);
+  font-size: var(--body-fs-20px);
+  font-weight: var(--fw-medium);
+  padding: .8em;
+}
+
+.navbar--img-container {
+  width: 6em;
+  border: 8px solid var(--clr-light-blue-img-border);
+  border-radius: 50%;
 }
