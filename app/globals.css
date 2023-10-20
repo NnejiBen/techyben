@@ -38,6 +38,10 @@ h1, h2 {
   font-family: 'AkiraFont', sans-serif;
 }
 
+p {
+  font-size: 2.4rem;
+}
+
 /* CSS Styles */
 
 .home-page-title {

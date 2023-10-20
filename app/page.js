@@ -15,8 +15,10 @@ export default function Home() {
           <HorizontalRule />
           <div className="section">
             <h1 className="home-page-title">BENJAMIN</h1>
-            <h1 className="home-page-title text-right">NNEJI</h1>
-            <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <h1 className="home-page-title text-right mb-5">NNEJI</h1>
+            <div className="flex justify-end">
+              <p className="text-right w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
+            </div>
             <ContactMeBtn />
             <Navbar />
           </div>
