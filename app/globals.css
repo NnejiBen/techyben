@@ -9,7 +9,6 @@
 @tailwind utilities;
 
 :root {
-  --background:  linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%);
   --clr-dark-blue-bg: #00162B;
   --clr-orange-accent: #FB8500;
   --clr-gray-text: #F9F8F8;
@@ -21,11 +20,15 @@
   --clr-light-blue-img-border: #8ECAE6;
   --clr-gold-card: #FFB703;
   --clr-blue-card: #219EBC;
+  --ff-oswald: 'Oswald', sans-serif;
+  --ff-akira: 'AkiraFont', sans-serif;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semi-bold: 600;
   --fw-bold: 700;
+
+
 }
 
 * {
@@ -40,9 +43,11 @@ html {
 }
 
 body {
-  background: var(--background);
+  /* background: linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%); */
+  /* background: linear-gradient(to bottom, hsl(254, 58%, 16%) 20%, hsl(209, 100%, 24%) 50%, hsl(209, 100%, 24%)); */
+  background: linear-gradient(to bottom, hsl(254, 58%, 16%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%));
   color: var(--clr-gray-text);
-  font-family: 'Oswald', sans-serif;
+  font-family: var(--ff-oswald);
   max-width: 1440px;
 }
 
@@ -51,7 +56,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'AkiraFont', sans-serif;
+  font-family: var(--ff-akira);
 }
 
 p {
