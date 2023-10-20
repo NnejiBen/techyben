@@ -12,8 +12,8 @@ const Navbar = () => {
             <Link href="/contact">Contact</Link>
         </div>
         <div>
-            <div className=" navbar--img-container">
-                <Image src={profilePic} alt="Ben Nneji profile picture" className="w-full rounded-full"/>
+            <div className=" navbar--img-cont">
+                <Image src={profilePic} alt="Ben Nneji profile picture" className="rounded-full"/>
             </div>
         </div>
     </nav>

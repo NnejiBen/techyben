@@ -30,7 +30,7 @@
   --home-title-fs: 11rem;
   --home-title-lh: 90%;
   --heading-fs: 6.4rem;
-  --heading-lh: 90%;
+  --heading-lh: 110%;
   --body-fs-18px: 1.8rem;
   --body-fs-20px: 2.0rem;
   --body-fs-24px: 2.4rem;
@@ -64,6 +64,11 @@ body {
 
 h1, h2 {
   font-family: var(--ff-akira);
+}
+
+.heading {
+  font-size: var(--heading-fs);
+  line-height: var(--heading-lh);
 }
 
 p {
@@ -101,8 +106,18 @@ p {
   padding: .8em;
 }
 
-.navbar--img-container {
+.navbar--img-cont {
   width: 6em;
   border: 8px solid var(--clr-light-blue-img-border);
   border-radius: 50%;
+}
+
+.about--img-cont {
+  width: 60%;
+  border: 8px solid var(--clr-light-blue-img-border);
+  border-radius: 272.5px;
+}
+
+.about--img {
+  border-radius: 272.5px;
 }
