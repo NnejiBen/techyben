@@ -101,6 +101,16 @@ p {
   font-weight: var(--fw-medium);
 }
 
+.outline-btn {
+  background-color: transparent;
+  color: var(--clr-dark-blue-bg);
+  padding: 14.5px 32px;
+  border: 1px solid var(--clr-orange-accent);
+  border-radius: 24px;
+  font-size: var(--body-fs-18px);
+  font-weight: var(--fw-medium);
+}
+
 .navbar {
   display: flex;
   gap: 2em;
@@ -158,4 +168,9 @@ p {
   color: var(--clr-dark-blue-bg);
   font-size: var(--body-fs-48px);
   font-weight: var(--fw-bold);
+}
+
+.home-portfolio-card--body p {
+  color: var(--clr-dark-text);
+  font-size: var(--body-fs-20px);
 }

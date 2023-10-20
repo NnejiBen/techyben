@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="home-portfolio-section section flex gap-32">
+        <div className="home-portfolio-section section flex gap-32 mb-52">
           <div className="home-portfolio-section--left flex flex-col gap-24">
             {/* Portfolio card 01 */}
             <div className="home-portfolio-card">
@@ -54,33 +54,34 @@ export default function Home() {
                 <div className="card-dot-03"></div>
               </div>
               <hr className="card-hr"/>
-              <div className="portfolio-card--title flex items-center gap-8 px-8 py-12">
+              <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
                 <div><p className="home-portfolio-card--number">1</p></div>
                 <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
-              <div className="portfolio-card--body">
+              <div className="home-portfolio-card--body px-20 mb-10">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
-              <div className="portfolio-card--btn">
-                <Link href="/portfolio">READ MORE</Link>
+              <div className="home-portfolio-card--btn flex justify-end px-10 pb-12">
+                <Link href="/portfolio" className="outline-btn">READ MORE</Link>
               </div>
             </div>
             {/* Portfolio card 02 */}
             <div className="home-portfolio-card">
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
+              <div className="card--dots-cont flex gap-4 px-12 py-6">
+                <div className="card-dot-01"></div>
+                <div className="card-dot-02"></div>
+                <div className="card-dot-03"></div>
               </div>
-              <div className="portfolio-card--title flex">
-                <div><h3>1</h3></div>
+              <hr className="card-hr"/>
+              <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
+                <div><p className="home-portfolio-card--number">1</p></div>
                 <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
-              <div className="portfolio-card--body">
+              <div className="home-portfolio-card--body px-20 mb-10">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
-              <div className="portfolio-card--btn">
-                <Link href="/portfolio">READ MORE</Link>
+              <div className="home-portfolio-card--btn flex justify-end px-10 pb-12">
+                <Link href="/portfolio" className="outline-btn">READ MORE</Link>
               </div>
             </div>
           </div>
@@ -91,20 +92,21 @@ export default function Home() {
             </div>
             {/* Portfolio card 03 */}
             <div className="home-portfolio-card">
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
+              <div className="card--dots-cont flex gap-4 px-12 py-6">
+                <div className="card-dot-01"></div>
+                <div className="card-dot-02"></div>
+                <div className="card-dot-03"></div>
               </div>
-              <div className="portfolio-card--title flex">
-                <div><h3>1</h3></div>
+              <hr className="card-hr"/>
+              <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
+                <div><p className="home-portfolio-card--number">1</p></div>
                 <div><h3 className="subheading">ELECTETRA</h3></div>
               </div>
-              <div className="portfolio-card--body">
+              <div className="home-portfolio-card--body px-20 mb-10">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
               </div>
-              <div className="portfolio-card--btn">
-                <Link href="/portfolio">READ MORE</Link>
+              <div className="home-portfolio-card--btn flex justify-end px-10 pb-12">
+                <Link href="/portfolio" className="outline-btn">READ MORE</Link>
               </div>
             </div>
           </div>
