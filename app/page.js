@@ -74,8 +74,8 @@ export default function Home() {
               </div>
               <hr className="card-hr"/>
               <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
-                <div><p className="home-portfolio-card--number">1</p></div>
-                <div><h3 className="subheading">ELECTETRA</h3></div>
+                <div><p className="home-portfolio-card--number">2</p></div>
+                <div><h3 className="subheading">JOBENY RESOURCES</h3></div>
               </div>
               <div className="home-portfolio-card--body px-20 mb-10">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
@@ -99,8 +99,8 @@ export default function Home() {
               </div>
               <hr className="card-hr"/>
               <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
-                <div><p className="home-portfolio-card--number">1</p></div>
-                <div><h3 className="subheading">ELECTETRA</h3></div>
+                <div><p className="home-portfolio-card--number">3</p></div>
+                <div><h3 className="subheading">JEB AUTO SERVICES</h3></div>
               </div>
               <div className="home-portfolio-card--body px-20 mb-10">
                 <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
 
         <div className="skills-section section">
-          <h1>MY SKILLS</h1>
+          <h1 className="heading">MY SKILLS</h1>
           <MySkills />
         </div>
 
