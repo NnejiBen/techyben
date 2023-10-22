@@ -145,9 +145,7 @@ p {font-size: var(--body-fs-24px);}
   padding: .8em;
 }
 
-.navbar a:hover {
-  color: var(--clr-orange-accent);
-}
+.navbar a:hover {color: var(--clr-orange-accent);}
 
 .navbar--img-cont {
   width: 6em;
@@ -161,9 +159,7 @@ p {font-size: var(--body-fs-24px);}
   border-radius: 272.5px;
 }
 
-.home-about-section--img {
-  border-radius: 272.5px;
-}
+.home-about-section--img {border-radius: 272.5px;}
 
 .home-portfolio-card {
   background-color: var(--clr-gray-card-bg);
@@ -217,13 +213,8 @@ p {font-size: var(--body-fs-24px);}
     font-weight: var(--fw-regular);
 }
 
-.my-skills--left {
-  gap: 2em
-}
-
-.my-skills--img-cont {
-  min-height: 6em;
-}
+.my-skills--left {gap: 2em}
+.my-skills--img-cont {min-height: 6em;}
 
 .my-skills--right a {
   color: var(--clr-orange-accent);
@@ -264,6 +255,4 @@ p {font-size: var(--body-fs-24px);}
   object-fit: cover;
 }
 
-.footer--icon:hover {
-  transform: scale(1.1);
-}
+.footer--icon:hover {transform: scale(1.1);}
