@@ -60,8 +60,6 @@ html {
 }
 
 body {
-  /* background: linear-gradient(161deg, #1C1140 12.73%, #003F7A 72.95%); */
-  /* background: linear-gradient(to bottom, hsl(254, 58%, 16%) 20%, hsl(209, 100%, 24%) 50%, hsl(209, 100%, 24%)); */
   background: linear-gradient(to bottom, hsl(254, 58%, 16%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%));
   color: var(--clr-gray-text);
   font-family: var(--ff-oswald);
