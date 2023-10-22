@@ -116,7 +116,10 @@ export default function Home() {
           <MySkills />
         </div>
 
-        <ContactSection />
+        <div className="my-52">
+          <ContactSection />
+        </div>
+        
         <Footer />
 
       </section>

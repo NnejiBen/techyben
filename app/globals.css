@@ -33,6 +33,7 @@
   --heading-lh: 110%;
   --subheading-fs: 3.2rem;
   --subheading-lh: 100%;
+  --contact-section-lh: 120%;
   --body-fs-18px: 1.8rem;
   --body-fs-20px: 2.0rem;
   --body-fs-24px: 2.4rem;
@@ -120,6 +121,16 @@ p {
   font-weight: var(--fw-medium);
 }
 
+.outline-btn-contact {
+  background-color: transparent;
+  color: var(--clr-dark-blue-bg);
+  padding: 12px 64px;
+  border: 1px solid var(--clr-orange-accent);
+  border-radius: 24px;
+  font-size: var(--body-fs-18px);
+  font-weight: var(--fw-medium);
+}
+
 .navbar {
   display: flex;
   gap: 2em;
@@ -152,7 +163,6 @@ p {
 .home-portfolio-card {
   background-color: var(--clr-gray-card-bg);
   border-radius: 24px;
-  /* padding: 1.5em 3em 3em; */
 }
 
 .card-dot-01,
@@ -210,4 +220,9 @@ p {
   color: var(--clr-orange-accent);
   font-size: var(--body-fs-18px);
   font-style: var(--fw-medium);
+}
+
+.contact-section--left h2 {
+  font-size: var(--home-title-fs);
+  line-height: var(--contact-section-lh);
 }
