@@ -8,6 +8,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Properties */
+
 :root {
   --clr-dark-blue-bg: #00162B;
   --clr-orange-accent: #FB8500;
@@ -44,6 +46,8 @@
   --body-fs-48px: 4.8rem;
 }
 
+/* General */
+
 * {
   margin: 0;
   padding: 0;
@@ -64,13 +68,8 @@ body {
   max-width: 1440px;
 }
 
-.section {
-  padding: 0 12em;
-}
-
-h1, h2, h3 {
-  font-family: var(--ff-akira);
-}
+.section {padding: 0 12em;}
+h1, h2, h3 {font-family: var(--ff-akira);}
 
 .heading {
   font-size: var(--heading-fs);
@@ -84,9 +83,7 @@ h1, h2, h3 {
   color: var(--clr-dark-btn-text);
 }
 
-p {
-  font-size: var(--body-fs-24px);
-}
+p {font-size: var(--body-fs-24px);}
 
 /* CSS Styles */
 
@@ -269,6 +266,6 @@ p {
   object-fit: cover;
 }
 
-.footer--right div img:hover {
-  transform: scale(1.2);
+.footer--icon:hover {
+  transform: scale(1.1);
 }

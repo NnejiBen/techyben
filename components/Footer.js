@@ -22,22 +22,22 @@ const Footer = () => {
         </div>
         <div className='footer--right flex gap-6'>
             <div>
-                <Link href="#"><Image src={githubIcon}/></Link>
+                <Link href="#"><Image src={githubIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={linkedinIcon}/></Link>
+                <Link href="#"><Image src={linkedinIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={gmailIcon}/></Link>
+                <Link href="#"><Image src={gmailIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={whatsappIcon}/></Link>
+                <Link href="#"><Image src={whatsappIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={xIcon}/></Link>
+                <Link href="#"><Image src={xIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={facebookIcon}/></Link>
+                <Link href="#"><Image src={facebookIcon} className="footer--icon"/></Link>
             </div>
         </div>
     </footer>
