@@ -4,7 +4,7 @@ import htmlIcon from "../public/images/html.png"
 import cssIcon from "../public/images/css.png"
 import javaScriptIcon from "../public/images/javascript.png"
 import reactIcon from "../public/images/react.png"
-import nextJsIcon from "../public/images/nextjs.png"
+import nextJsIcon from "../public/images/next-js.png"
 import tailwindIcon from "../public/images/tailwind.png"
 import wordPressIcon from "../public/images/wordpress.png"
 
