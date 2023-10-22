@@ -87,6 +87,13 @@ p {
 
 /* CSS Styles */
 
+.horizontal-rule {
+  width: 100%; 
+  height: 2px;
+  background-color: var(--clr-gray-text);
+  border: none;
+}
+
 .home-page-title {
   color: var(--clr-gray-heading);
   font-size: var(--home-title-fs);
@@ -175,4 +182,32 @@ p {
 .home-portfolio-card--body p {
   color: var(--clr-dark-text);
   font-size: var(--body-fs-20px);
+}
+
+.my-skills--item {
+  border-bottom: 2px solid var(--clr-gray-text);
+  padding: 3em 0;
+}
+
+.my-skills--item:nth-of-type(1) {
+  border-top: 2px solid var(--clr-gray-text);
+}
+
+.my-skills--item p {
+    font-size: var(--body-fs-40px);
+    font-weight: var(--fw-regular);
+}
+
+.my-skills--left {
+  gap: 2em
+}
+
+.my-skills--img-cont {
+  height: 6em;
+}
+
+.my-skills--right a {
+  color: var(--clr-orange-accent);
+  font-size: var(--body-fs-18px);
+  font-style: var(--fw-medium);
 }

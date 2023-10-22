@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import HorizontalRule from "@/components/HorizontalRule"
 import ContactMeBtn from "@/components/ContactMeBtn"
 import Navbar from "@/components/Navbar"
 import MySkills from "@/components/MySkills"
@@ -13,8 +12,8 @@ export default function Home() {
     <>
       <section>
 
-        <div className="home-hero-section max-h-screen flex flex-col mb-48">
-          <HorizontalRule />
+        <div className="home-hero-section h-screen flex flex-col justify-between py-10 mb-48">
+          <hr className="horizontal-rule"/>
           <div className="section">
             <h1 className="home-page-title">BENJAMIN</h1>
             <h1 className="home-page-title text-right mb-4">NNEJI</h1>
@@ -26,7 +25,7 @@ export default function Home() {
             </div>
             <Navbar />
           </div>
-          <HorizontalRule />
+          <hr className="horizontal-rule"/>
         </div>
 
         <div className="home-about-section section flex mb-52">
@@ -112,8 +111,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="skills-section section">
-          <h1 className="heading">MY SKILLS</h1>
+        <div className="skills-section section mb-52">
+          <h1 className="heading mb-16">MY SKILLS</h1>
           <MySkills />
         </div>
 

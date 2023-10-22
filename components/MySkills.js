@@ -11,11 +11,10 @@ import wordPressIcon from "../public/images/wordpress.png"
 const MySkills = () => {
   return (
     <div>
-        <hr/>
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={htmlIcon}/>
                 </div>
                 <div>
@@ -29,7 +28,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={cssIcon}/>
                 </div>
                 <div>
@@ -43,7 +42,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={javaScriptIcon}/>
                 </div>
                 <div>
@@ -57,7 +56,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={reactIcon}/>
                 </div>
                 <div>
@@ -71,7 +70,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={nextJsIcon}/>
                 </div>
                 <div>
@@ -85,7 +84,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={tailwindIcon}/>
                 </div>
                 <div>
@@ -99,7 +98,7 @@ const MySkills = () => {
 
         <div className='my-skills--item flex justify-between'>
             <div className='my-skills--left flex items-center'>
-                <div>
+                <div className='my-skills--img-cont'>
                     <Image src={wordPressIcon}/>
                 </div>
                 <div>
