@@ -17,6 +17,7 @@
   --clr-gray-card-bg: #C0D6DF;
   --clr-dark-btn-text: #00162B;
   --clr-dark-blue-navbar-text: #023047;
+  --clr-dark-blue-footer: #020617;
   --clr-light-blue-img-border: #8ECAE6;
   --clr-gold-card: #FFB703;
   --clr-blue-card: #219EBC;
@@ -34,6 +35,7 @@
   --subheading-fs: 3.2rem;
   --subheading-lh: 100%;
   --contact-section-lh: 120%;
+  --body-fs-14px: 1.4rem;
   --body-fs-18px: 1.8rem;
   --body-fs-20px: 2.0rem;
   --body-fs-24px: 2.4rem;
@@ -124,11 +126,15 @@ p {
 .outline-btn-contact {
   background-color: transparent;
   color: var(--clr-dark-blue-bg);
-  padding: 12px 64px;
+  padding: 12px 56px;
   border: 1px solid var(--clr-orange-accent);
   border-radius: 24px;
   font-size: var(--body-fs-18px);
   font-weight: var(--fw-medium);
+}
+
+.outline-btn-contact:hover {
+  color: var(--clr-orange-accent);
 }
 
 .navbar {
@@ -142,6 +148,10 @@ p {
   font-size: var(--body-fs-20px);
   font-weight: var(--fw-medium);
   padding: .8em;
+}
+
+.navbar a:hover {
+  color: var(--clr-orange-accent);
 }
 
 .navbar--img-cont {
@@ -194,6 +204,10 @@ p {
   font-size: var(--body-fs-20px);
 }
 
+.home-portfolio-card--btn a:hover {
+  color: var(--clr-orange-accent);
+}
+
 .my-skills--item {
   border-bottom: 2px solid var(--clr-gray-text);
   padding: 3em 0;
@@ -213,7 +227,7 @@ p {
 }
 
 .my-skills--img-cont {
-  height: 6em;
+  min-height: 6em;
 }
 
 .my-skills--right a {
@@ -225,4 +239,36 @@ p {
 .contact-section--left h2 {
   font-size: var(--home-title-fs);
   line-height: var(--contact-section-lh);
+}
+
+.footer {
+  background-color: var(--clr-dark-blue-footer);
+  padding-block: 4em;
+  writing-mode: horizontal-tb;
+}
+
+.footer--copyright p {
+  font-size: var(--body-fs-32px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-gray-heading);
+}
+
+.footer--attribution p {
+  font-size: var(--body-fs-14px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-gray-heading);
+}
+
+.footer--attribution a:hover {
+  color: var(--clr-orange-accent);
+}
+
+.footer--right div img {
+  width: 3.2em;
+  height: 3.2em;
+  object-fit: cover;
+}
+
+.footer--right div img:hover {
+  transform: scale(1.2);
 }

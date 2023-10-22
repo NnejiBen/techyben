@@ -11,16 +11,16 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
   return (
-    <footer className="flex justify-between">
+    <footer className="footer section flex justify-between items-center">
         <div className='footer--left'>
-            <div>
-            <p>&copy; {year} Benjamin Nneji</p>
+            <div className="footer--copyright">
+                <p>&copy; {year} Benjamin Nneji</p>
             </div>
-            <div>
+            <div className="footer--attribution">
                 <p>Designed by <Link href="https://hijoygirl.com" target="_blank">Joygirl</Link></p>
             </div>
         </div>
-        <div className='footer-right flex'>
+        <div className='footer--right flex gap-6'>
             <div>
                 <Link href="#"><Image src={githubIcon}/></Link>
             </div>
