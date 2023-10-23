@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import benTall from "@/public/images/ben-nneji-tall.webp"
+import MySkills from "@/components/MySkills"
 
 const about = () => {
   return (
@@ -31,6 +32,18 @@ const about = () => {
             <Image src={benTall} alt="Photo of Ben Nneji standing" className="about-about-section--img object-cover"/>
           </div>
         </div>
+      </section>
+
+      <section className="about-skills-section section mb-52">
+        <div className="flex mb-12">
+          <div className="w-3/4">
+            <h1 className="heading">MY SKILLS</h1>
+          </div>
+          <div className="w-2/4">
+            <p className="about-skills-section-desc">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+          </div>
+        </div>
+        <MySkills />
       </section>
 
     </>

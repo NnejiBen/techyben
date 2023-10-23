@@ -274,3 +274,8 @@ p {
 .about-about-section--img {
   border-radius: 272.5px;
 }
+
+.about-skills-section-desc {
+  font-size: var(--body-fs-20px);
+  font-weight: var(--fw-regular);
+}
