@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link href="/contact">Contact</Link>
         </div>
         <div>
-            <div className="max-w-[6em] border-solid border-8 border-[#8ECAE6] rounded-full">
+            <div className="max-w-[6em] border-8 border-solid border-[#8ECAE6] rounded-full">
               <Link href="/">
                 <Image src={profilePic} alt="Ben Nneji profile picture" className="rounded-full"/>
               </Link>

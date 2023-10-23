@@ -35,8 +35,8 @@ export default function Home() {
           <Link href="/about"><ReadMoreBtn /></Link>
         </div>
         <div className="flex flex-1 justify-end">
-          <div className="home-about-section--img-cont flex">
-            <Image src={benTall} alt="Photo of Ben Nneji standing" className="home-about-section--img object-cover"/>
+          <div className="max-w-[60%] border-8 border-solid border-[#8ECAE6] rounded-[272.5px] flex">
+            <Image src={benTall} alt="Photo of Ben Nneji standing" className="rounded-[272.5px] object-cover"/>
           </div>
         </div>
       </section>
