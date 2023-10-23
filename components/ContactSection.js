@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const ContactSection = () => {
   return (
-    <div className="contact-section section flex items-center">
+    <div className="contact-section section flex items-center justify-between">
         <div className="contact-section--left">
             <h2>LET'S CONNECT</h2>
         </div>

@@ -63,7 +63,7 @@ body {
   background: linear-gradient(to bottom, hsl(254, 58%, 16%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%));
   color: var(--clr-gray-text);
   font-family: var(--ff-oswald);
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .section {padding: 0 12em;}

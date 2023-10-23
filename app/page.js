@@ -53,7 +53,7 @@ export default function Home() {
             <hr className="card-hr"/>
             <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
               <div><p className="home-portfolio-card--number">1</p></div>
-              <div><h3 className="subheading">ELECTETRA</h3></div>
+              <div><h3 className="subheading">JOBENY RESOURCES</h3></div>
             </div>
             <div className="home-portfolio-card--body px-20 mb-10">
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
@@ -72,7 +72,7 @@ export default function Home() {
             <hr className="card-hr"/>
             <div className="home-portfolio-card--title flex items-center gap-8 px-8 py-12">
               <div><p className="home-portfolio-card--number">2</p></div>
-              <div><h3 className="subheading">JOBENY RESOURCES</h3></div>
+              <div><h3 className="subheading">ELECTETRA</h3></div>
             </div>
             <div className="home-portfolio-card--body px-20 mb-10">
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
