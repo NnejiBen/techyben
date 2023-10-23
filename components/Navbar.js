@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <nav className="flex items-center gap-10 w-max bg-[#F9F8F8] rounded-r-[110px] text-[#023047] text-base font-medium p-4">
         <div className="flex flex-col justify-center ml-6">
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/portfolio">Portfolio</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/" className="hover:text-[#FB8500]">Home</Link>
+            <Link href="/about" className="hover:text-[#FB8500]">About</Link>
+            <Link href="/portfolio" className="hover:text-[#FB8500]">Portfolio</Link>
+            <Link href="/contact" className="hover:text-[#FB8500]">Contact</Link>
         </div>
         <div>
             <div className="max-w-[6em] border-8 border-solid border-[#8ECAE6] rounded-full">
