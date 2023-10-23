@@ -22,22 +22,22 @@ const Footer = () => {
         </div>
         <div className='footer--right flex gap-6'>
             <div>
-                <Link href="#"><Image src={githubIcon} className="footer--icon"/></Link>
+                <Link href="mailto:nnejiben@gmail.com" target="_blank"><Image src={gmailIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={linkedinIcon} className="footer--icon"/></Link>
+                <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank"><Image src={whatsappIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={gmailIcon} className="footer--icon"/></Link>
+                <Link href="https://github.com/NnejiBen" target="_blank"><Image src={githubIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={whatsappIcon} className="footer--icon"/></Link>
+                <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank"><Image src={linkedinIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={xIcon} className="footer--icon"/></Link>
+                <Link href="https://twitter.com/ben_nneji" target="_blank"><Image src={xIcon} className="footer--icon"/></Link>
             </div>
             <div>
-                <Link href="#"><Image src={facebookIcon} className="footer--icon"/></Link>
+                <Link href="https://web.facebook.com/techyben" target="_blank"><Image src={facebookIcon} className="footer--icon"/></Link>
             </div>
         </div>
     </footer>
