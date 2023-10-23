@@ -11,18 +11,18 @@ import HorizontalRule from "@/components/HorizontalRule"
 export default function Home() {
   return (
     <>
-      <section className="home-hero-section h-screen flex flex-col justify-between py-8 mb-48">
-        <div className="mb-8"><HorizontalRule /></div>
+      <section className="home-hero-section h-screen flex flex-col py-6 mb-48">
+        <div className="mb-6"><HorizontalRule /></div>
         <div className="px-[7.5rem]">
-          <h1 className="text-[7.5rem] text-[#EAEAEA] leading-[90%]">BENJAMIN</h1>
-          <h1 className="text-[7.5rem] text-[#EAEAEA] leading-[90%] text-right mb-2">NNEJI</h1>
-          <div className="flex justify-end mb-10">
+          <h1 className="text-[7rem] text-[#EAEAEA] leading-[90%]">BENJAMIN</h1>
+          <h1 className="text-[7rem] text-[#EAEAEA] leading-[90%] text-right mb-2">NNEJI</h1>
+          <div className="flex justify-end mb-6">
             <p className="text-right text-[1.5rem] text-[#F9F8F8] w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
           <div className="text-right flex justify-end">
             <ContactMeBtn />
           </div>
-          <Navbar />
+          <div className="mb-8"><Navbar /></div>
         </div>
         <div className="mb-8"><HorizontalRule /></div>
       </section>

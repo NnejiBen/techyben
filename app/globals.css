@@ -119,12 +119,6 @@ p {
 
 .navbar a:hover {color: var(--clr-orange-accent);}
 
-.navbar--img-cont {
-  max-width: 6em;
-  border: 8px solid var(--clr-light-blue-img-border);
-  border-radius: 50%;
-}
-
 .home-about-section--img-cont {
   max-width: 60%;
   border: 8px solid var(--clr-light-blue-img-border);
