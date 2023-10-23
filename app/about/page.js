@@ -3,6 +3,8 @@ import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import benTall from "@/public/images/ben-nneji-tall.webp"
 import MySkills from "@/components/MySkills"
+import ContactSection from "@/components/ContactSection"
+import Footer from "@/components/Footer"
 
 const about = () => {
   return (
@@ -46,6 +48,11 @@ const about = () => {
         <MySkills />
       </section>
 
+      <section className="mb-52">
+        <ContactSection />
+      </section>
+
+      <Footer />
     </>
   )
 }
