@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar"
 import framePortfolio from "@/public/images/frame-portfolio.png"
 import HorizontalRule from "@/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
+import ContactSection from "@/components/ContactSection"
+import Footer from "@/components/Footer"
 
 const portfolio = () => {
   return (
@@ -133,8 +135,15 @@ const portfolio = () => {
             </div>
           </div>
         </div>
-
       </section>
+
+      {/* CONTACT SECTION */}
+      <div className="mb-32">
+        <ContactSection />
+      </div>
+
+      {/* FOOTER SECTION */}
+      <Footer />
     </>
   )
 }
