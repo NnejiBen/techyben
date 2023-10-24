@@ -60,48 +60,6 @@ body {
 
 h1, h2, h3 {font-family: var(--ff-akira);}
 
-/* .heading {
-  font-size: var(--heading-fs);
-  line-height: var(--heading-lh);
-  color: var(--clr-gray-heading);
-} */
-
-/* .subheading {
-  font-size: var(--subheading-fs);
-  line-height: var(--subheading-lh);
-  color: var(--clr-dark-btn-text);
-} */
-
-/* p {
-  font-size: var(--body-fs-24px);
-  font-weight: var(--fw-regular);
-} */
-
-/* CSS Styles */
-
-.outline-btn {
-  background-color: transparent;
-  color: var(--clr-dark-blue-bg);
-  padding: 14.5px 32px;
-  border: 1px solid var(--clr-orange-accent);
-  border-radius: 24px;
-  font-size: var(--body-fs-18px);
-  font-weight: var(--fw-medium);
-}
-
-.navbar a:hover {color: var(--clr-orange-accent);}
-
-.home-portfolio-card--btn a:hover {
-  color: var(--clr-orange-accent);
-}
-
-.contact-section--left h2 {
-  font-size: var(--home-title-fs);
-  line-height: var(--contact-section-lh);
-}
-
-/* .footer--icon:hover {transform: scale(1.1);} */
-
 /* About Page */
 
 .about-about-section--img-cont {
