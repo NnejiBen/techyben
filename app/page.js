@@ -13,7 +13,8 @@ import ReadMoreBtnOutline from "@/components/ReadMoreBtnOutline"
 export default function Home() {
   return (
     <>
-      <section className="home-hero-section h-screen flex flex-col justify-between py-6 mb-32">
+      {/* HERO SECTION */}
+      <section className="h-screen flex flex-col justify-between py-6 mb-32">
         <div className="mb-6"><HorizontalRule /></div>
         <div className="px-[7.5rem]">
           <h1 className="text-[7rem] text-[#EAEAEA] leading-[90%]">BENJAMIN</h1>
@@ -29,6 +30,7 @@ export default function Home() {
         <div><HorizontalRule /></div>
       </section>
 
+      {/* ABOUT SECTION */}
       <section className="home-about-section px-[7.5rem] flex mb-32">
         <div className="flex-1">
           <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h1>
@@ -42,6 +44,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PORTFOLIO SECTION */}
       <section className="home-portfolio-section px-[7.5rem] flex gap-20 mb-32">
         {/* Home Portfolio Section Left */}
         <div className="flex flex-col gap-14">
@@ -121,17 +124,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SKILLS SECTION */}
       <section className="mb-32">
         <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] mb-10">MY SKILLS</h1>
         <MySkills />
       </section>
 
+      {/* CONTACT SECTION */}
       <section className="my-32">
         <ContactSection />
       </section>
       
+      {/* FOOTER */}
       <Footer />
-
     </>
   )
 }

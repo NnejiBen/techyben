@@ -5,24 +5,29 @@ import benTall from "@/public/images/ben-nneji-tall.webp"
 import MySkills from "@/components/MySkills"
 import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
+import HorizontalRule from "@/components/HorizontalRule"
 
 const about = () => {
   return (
     <>
-      <section className="about-hero-section py-10 mb-48">
-        <hr className="horizontal-rule mb-16"/>
-        <div className="section">
-          <h1 className="heading mb-12">ABOUT ME</h1>
+      {/* HERO SECTION */}
+      <section className="py-6 mb-32">
+        <div className="mb-12">
+          <HorizontalRule />
+        </div>
+        <div className="px-[7.5rem]">
+          <h1 className="text-[#EAEAEA] text-[4rem] leading-none mb-10">ABOUT ME</h1>
           <div className="flex justify-end mb-4">
-            <p className="text-left w-1/2">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className="w-1/2 text-left text-[#F9F8F8] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div className="mb-12">
             <Navbar />
           </div>
         </div>
-        <hr className="horizontal-rule"/>
+        <div><HorizontalRule /></div>
       </section>
 
+      {/* ABOUT SECTION */}
       <section className="about-about-section section flex items-center mb-52">
         <div className="flex-1">
           <h2 className="heading mb-14">A LITTLE ABOUT ME</h2>
@@ -36,6 +41,7 @@ const about = () => {
         </div>
       </section>
 
+      {/* SKILLS SECTION */}
       <section className="about-skills-section section mb-52">
         <div className="flex mb-12">
           <div className="w-3/4">
@@ -48,10 +54,12 @@ const about = () => {
         <MySkills />
       </section>
 
+      {/* CONTACT SECTION */}
       <section className="mb-52">
         <ContactSection />
       </section>
 
+      {/* FOOTER */}
       <Footer />
     </>
   )
