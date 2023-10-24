@@ -17,10 +17,10 @@ export default function Home() {
       <section className="h-screen flex flex-col justify-between py-6 mb-32">
         <div className="mb-6"><HorizontalRule /></div>
         <div className="px-[7.5rem]">
-          <h1 className="text-[7rem] text-[#EAEAEA] leading-[90%]">BENJAMIN</h1>
-          <h1 className="text-[7rem] text-[#EAEAEA] leading-[90%] text-right mb-2">NNEJI</h1>
+          <h1 className="text-[7rem] text-[#F1F1F1] leading-[90%]">BENJAMIN</h1>
+          <h1 className="text-[7rem] text-[#F1F1F1] leading-[90%] text-right mb-2">NNEJI</h1>
           <div className="flex justify-end mb-6">
-            <p className="text-right text-[1.5rem] text-[#F9F8F8] w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
+            <p className="text-right text-[1.5rem] text-[#F1F1F1] w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
           <div className="text-right flex justify-end">
             <ContactMeBtn />
@@ -33,7 +33,7 @@ export default function Home() {
       {/* ABOUT SECTION */}
       <section className="home-about-section px-[7.5rem] flex mb-32">
         <div className="flex-1">
-          <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h1>
+          <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
           <p className="text-2xl text-[#F9F8F8] mb-8">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
       {/* SKILLS SECTION */}
       <section className="mb-32">
-        <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] mb-10">MY SKILLS</h1>
+        <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] mb-10">MY SKILLS</h2>
         <MySkills />
       </section>
 

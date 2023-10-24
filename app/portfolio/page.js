@@ -16,9 +16,9 @@ const portfolio = () => {
           <HorizontalRule />
         </div>
         <div className="px-[7.5rem]">
-          <h1 className="text-[#EAEAEA] text-[4rem] leading-none mb-10">MY PORTFOLIO</h1>
+          <h1 className="text-[#F1F1F1] text-[4rem] leading-none mb-10">MY PORTFOLIO</h1>
           <div className="flex justify-end mb-4">
-            <p className="w-1/2 text-left text-[#F9F8F8] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className="w-1/2 text-left text-[#F1F1F1] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div className="mb-12">
             <Navbar />
