@@ -45,20 +45,22 @@ const about = () => {
       </section>
 
       {/* SKILLS SECTION */}
-      <section className="about-skills-section section mb-52">
-        <div className="flex mb-12">
+      <section className="mb-32">
+        <div className="flex px-[7.5rem] mb-8">
+          {/* Heading */}
           <div className="w-3/4">
-            <h1 className="heading">MY SKILLS</h1>
+            <h1 className="text-[#EAEAEA] text-[4rem] leading-none">MY SKILLS</h1>
           </div>
+          {/* Description */}
           <div className="w-2/4">
-            <p className="about-skills-section-desc">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+            <p className="text-[#F9F8F8] text-xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
           </div>
         </div>
         <MySkills />
       </section>
 
       {/* CONTACT SECTION */}
-      <section className="mb-52">
+      <section className="mb-32">
         <ContactSection />
       </section>
 
