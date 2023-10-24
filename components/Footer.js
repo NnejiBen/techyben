@@ -11,7 +11,7 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
   return (
-    <footer className="flex justify-between items-center bg-[#020617] px-[7.5rem] py-10">
+    <footer className="flex justify-between items-center bg-[#020617] px-[7.5rem] py-8">
         <div>
             {/* Copyright information */}
             <div className="text-[#EAEAEA] text-[2rem]">
