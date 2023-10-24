@@ -62,16 +62,6 @@ h1, h2, h3 {font-family: var(--ff-akira);}
 
 /* About Page */
 
-.about-about-section--img-cont {
-  max-width: 80%;
-  border: 8px solid var(--clr-light-blue-img-border);
-  border-radius: 272.5px;
-}
-
-.about-about-section--img {
-  border-radius: 272.5px;
-}
-
 .about-skills-section-desc {
   font-size: var(--body-fs-20px);
   font-weight: var(--fw-regular);
