@@ -1,6 +1,8 @@
 import Link from "next/link"
 import HorizontalRule from "@/components/HorizontalRule"
 import Navbar from "@/components/Navbar"
+import ContactCard from "@/components/ContactCard"
+import Footer from "@/components/Footer"
 
 const contact = () => {
   return (
@@ -46,6 +48,19 @@ const contact = () => {
           </div>
         </form>
       </section>
+
+      {/* CONTACT SECTION */}
+      <section className="flex items-center gap-16 px-[7.5rem] mb-32">
+        <div>
+          <ContactCard />
+        </div>
+        <div>
+          <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%]">LET'S CONNECT</h2>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <Footer />
     </>
   )
 }
