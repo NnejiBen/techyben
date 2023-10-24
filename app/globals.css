@@ -109,12 +109,6 @@ h1, h2, h3 {font-family: var(--ff-akira);}
   color: var(--clr-orange-accent);
 }
 
-.my-skills--right a {
-  color: var(--clr-orange-accent);
-  font-size: var(--body-fs-18px);
-  font-style: var(--fw-medium);
-}
-
 .contact-section--left h2 {
   font-size: var(--home-title-fs);
   line-height: var(--contact-section-lh);

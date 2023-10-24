@@ -21,7 +21,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>HTML</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -36,7 +36,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>CSS</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -51,7 +51,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>JavaScript</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -66,7 +66,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>React</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -81,7 +81,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>NextJS</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -96,7 +96,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>Tailwind</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
@@ -111,7 +111,7 @@ const MySkills = () => {
                     <p className='text-[40px] text-[#F9F8F8]'>WordPress</p>
                 </div>
             </div>
-            <div className='my-skills--right flex items-center'>
+            <div className='text-[#FB8500] text-lg font-medium flex items-center'>
                 <Link href="/portfolio">SEE PROJECTS</Link>
             </div>
         </div>
