@@ -11,14 +11,14 @@ import wordPressIcon from "../public/images/wordpress.png"
 const MySkills = () => {
   return (
     <div>
-
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-t-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={htmlIcon}/>
                 </div>
                 <div>
-                    <p>HTML</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>HTML</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -26,13 +26,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={cssIcon}/>
                 </div>
                 <div>
-                    <p>CSS</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>CSS</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -40,13 +41,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={javaScriptIcon}/>
                 </div>
                 <div>
-                    <p>JavaScript</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>JavaScript</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -54,13 +56,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={reactIcon}/>
                 </div>
                 <div>
-                    <p>React</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>React</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -68,13 +71,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={nextJsIcon}/>
                 </div>
                 <div>
-                    <p>NextJS</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>NextJS</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -82,13 +86,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={tailwindIcon}/>
                 </div>
                 <div>
-                    <p>Tailwind</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>Tailwind</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>
@@ -96,13 +101,14 @@ const MySkills = () => {
             </div>
         </div>
 
-        <div className='my-skills--item flex justify-between'>
-            <div className='my-skills--left flex items-center'>
-                <div className='my-skills--img-cont'>
+        {/* Skill item */}
+        <div className='border-b-2 border-[#F9F8F8] py-[30px] flex justify-between'>
+            <div className='flex items-center gap-5'>
+                <div className='min-h-[4.5em] flex items-center'>
                     <Image src={wordPressIcon}/>
                 </div>
                 <div>
-                    <p>WordPress</p>
+                    <p className='text-[40px] text-[#F9F8F8]'>WordPress</p>
                 </div>
             </div>
             <div className='my-skills--right flex items-center'>

@@ -109,23 +109,6 @@ h1, h2, h3 {font-family: var(--ff-akira);}
   color: var(--clr-orange-accent);
 }
 
-.my-skills--item {
-  border-bottom: 2px solid var(--clr-gray-text);
-  padding: 3em 0;
-}
-
-.my-skills--item:nth-of-type(1) {
-  border-top: 2px solid var(--clr-gray-text);
-}
-
-.my-skills--item p {
-    font-size: var(--body-fs-40px);
-    font-weight: var(--fw-regular);
-}
-
-.my-skills--left {gap: 2em}
-.my-skills--img-cont {min-height: 6em;}
-
 .my-skills--right a {
   color: var(--clr-orange-accent);
   font-size: var(--body-fs-18px);

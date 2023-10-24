@@ -42,17 +42,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="home-portfolio-section px-[7.5rem] flex gap-20 mb-52">
+      <section className="home-portfolio-section px-[7.5rem] flex gap-20 mb-32">
         {/* Home Portfolio Section Left */}
-        <div className="flex flex-col gap-24">
+        <div className="flex flex-col gap-14">
           {/* Portfolio card 01 */}
           <div className="bg-[#C0D6DF] rounded-3xl">
-            <div className="flex gap-2 px-8 py-4">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
             </div>
             <hr className="border-0 h-[1px] bg-black"/>
+            {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
               <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
               <div><h3 className="text-[#00162B] text-[2rem] leading-none">JOBENY RESOURCES</h3></div>
@@ -60,51 +62,58 @@ export default function Home() {
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
             </div>
+            {/* Button */}
             <div className="flex justify-end px-6 pb-8">
               <Link href="/portfolio"><ReadMoreBtnOutline /></Link>
             </div>
           </div>
           {/* Portfolio card 02 */}
           <div className="bg-[#C0D6DF] rounded-3xl">
-            <div className="flex gap-2 px-8 py-4">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
             </div>
             <hr className="border-0 h-[1px] bg-black"/>
+            {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
               <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
-              <div><h3 className="text-[#00162B] text-[2rem] leading-none">JOBENY RESOURCES</h3></div>
+              <div><h3 className="text-[#00162B] text-[2rem] leading-none">ELECTETRA</h3></div>
             </div>
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
             </div>
+            {/* Button */}
             <div className="flex justify-end px-6 pb-8">
               <Link href="/portfolio"><ReadMoreBtnOutline /></Link>
             </div>
           </div>
         </div>
         {/* Home Portfolio Section Right */}
-        <div className="flex flex-col gap-32">
+        <div className="flex flex-col gap-20">
           <div className="portfolio--text">
-            <h2 className="heading mb-12">WHAT I DO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
+            <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-8">WHAT I DO</h2>
+            <p className="text-2xl text-[#F9F8F8]">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
           </div>
           {/* Portfolio card 03 */}
           <div className="bg-[#C0D6DF] rounded-3xl">
-            <div className="flex gap-2 px-8 py-4">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
               <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
             </div>
             <hr className="border-0 h-[1px] bg-black"/>
+            {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
               <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
-              <div><h3 className="text-[#00162B] text-[2rem] leading-none">JOBENY RESOURCES</h3></div>
+              <div><h3 className="text-[#00162B] text-[2rem] leading-none">JEB AUTO SERVICES</h3></div>
             </div>
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
               <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
             </div>
+            {/* Button */}
             <div className="flex justify-end px-6 pb-8">
               <Link href="/portfolio"><ReadMoreBtnOutline /></Link>
             </div>
@@ -112,8 +121,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills-section section mb-52">
-        <h1 className="heading mb-16">MY SKILLS</h1>
+      <section className="px-[7.5rem] mb-32">
+        <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-10">MY SKILLS</h1>
         <MySkills />
       </section>
 
