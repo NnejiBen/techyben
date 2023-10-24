@@ -2,24 +2,31 @@ import Link from "next/link"
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import framePortfolio from "@/public/images/frame-portfolio.png"
+import HorizontalRule from "@/components/HorizontalRule"
 
 const portfolio = () => {
   return (
     <>
-      <section className="portfolio-hero-section py-10 mb-48">
-        <hr className="horizontal-rule mb-16"/>
-        <div className="section">
-          <h1 className="heading mb-12">MY PORTFOLIO</h1>
+      {/* HERO SECTION */}
+      <section className="py-6 mb-32">
+        <div className="mb-12">
+          <HorizontalRule />
+        </div>
+        <div className="px-[7.5rem]">
+          <h1 className="text-[#EAEAEA] text-[4rem] leading-none mb-10">MY PORTFOLIO</h1>
           <div className="flex justify-end mb-4">
-            <p className="text-left w-1/2">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className="w-1/2 text-left text-[#F9F8F8] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div className="mb-12">
             <Navbar />
           </div>
         </div>
-        <hr className="horizontal-rule"/>
+        <div className="mb-12">
+          <HorizontalRule />
+        </div>
       </section>
 
+      {/* PROJECTS SECTION */}
       <section className="portfolio-projects-section section max-w-full mb-52">
         {/* Project 01 */}
         <div className="flex gap-24 mb-24">
