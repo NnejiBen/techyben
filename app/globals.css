@@ -17,7 +17,6 @@
   --clr-dark-text: #1E1E1E;
   --clr-gray-heading: #EAEAEA;
   --clr-gray-card-bg: #C0D6DF;
-  --clr-dark-btn-text: #00162B;
   --clr-dark-blue-navbar-text: #023047;
   --clr-dark-blue-footer: #020617;
   --clr-light-blue-img-border: #8ECAE6;
@@ -61,31 +60,24 @@ body {
 
 h1, h2, h3 {font-family: var(--ff-akira);}
 
-.heading {
+/* .heading {
   font-size: var(--heading-fs);
   line-height: var(--heading-lh);
   color: var(--clr-gray-heading);
-}
+} */
 
-.subheading {
+/* .subheading {
   font-size: var(--subheading-fs);
   line-height: var(--subheading-lh);
   color: var(--clr-dark-btn-text);
-}
+} */
 
-p {
+/* p {
   font-size: var(--body-fs-24px);
   font-weight: var(--fw-regular);
-}
+} */
 
 /* CSS Styles */
-
-/* .horizontal-rule {
-  width: 100%; 
-  height: 2px;
-  background-color: var(--clr-gray-text);
-  border: none;
-} */
 
 .outline-btn {
   background-color: transparent;
@@ -112,40 +104,6 @@ p {
 }
 
 .navbar a:hover {color: var(--clr-orange-accent);}
-
-.home-portfolio-card {
-  background-color: var(--clr-gray-card-bg);
-  border-radius: 24px;
-}
-
-.card-dot-01,
-.card-dot-02,
-.card-dot-03 {
-  min-width: 24px;
-  min-height: 24px;
-  border-radius: 50%;
-}
-
-.card-dot-01 { background-color: var(--clr-gold-card); }
-.card-dot-02 { background-color: var(--clr-blue-card); }
-.card-dot-03 { background-color: var(--clr-orange-accent); }
-
-.card-hr {
-  border: none;
-  height: 1px;
-  background-color: black;
-}
-
-.home-portfolio-card--number {
-  color: var(--clr-dark-blue-bg);
-  font-size: var(--body-fs-48px);
-  font-weight: var(--fw-bold);
-}
-
-.home-portfolio-card--body p {
-  color: var(--clr-dark-text);
-  font-size: var(--body-fs-20px);
-}
 
 .home-portfolio-card--btn a:hover {
   color: var(--clr-orange-accent);
