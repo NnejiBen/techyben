@@ -2,20 +2,22 @@ import Link from "next/link"
 
 const ContactSection = () => {
   return (
-    <div className="contact-section section flex items-center justify-between">
-        <div className="contact-section--left">
+    <div className="px-[7.5rem] flex items-center justify-between">
+        <div className="text-[7rem] text-[#EAEAEA] leading-[120%]">
             <h2>LET'S CONNECT</h2>
         </div>
-        <div className="contact-section--right home-portfolio-card flex flex-col h-min">
-            <div className="card--dots-cont flex gap-4 px-12 py-6">
-                <div className="card-dot-01"></div>
-                <div className="card-dot-02"></div>
-                <div className="card-dot-03"></div>
+        <div className="bg-[#C0D6DF] rounded-3xl flex flex-col h-min">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+                <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+                <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+                <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
             </div>
-            <hr className="card-hr"/>
-            <div className="flex flex-col gap-6 px-10 py-12">
-                <Link href="mailto:nnejiben@gmail.com" className="outline-btn-contact">nnejiben@gmail.com</Link>
-                <Link href="tel:+2348091803917" className="outline-btn-contact">234-806-306-2992</Link>
+            <hr className="border-0 h-[1px] bg-black"/>
+            {/* Buttons */}
+            <div className="flex flex-col gap-4 px-5 py-8">
+                <Link href="mailto:nnejiben@gmail.com" className="bg-transparent text-[#00162B] text-[1.125rem] font-medium py-3 px-14 border-[1px] border-[#FB8500] rounded-3xl">nnejiben@gmail.com</Link>
+                <Link href="tel:+2348091803917" className="bg-transparent text-[#00162B] text-[1.125rem] font-medium py-3 px-14 border-[1px] border-[#FB8500] rounded-3xl">234-806-306-2992</Link>
             </div>
         </div>
     </div>

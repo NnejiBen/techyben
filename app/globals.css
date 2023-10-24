@@ -89,7 +89,7 @@ h1, h2, h3 {font-family: var(--ff-akira);}
   font-weight: var(--fw-medium);
 }
 
-.outline-btn-contact {
+/* .outline-btn-contact {
   background-color: transparent;
   color: var(--clr-dark-blue-bg);
   padding: 12px 56px;
@@ -97,7 +97,7 @@ h1, h2, h3 {font-family: var(--ff-akira);}
   border-radius: 24px;
   font-size: var(--body-fs-18px);
   font-weight: var(--fw-medium);
-}
+} */
 
 .outline-btn-contact:hover {
   color: var(--clr-orange-accent);

@@ -10,7 +10,7 @@ import wordPressIcon from "../public/images/wordpress.png"
 
 const MySkills = () => {
   return (
-    <div>
+    <div className='px-[7.5rem]'>
         {/* Skill item */}
         <div className='border-b-2 border-t-2 border-[#F9F8F8] py-[30px] flex justify-between'>
             <div className='flex items-center gap-5'>

@@ -121,12 +121,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-[7.5rem] mb-32">
-        <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-10">MY SKILLS</h1>
+      <section className="mb-32">
+        <h1 className="text-[4rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] mb-10">MY SKILLS</h1>
         <MySkills />
       </section>
 
-      <section className="my-52">
+      <section className="my-32">
         <ContactSection />
       </section>
       
