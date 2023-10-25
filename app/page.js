@@ -16,22 +16,22 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="h-screen flex flex-col justify-between py-6 mb-32">
         <div className="mb-6"><HorizontalRule /></div>
-        <div className="px-[7.5rem]">
-          <h1 className="text-[7rem] text-[#F1F1F1] leading-[90%]">BENJAMIN</h1>
-          <h1 className="text-[7rem] text-[#F1F1F1] leading-[90%] text-right mb-2">NNEJI</h1>
+        <div className="px-[7.5rem] sm:px-4">
+          <h1 className="text-[7rem] sm:text-5xl text-[#F1F1F1] leading-[90%]">BENJAMIN</h1>
+          <h1 className="text-[7rem] sm:text-5xl text-[#F1F1F1] leading-[90%] text-right mb-2">NNEJI</h1>
           <div className="flex justify-end mb-6">
-            <p className="text-right text-[1.5rem] text-[#F1F1F1] w-3/5">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
+            <p className="text-right text-[1.5rem] text-[#F1F1F1] w-3/5 sm:w-full">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
           <div className="text-right flex justify-end">
             <ContactMeBtn />
           </div>
-          <div className="mb-8"><Navbar /></div>
+          <div className="mb-8 sm:hidden"><Navbar /></div>
         </div>
         <div><HorizontalRule /></div>
       </section>
 
       {/* ABOUT SECTION */}
-      <section className="home-about-section px-[7.5rem] flex mb-32">
+      <section className="home-about-section px-[7.5rem] flex mb-32 sm:hidden">
         <div className="flex-1">
           <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
           <p className="text-2xl text-[#F9F8F8] mb-8">I'm a frontend software developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* PORTFOLIO SECTION */}
-      <section className="home-portfolio-section px-[7.5rem] flex gap-20 mb-32">
+      <section className="home-portfolio-section px-[7.5rem] flex gap-20 mb-32 sm:hidden">
         {/* Home Portfolio Section Left */}
         <div className="flex flex-col gap-14">
           {/* Portfolio card 01 */}
@@ -126,18 +126,18 @@ export default function Home() {
       </section>
 
       {/* SKILLS SECTION */}
-      <section className="mb-32">
+      <section className="mb-32 sm:hidden">
         <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] mb-10">MY SKILLS</h2>
         <MySkills />
       </section>
 
       {/* CONTACT SECTION */}
-      <section className="my-32">
+      <section className="my-32 sm:hidden">
         <ContactSection />
       </section>
       
       {/* FOOTER */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
