@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             {/* Attribution */}
             <div className="text-[#EAEAEA] text-sm">
-                <p>Designed by <Link href="https://hijoygirl.com" target="_blank" className="hover:text-[#FB8500]">Joygirl</Link></p>
+                <p>Designed by <Link href="https://hijoygirl.com" target="_blank" title="Visit portfolio" className="hover:text-[#FB8500]">Joygirl</Link></p>
             </div>
         </div>
         <div className='flex gap-6'>

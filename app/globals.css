@@ -40,3 +40,8 @@ body {
 }
 
 h1, h2, h3 {font-family: var(--ff-akira);}
+
+/* form input:focus,
+form textarea:focus {
+  outline: none;
+} */

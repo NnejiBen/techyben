@@ -98,7 +98,7 @@ export default function Home() {
           {/* Heading and description text */}
           <div className="portfolio--text">
             <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-8">WHAT I DO</h2>
-            <p className="text-2xl text-[#F9F8F8]">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I love working on new and innovative projects.</p>
+            <p className="text-2xl text-[#F9F8F8]">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I'm always up for a challenge, and I love working on new and innovative projects.</p>
           </div>
           {/* Portfolio card 03 */}
           <div className="bg-[#C0D6DF] rounded-3xl">

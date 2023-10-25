@@ -16,9 +16,10 @@ const about = () => {
           <HorizontalRule />
         </div>
         <div className="px-[7.5rem]">
+          {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] leading-none mb-10">ABOUT ME</h1>
           <div className="flex justify-end mb-4">
-            <p className="w-1/2 text-left text-[#F1F1F1] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className="w-1/2 text-left text-[#F1F1F1] text-2xl">If you're looking for a frontend software developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
           </div>
           <div className="mb-12">
             <Navbar />
@@ -31,10 +32,11 @@ const about = () => {
       <section className="flex items-center px-[7.5rem] mb-52">
         <div className="flex-1">
           {/* Heading */}
-          <h2 className="text-[#EAEAEA] text-[4rem] leading-none mb-10">A LITTLE ABOUT ME</h2>
+          <h2 className="text-[#EAEAEA] text-[4rem] leading-none mb-10">MY STORY</h2>
           {/* Body text */}
-          <p className="text-[#F9F8F8] text-2xl mb-6">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
-          <p className="text-[#F9F8F8] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+          <p className="text-[#F9F8F8] text-2xl mb-6">I'm a career changer. Prior to returning to web development, I worked for several years as an electronics and broadcast technician. This experience gave me a strong foundation in problem-solving and troubleshooting, which are essential skills for any web developer.</p>
+          <p className="text-[#F9F8F8] text-2xl mb-6">In addition to my work as a web developer, I also volunteer to teach coding to aspiring developers. I have a deep love for books and learning and I especially enjoy reading about airplanes and space exploration, and the beauties and wonders of our amazing planet.</p>
+          <p className="text-[#F9F8F8] text-2xl">But what really sets me apart from other web developers is my commitment to customer satisfaction. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
         </div>
         <div className="flex flex-1 justify-end">
           {/* Image */}
@@ -53,7 +55,7 @@ const about = () => {
           </div>
           {/* Description */}
           <div className="w-2/4">
-            <p className="text-[#F9F8F8] text-xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+            <p className="text-[#F9F8F8] text-xl">I'm always looking for new ways to improve my skills and learn new technologies, and I'm passionate about helping others learn about web development. I obtained the freeCodeCamp's <Link href="https://www.freecodecamp.org/certification/nnejiben/responsive-web-design" target="_blank" title="View certificate" className="hover:text-[#FB8500]">Responsive Web Design Certification</Link> and have completed other technical courses as well.</p>
           </div>
         </div>
         <MySkills />
