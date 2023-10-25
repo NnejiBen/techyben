@@ -27,11 +27,11 @@ const contact = () => {
       </section>
 
       {/* FORM SECTION */}
-      <section className="flex justify-between px-[7.5rem] mb-32">
+      <section className="flex justify-between items-center px-[7.5rem] mb-32">
         {/* Heading */}
         <div className="max-w-[50%]">
-          <h2 className="text-[#EAEAEA] text-[4rem] leading-none mb-4">PING ME</h2>
-          <p className="text-left text-[#F1F1F1] text-2xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+          <h2 className="text-[#EAEAEA] text-[4rem] leading-none mb-8">PING ME</h2>
+          <p className="text-left text-[#F1F1F1] text-xl">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         {/* Form */}
         <form id="" action="" method="post" className="min-w-[40%] flex flex-col gap-6">
