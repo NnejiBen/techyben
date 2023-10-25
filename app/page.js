@@ -60,10 +60,10 @@ export default function Home() {
             {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
               <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
-              <div><h3 className="text-[#00162B] text-[2rem] leading-none">JOBENY RESOURCES</h3></div>
+              <div><h3 className="text-[#00162B] text-[2rem] leading-none">MELODY GENIE</h3></div>
             </div>
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
-              <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+              <p>This website was designed by <Link href="https://hijoygirl.com" className="hover:text-[#FB8500]" title="Visit portfolio">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
             </div>
             {/* Button */}
             <div className="flex justify-end px-6 pb-8">
@@ -81,11 +81,11 @@ export default function Home() {
             <hr className="border-0 h-[1px] bg-black"/>
             {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
-              <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
+              <div><p className="text-[#00162B] text-5xl font-bold">2</p></div>
               <div><h3 className="text-[#00162B] text-[2rem] leading-none">ELECTETRA</h3></div>
             </div>
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
-              <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+              <p>I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
             </div>
             {/* Button */}
             <div className="flex justify-end px-6 pb-8">
@@ -111,11 +111,11 @@ export default function Home() {
             <hr className="border-0 h-[1px] bg-black"/>
             {/* Heading and number */}
             <div className="flex items-center gap-6 px-8 py-12">
-              <div><p className="text-[#00162B] text-5xl font-bold">1</p></div>
+              <div><p className="text-[#00162B] text-5xl font-bold">3</p></div>
               <div><h3 className="text-[#00162B] text-[2rem] leading-none">JEB AUTO SERVICES</h3></div>
             </div>
             <div className="text-[#1E1E1E] text-xl px-12 mb-8">
-              <p>Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
+              <p>I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and yet beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms.</p>
             </div>
             {/* Button */}
             <div className="flex justify-end px-6 pb-8">
