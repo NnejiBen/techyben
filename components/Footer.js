@@ -26,37 +26,37 @@ const Footer = () => {
             {/* Contact icon */}
             <div>
                 <Link href="mailto:nnejiben@gmail.com" target="_blank">
-                    <Image src={gmailIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={gmailIcon} title="Email" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
             {/* Contact icon */}
             <div>
                 <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank">
-                    <Image src={whatsappIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={whatsappIcon} title="WhatsApp" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
             {/* Contact icon */}
             <div>
                 <Link href="https://github.com/NnejiBen" target="_blank">
-                    <Image src={githubIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={githubIcon} title="GitHub" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
             {/* Contact icon */}
             <div>
                 <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank">
-                    <Image src={linkedinIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={linkedinIcon} title="LinkedIn" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
             {/* Contact icon */}
             <div>
                 <Link href="https://twitter.com/ben_nneji" target="_blank">
-                    <Image src={xIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={xIcon} title="X (Twitter)" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
             {/* Contact icon */}
             <div>
                 <Link href="https://web.facebook.com/techyben" target="_blank">
-                    <Image src={facebookIcon} className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
+                    <Image src={facebookIcon} title="Facebook" className="max-w-[3.2em] max-h-[3.2em] object-cover hover:scale-110"/>
                 </Link>
             </div>
         </div>
