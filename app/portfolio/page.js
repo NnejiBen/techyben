@@ -115,7 +115,7 @@ const portfolio = () => {
         </div>
 
         {/* Project 04 */}
-        <div className="flex gap-14 items-center mb-16 hidden">
+        <div className="hidden gap-14 items-center mb-16">
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
             <h2 className="text-5xl text-[#EAEAEA] leading-[110%] mb-6">PROJECT TITLE</h2>
