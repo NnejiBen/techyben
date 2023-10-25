@@ -6,6 +6,9 @@ import HorizontalRule from "@/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
 import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
+import melodyGenie from "@/public/images/melody-genie.webp"
+import electetra from "@/public/images/electetra.webp"
+import jebAutoServices from "@/public/images/jeb-auto-services.webp"
 
 const portfolio = () => {
   return (
@@ -46,7 +49,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={framePortfolio} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={melodyGenie} className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
@@ -80,7 +83,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={framePortfolio} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={electetra} className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>
@@ -98,7 +101,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={framePortfolio} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={jebAutoServices} className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
