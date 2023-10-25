@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
             <div className="max-w-[6em] border-8 border-solid border-[#8ECAE6] rounded-full">
               <Link href="/">
-                <Image src={profilePic} alt="Ben Nneji profile picture" className="rounded-full"/>
+                <Image src={profilePic} alt="Ben Nneji profile picture" title="Go Home" className="rounded-full"/>
               </Link>
             </div>
         </div>

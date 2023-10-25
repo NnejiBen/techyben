@@ -34,7 +34,7 @@ export default function Home() {
       <section className="home-about-section px-[7.5rem] flex mb-32">
         <div className="flex-1">
           <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
-          <p className="text-2xl text-[#F9F8F8] mb-8">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+          <p className="text-2xl text-[#F9F8F8] mb-8">I'm a frontend software developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
         <div className="flex flex-1 justify-end">
@@ -95,9 +95,10 @@ export default function Home() {
         </div>
         {/* Home Portfolio Section Right */}
         <div className="flex flex-col gap-20">
+          {/* Heading and description text */}
           <div className="portfolio--text">
             <h2 className="text-[4rem] text-[#EAEAEA] leading-[110%] mb-8">WHAT I DO</h2>
-            <p className="text-2xl text-[#F9F8F8]">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. </p>
+            <p className="text-2xl text-[#F9F8F8]">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I love working on new and innovative projects.</p>
           </div>
           {/* Portfolio card 03 */}
           <div className="bg-[#C0D6DF] rounded-3xl">
