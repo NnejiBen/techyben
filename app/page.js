@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="h-screen flex flex-col justify-between py-6 mb-32 xl:mb-52">
+      <section className="h-screen flex flex-col justify-between py-6 mb-32 xl:mb-52 md:mb-24">
         <div className="mb-6"><HorizontalRule /></div>
         {/* Title */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[2rem] sm:px-4">
@@ -32,21 +32,21 @@ export default function Home() {
       </section>
 
       {/* ABOUT SECTION */}
-      <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[2rem] flex md:flex-col-reverse mb-32">
+      <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[2rem] flex md:flex-col-reverse mb-32 md:mb-24">
         <div className="flex-1">
           <h2 className="text-[4rem] lg:text-[3rem] md:text-[2.5rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
           <p className="text-2xl lg:text-xl text-[#F9F8F8] mb-8">I'm a frontend software developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
         <div className="flex flex-1 justify-end md:justify-center md:mb-12">
-          <div className="max-w-[60%] xl:max-w-[80%] lg:max-w-[90%d] border-8 border-solid border-[#8ECAE6] rounded-[272.5px] flex">
+          <div className="max-w-[60%] xl:max-w-[80%] lg:max-w-[90%] md:max-w-[70%] border-8 border-solid border-[#8ECAE6] rounded-[272.5px] flex">
             <Image src={benTall} alt="Photo of Ben Nneji standing" className="rounded-[272.5px] object-cover"/>
           </div>
         </div>
       </section>
 
       {/* PORTFOLIO SECTION */}
-      <section className="home-portfolio-section px-[7.5rem] lg:px-[4rem] md:px-[2rem] flex gap-20 lg:gap-10 mb-32">
+      <section className="home-portfolio-section px-[7.5rem] lg:px-[4rem] md:px-[2rem] flex md:flex-col-reverse gap-20 lg:gap-10 mb-32 md:mb-24">
         
         {/* Home Portfolio Section Left */}
         <div className="flex flex-col gap-14 lg:gap-8">
@@ -95,13 +95,13 @@ export default function Home() {
       </section>
 
       {/* SKILLS SECTION */}
-      <section className="mb-32">
+      <section className="mb-32 md:mb-24">
         <h2 className="text-[4rem] md:text-[3rem] text-[#EAEAEA] leading-[110%] px-[7.5rem] lg:px-[4rem] md:px-[2rem] mb-10">MY SKILLS</h2>
         <MySkills />
       </section>
 
       {/* CONTACT SECTION */}
-      <section className="my-32">
+      <section className="mb-32 md:mb-24">
         <ContactSection />
       </section>
       
