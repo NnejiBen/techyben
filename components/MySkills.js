@@ -9,7 +9,7 @@ import MySkillItem from './MySkillItem'
 
 const MySkills = () => {
   return (
-    <div className='px-[7.5rem] lg:px-[4em] md:px-[2em]'>
+    <div className='px-[7.5rem] lg:px-[4em] md:px-[1.25em]'>
         <hr className="border-0 h-[2px] bg-[#F9F8F8]"/>
         {/* Skill item */}
         <MySkillItem 
