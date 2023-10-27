@@ -11,10 +11,10 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
   return (
-    <footer className="flex justify-between items-center bg-[#020617] px-[7.5rem] lg:px-[4em] py-8">
+    <footer className="flex justify-between items-center bg-[#020617] px-[7.5rem] lg:px-[4em] md:px-[2em] py-8">
         <div>
             {/* Copyright information */}
-            <div className="text-[#EAEAEA] text-[2rem]">
+            <div className="text-[#EAEAEA] text-[2rem] md:text-[1.5rem]">
                 <p>&copy; {year} Benjamin Nneji</p>
             </div>
             {/* Attribution */}
@@ -22,7 +22,7 @@ const Footer = () => {
                 <p>Designed by <Link href="https://joygirl.super.site/" target="_blank" title="Visit portfolio" className="hover:text-[#FB8500]">Joygirl</Link></p>
             </div>
         </div>
-        <div className='flex gap-6'>
+        <div className='flex gap-6 md:gap-3'>
             {/* Contact icon */}
             <div>
                 <Link href="mailto:nnejiben@gmail.com" target="_blank">
