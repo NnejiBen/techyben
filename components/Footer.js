@@ -11,8 +11,8 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
   return (
-    <footer className="flex justify-between items-center bg-[#020617] px-[7.5rem] lg:px-[4em] md:px-[2em] py-8">
-        <div>
+    <footer className="flex sm:flex-col justify-between items-center bg-[#020617] px-[7.5rem] lg:px-[4em] md:px-[2em] py-8">
+        <div className="sm:flex flex-col items-center sm:mb-10">
             {/* Copyright information */}
             <div className="text-[#EAEAEA] text-[2rem] md:text-[1.5rem]">
                 <p>&copy; {year} Benjamin Nneji</p>

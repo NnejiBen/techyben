@@ -12,7 +12,7 @@ function PortfolioCard({ number, title, content, linkHref, }) {
         </div>
         <hr className="border-0 h-[1px] bg-black" />
         {/* Heading and number */}
-        <div className="flex items-center gap-6 md:gap-0 px-8 lg:px-4 py-12 lg:py-6">
+        <div className="flex items-center gap-6 md:gap-0 px-8 lg:px-4 py-12 lg:py-6 sm:py-8">
             <div>
                 <p className="text-[#00162B] text-5xl font-bold md:hidden">{number}</p>
             </div>
@@ -20,11 +20,11 @@ function PortfolioCard({ number, title, content, linkHref, }) {
                 <h3 className="text-[#00162B] text-[2rem] lg:text-[1.5rem] leading-none">{title}</h3>
             </div>
       </div>
-      <div className="text-[#1E1E1E] text-xl px-12 lg:px-6 mb-8 lg:mb-6">
+      <div className="text-[#1E1E1E] text-xl sm:text-base font-normal px-12 lg:px-6 mb-8 lg:mb-6">
             <p>{content}</p>
       </div>
       {/* Button */}
-      <div className="flex justify-end px-6 pb-8">
+      <div className="flex justify-end sm:justify-start px-6 pb-8">
             <Link href={linkHref}><ReadMoreBtnOutline /></Link>
       </div>
     </div>
