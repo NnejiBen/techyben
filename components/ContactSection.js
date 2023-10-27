@@ -2,9 +2,9 @@ import Link from "next/link"
 
 const ContactSection = () => {
   return (
-    <div className="px-[7.5rem] flex items-center justify-between">
+    <div className="px-[7.5rem] lg:px-[4rem] md:px-[2rem] flex items-center justify-between">
         {/* Heading */}
-        <div className="text-[7rem] xl:text-[5rem] text-[#EAEAEA] leading-[120%]">
+        <div className="text-[7rem] xl:text-[5rem] lg:text-[4rem] text-[#EAEAEA] leading-[120%]">
             <h2>LET'S CONNECT</h2>
         </div>
         <div className="bg-[#C0D6DF] rounded-3xl flex flex-col h-min">

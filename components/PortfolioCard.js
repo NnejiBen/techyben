@@ -12,15 +12,15 @@ function PortfolioCard({ number, title, content, linkHref, }) {
         </div>
         <hr className="border-0 h-[1px] bg-black" />
         {/* Heading and number */}
-        <div className="flex items-center gap-6 px-8 py-12">
+        <div className="flex items-center gap-6 px-8 lg:px-4 py-12 lg:py-6">
             <div>
                 <p className="text-[#00162B] text-5xl font-bold">{number}</p>
             </div>
             <div>
-                <h3 className="text-[#00162B] text-[2rem] leading-none">{title}</h3>
+                <h3 className="text-[#00162B] text-[2rem] lg:text-[1.5rem] leading-none">{title}</h3>
             </div>
       </div>
-      <div className="text-[#1E1E1E] text-xl px-12 mb-8">
+      <div className="text-[#1E1E1E] text-xl px-12 lg:px-6 mb-8 lg:mb-6">
             <p>{content}</p>
       </div>
       {/* Button */}
