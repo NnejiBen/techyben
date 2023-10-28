@@ -12,10 +12,10 @@ const MobileNavMenu = () => {
     <>
       <nav className="fixed top-0 left-0 flex flex-col justify-between w-full h-full bg-[#00162B] text-white px-[1.25rem] pt-32 z-10">
         <div>
-          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><p>HOME</p></div>
-          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><p>ABOUT</p></div>
-          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><p>PORTFOLIO</p></div>
-          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><p>CONTACT</p></div>
+          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="/">HOME</Link></div>
+          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="/about">ABOUT</Link></div>
+          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="/portfolio">PORTFOLIO</Link></div>
+          <div className='border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="/contact">CONTACT</Link></div>
           <div className='hidden border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="mailto:nnejiben@gmail.com" target="_blank">nnejiben@gmail.com</Link></div>
           <div className='hidden border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center'><Link href="tel:+2348063062992" target="_blank">234-8063062992</Link></div>
         </div>
