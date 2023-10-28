@@ -37,7 +37,7 @@ const about = () => {
       <section className="flex md:flex-col-reverse items-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-52 md:mb-24 sm:mb-16">
         <div className="flex-1">
           {/* Heading */}
-          <h2 className="text-[#EAEAEA] text-[4rem] lg:text-[3rem] sm:text-[2rem] leading-none mb-10">MY STORY</h2>
+          <h2 className="text-[#EAEAEA] text-[4rem] lg:text-[3rem] sm:text-[2rem] leading-none mb-10 sm:mb-6">MY STORY</h2>
           {/* Body text */}
           <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-lg mb-6">I'm a career changer. Prior to returning to web development, I worked for several years as an electronics and broadcast technician. This experience gave me a strong foundation in problem-solving and troubleshooting, which are essential skills for any web developer.</p>
           <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-lg mb-6">In addition to my work as a web developer, I also volunteer to teach coding to aspiring developers. I have a deep love for books and learning and I especially enjoy reading about airplanes and space exploration, and the beauties and wonders of our amazing planet.</p>
