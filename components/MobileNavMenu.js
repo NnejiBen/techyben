@@ -11,14 +11,14 @@ const MobileNavMenu = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 flex flex-col w-screen h-screen bg-[#00162B] text-white px-[1.25rem] pt-40">
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><p>HOME</p></div>
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><p>ABOUT</p></div>
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><p>PORTFOLIO</p></div>
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><p>CONTACT</p></div>
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><Link href="mailto:nnejiben@gmail.com" target="_blank">nnejiben@gmail.com</Link></div>
-        <div className='border-b-[1px] border-[#F9F8F8] py-5 text-xl text-center'><Link href="tel:+2348063062992" target="_blank">234-8063062992</Link></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>HOME</p></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>ABOUT</p></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>PORTFOLIO</p></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>CONTACT</p></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><Link href="mailto:nnejiben@gmail.com" target="_blank">nnejiben@gmail.com</Link></div>
+        <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><Link href="tel:+2348063062992" target="_blank">234-8063062992</Link></div>
         {/* Contact icons */}
-        <div className='flex justify-center gap-4 border-b-[1px] border-[#F9F8F8] py-5'>
+        <div className='flex justify-center gap-4 border-b-[1px] border-[#EAEAEA] py-5'>
             {/* Contact icon */}
             <div>
                 <Link href="mailto:nnejiben@gmail.com" target="_blank">
