@@ -63,7 +63,7 @@ export default function Home() {
             content={
               <>
                 This website was designed by{' '}
-                <Link href="https://joygirl.super.site/" className="hover:text-[#FB8500]" target="_blank">
+                <Link href="https://joygirl.super.site/" className="hover:text-[#FB8500] underline decoration-solid" target="_blank">
                   Joygirl
                 </Link>{' '}
                 and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.
