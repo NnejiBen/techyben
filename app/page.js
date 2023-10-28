@@ -7,7 +7,6 @@ import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 import benTall from "../public/images/ben-nneji-tall.webp"
 import HorizontalRule from "@/components/HorizontalRule"
-import HorizontalRuleTop from "@/components/HorizontalRuleTop"
 import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/components/PortfolioCard"
 import MobileNavbar from "@/components/MobileNavbar"
@@ -22,13 +21,16 @@ export default function Home() {
       </div>    
       {/* HERO SECTION */}
       <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
-        
-        {/* <div className="z-10 mb-6 sm:mb-4"><HorizontalRule /></div> */}
-        <div className="z-10 mb-6 sm:mb-4"><HorizontalRuleTop /></div>
-
-        {/* Mobile navbar */}
-        <div className="hidden sm:flex justify-end px-[1.25rem] mb-20">
-          <MobileNavbar />
+        {/* Fixed navbar for mobile */}
+        <div className="z-10">
+          {/* Horizontal rule */}
+          <div className="mb-6 sm:mb-4">
+            <HorizontalRule />
+          </div>
+          {/* Mobile navbar */}
+          <div className="hidden sm:flex justify-end px-[1.25rem] mb-20">
+            <MobileNavbar />
+          </div>
         </div>
         {/* Title */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">

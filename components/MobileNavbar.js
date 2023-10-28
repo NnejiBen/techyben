@@ -4,7 +4,7 @@ import profilePic from "../public/images/ben-nneji.webp"
 
 const MobileNavbar = () => {
   return (
-    <nav className="flex items-center gap-5 w-max bg-[#F9F8F8] rounded-l-[110px] text-[#023047] text-base font-medium p-2 z-10 sm:fixed">
+    <nav className="flex items-center gap-5 w-max bg-[#F9F8F8] rounded-l-[110px] text-[#023047] text-base font-medium p-2">
         <div>
             <div className="max-w-[2rem] border-2 border-solid border-[#8ECAE6] rounded-full">
               <Link href="/">
