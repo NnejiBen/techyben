@@ -20,15 +20,15 @@ export default function Home() {
         {/* <MobileNavMenu /> */}
       </div>    
       {/* HERO SECTION */}
-      <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
+      <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 sm:mt-36 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
         {/* Fixed navbar for mobile */}
-        <div className="sm:fixed sm:w-full z-10 bg-[#00162B] bg-transparent">
+        <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
           {/* Horizontal rule */}
           <div className="mb-6 sm:mb-4">
             <HorizontalRule />
           </div>
           {/* Mobile navbar */}
-          <div className="hidden sm:flex justify-end px-[1.25rem] mb-20">
+          <div className="hidden sm:flex justify-end px-[1.25rem]">
             <MobileNavbar />
           </div>
         </div>
