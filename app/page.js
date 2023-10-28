@@ -10,10 +10,15 @@ import HorizontalRule from "@/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/components/PortfolioCard"
 import MobileNavbar from "@/components/MobileNavbar"
+import MobileNavMenu from "@/components/MobileNavMenu"
 
 export default function Home() {
   return (
     <>
+      {/* Mobile navigation menu */}
+      <div className="hidden sm:block">
+        <MobileNavMenu />
+      </div>    
       {/* HERO SECTION */}
       <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
         <div className="mb-6 sm:mb-4"><HorizontalRule /></div>
