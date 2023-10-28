@@ -6,6 +6,7 @@ import MySkills from "@/components/MySkills"
 import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 import benTall from "../public/images/ben-nneji-tall.webp"
+import benTallHome from "../public/images/ben-nneji-tall-home.webp"
 import HorizontalRule from "@/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/components/PortfolioCard"
@@ -44,8 +45,8 @@ export default function Home() {
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
         <div className="flex flex-1 justify-end md:justify-center md:mb-12 sm:mb-8">
-          <div className="max-w-[60%] xl:max-w-[80%] lg:max-w-[90%] md:max-w-[70%] sm:max-w-full border-8 border-solid border-[#8ECAE6] rounded-[272.5px] flex">
-            <Image src={benTall} alt="Photo of Ben Nneji standing" className="rounded-[272.5px] object-cover"/>
+          <div className="max-w-[70%] xl:max-w-[80%] lg:max-w-[90%] md:max-w-[70%] sm:max-w-full border-8 border-solid border-[#8ECAE6] rounded-[272.5px] flex">
+            <Image src={benTallHome} alt="Photo of Ben Nneji standing" className="rounded-[272.5px] object-cover"/>
           </div>
         </div>
       </section>
