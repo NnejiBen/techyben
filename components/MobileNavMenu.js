@@ -15,8 +15,8 @@ const MobileNavMenu = () => {
         <div className='border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><p>ABOUT</p></div>
         <div className='border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><p>PORTFOLIO</p></div>
         <div className='border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><p>CONTACT</p></div>
-        <div className='border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><Link href="mailto:nnejiben@gmail.com" target="_blank">nnejiben@gmail.com</Link></div>
-        <div className='border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><Link href="tel:+2348063062992" target="_blank">234-8063062992</Link></div>
+        <div className='hidden border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><Link href="mailto:nnejiben@gmail.com" target="_blank">nnejiben@gmail.com</Link></div>
+        <div className='hidden border-b-[1px] border-[#EAEAEA] py-6 text-xl text-center'><Link href="tel:+2348063062992" target="_blank">234-8063062992</Link></div>
         {/* Contact icons */}
         <div className='flex justify-center gap-4 border-[#EAEAEA] py-6'>
             {/* Contact icon */}
