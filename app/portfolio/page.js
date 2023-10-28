@@ -15,7 +15,7 @@ const portfolio = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 mb-16">
+      <section className="py-6 sm:py-4 mb-16 sm:mb-4">
         <div className="mb-12 sm:mb-4">
           <HorizontalRule />
         </div>
@@ -39,10 +39,10 @@ const portfolio = () => {
       </section>
 
       {/* PROJECTS SECTION */}
-      <section className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32">
+      <section className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-16">
 
         {/* Project 01 */}
-        <div className="flex md:flex-col gap-14 items-center mb-16">
+        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}
           <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
             {/* Card dots */}
@@ -68,7 +68,7 @@ const portfolio = () => {
         </div>
 
         {/* Project 02 */}
-        <div className="flex md:flex-col-reverse gap-14 items-center mb-16">
+        <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">ELECTETRA</h2>
@@ -94,7 +94,7 @@ const portfolio = () => {
         </div>
 
         {/* Project 03 */}
-        <div className="flex md:flex-col gap-14 items-center mb-16">
+        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}
           <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
             {/* Card dots */}
@@ -120,7 +120,7 @@ const portfolio = () => {
         </div>
 
         {/* Project 04 */}
-        <div className="hidden gap-14 items-center mb-16">
+        <div className="hidden gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">PROJECT TITLE</h2>
@@ -147,7 +147,7 @@ const portfolio = () => {
       </section>
 
       {/* CONTACT SECTION */}
-      <div className="mb-32">
+      <div className="mb-32 md:mb-24 sm:mb-16">
         <ContactSection />
       </div>
 
