@@ -10,7 +10,7 @@ import facebookIcon from "../public/images/facebook.png"
 const MobileNavMenu = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 flex flex-col w-screen h-screen bg-[#00162B] text-white px-[1.25rem] pt-36">
+      <nav className="fixed top-0 left-0 flex flex-col w-screen h-screen bg-[#00162B] text-white px-[1.25rem] pt-32">
         <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>HOME</p></div>
         <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>ABOUT</p></div>
         <div className='border-b-[1px] border-[#EAEAEA] py-5 text-xl text-center'><p>PORTFOLIO</p></div>
