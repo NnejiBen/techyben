@@ -24,7 +24,7 @@ const about = () => {
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ABOUT ME</h1>
           <div className="flex justify-end mb-4 sm:mb-8">
-            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-base">If you're looking for a frontend software developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
+            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">If you're looking for a frontend software developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
           </div>
           <div className="sm:hidden mb-12">
             <Navbar />
@@ -39,9 +39,9 @@ const about = () => {
           {/* Heading */}
           <h2 className="text-[#EAEAEA] text-[4rem] lg:text-[3rem] sm:text-[2rem] leading-none mb-10">MY STORY</h2>
           {/* Body text */}
-          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-base mb-6">I'm a career changer. Prior to returning to web development, I worked for several years as an electronics and broadcast technician. This experience gave me a strong foundation in problem-solving and troubleshooting, which are essential skills for any web developer.</p>
-          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-base mb-6">In addition to my work as a web developer, I also volunteer to teach coding to aspiring developers. I have a deep love for books and learning and I especially enjoy reading about airplanes and space exploration, and the beauties and wonders of our amazing planet.</p>
-          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-base">But what really sets me apart from other web developers is my commitment to customer satisfaction. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
+          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-lg mb-6">I'm a career changer. Prior to returning to web development, I worked for several years as an electronics and broadcast technician. This experience gave me a strong foundation in problem-solving and troubleshooting, which are essential skills for any web developer.</p>
+          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-lg mb-6">In addition to my work as a web developer, I also volunteer to teach coding to aspiring developers. I have a deep love for books and learning and I especially enjoy reading about airplanes and space exploration, and the beauties and wonders of our amazing planet.</p>
+          <p className="text-[#F9F8F8] text-2xl lg:text-xl sm:text-lg">But what really sets me apart from other web developers is my commitment to customer satisfaction. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
         </div>
         <div className="flex flex-1 justify-end">
           {/* Image */}
