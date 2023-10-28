@@ -22,7 +22,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
         {/* Fixed navbar for mobile */}
-        <div className="sm:fixed sm:w-full z-10">
+        <div className="sm:fixed sm:w-full z-10 bg-[#00162B] opacity-50">
           {/* Horizontal rule */}
           <div className="mb-6 sm:mb-4">
             <HorizontalRule />
