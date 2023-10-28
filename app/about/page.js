@@ -45,7 +45,7 @@ const about = () => {
         </div>
         <div className="flex flex-1 justify-end">
           {/* Image */}
-          <div className="flex md:mx-auto max-w-[80%] xl:max-w-[90%] md:max-w-[60%] border-8 border-[#8ECAE6] rounded-[272.5px] md:mb-12 sm:mb-8">
+          <div className="flex md:mx-auto max-w-[80%] xl:max-w-[90%] md:max-w-[60%] sm:max-w-full border-8 border-[#8ECAE6] rounded-[272.5px] md:mb-12 sm:mb-8">
             <Image src={benTall} alt="Photo of Ben Nneji standing" className="rounded-[272.5px] object-cover"/>
           </div>
         </div>
@@ -60,7 +60,7 @@ const about = () => {
           </div>
           {/* Description */}
           <div className="w-2/4 xl:w-2/3 md:w-full">
-            <p className="text-[#F9F8F8] text-xl">I'm always looking for new ways to improve my skills and learn new technologies, and I'm passionate about helping others learn about web development. I obtained the freeCodeCamp's <Link href="https://www.freecodecamp.org/certification/nnejiben/responsive-web-design" target="_blank" title="View certificate" className="hover:text-[#FB8500]">Responsive Web Design Certification</Link> and have completed other technical courses as well.</p>
+            <p className="text-[#F9F8F8] text-xl sm:text-lg">I'm always looking for new ways to improve my skills and learn new technologies, and I'm passionate about helping others learn about web development. I obtained the freeCodeCamp's <Link href="https://www.freecodecamp.org/certification/nnejiben/responsive-web-design" target="_blank" title="View certificate" className="hover:text-[#FB8500]">Responsive Web Design Certification</Link> and have completed other technical courses as well.</p>
           </div>
         </div>
         <MySkills />
