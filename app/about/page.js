@@ -12,7 +12,7 @@ const about = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 sm:mt-32 mb-32 md:mb-24 sm:mb-10">
+      <section className="py-6 sm:py-4 sm:mt-36 mb-32 md:mb-24 sm:mb-10">
         {/* Fixed navbar for mobile */}
         <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
           {/* Horizontal rule */}

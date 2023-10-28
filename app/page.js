@@ -17,7 +17,7 @@ export default function Home() {
     <>
       {/* Mobile navigation menu */}
       <div className="hidden sm:block">
-        <MobileNavMenu />
+        {/* <MobileNavMenu /> */}
       </div>    
       {/* HERO SECTION */}
       <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
