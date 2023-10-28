@@ -12,7 +12,7 @@ const about = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 mb-32 md:mb-24 sm:mb-16">
+      <section className="py-6 sm:py-4 mb-32 md:mb-24 sm:mb-10">
         <div className="mb-12 sm:mb-4">
           <HorizontalRule />
         </div>
