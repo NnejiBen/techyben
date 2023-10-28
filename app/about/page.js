@@ -12,14 +12,18 @@ const about = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 mb-32 md:mb-24 sm:mb-10">
-        <div className="mb-12 sm:mb-4">
-          <HorizontalRule />
-        </div>
-        {/* Mobile navbar */}
-        <div className="hidden sm:flex justify-end px-[1.25rem] mb-20">
-          <MobileNavbar />
-        </div>
+      <section className="py-6 sm:py-4 sm:mt-32 mb-32 md:mb-24 sm:mb-10">
+        {/* Fixed navbar for mobile */}
+        <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
+          {/* Horizontal rule */}
+          <div className="mb-6 sm:mb-4">
+            <HorizontalRule />
+          </div>
+          {/* Mobile navbar */}
+          <div className="hidden sm:flex justify-end px-[1.25rem]">
+            <MobileNavbar />
+          </div>
+        </div>   
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ABOUT ME</h1>
