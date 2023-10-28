@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         {/* Title */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
-          <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%]">BENJAMIN</h1>
+          <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-2">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-6">NNEJI</h1>
           <div className="flex justify-end mb-6">
             <p className="text-right sm:text-left text-[1.5rem] lg:text-[1.2rem] sm:text-[1rem] text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
