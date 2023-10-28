@@ -93,7 +93,7 @@ export default function Home() {
           <PortfolioCard
             number="3"
             title="JEB AUTO SERVICES"
-            content="I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and yet beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms."
+            content="I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms."
             linkHref="/portfolio"
           />
         </div>
