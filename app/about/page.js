@@ -13,21 +13,19 @@ const about = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div><MobileNavMenu /></div>
+      {/* <div><MobileNavMenu /></div> */}
       
+      <div className="bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
+        <HorizontalRule />
+      </div>
+
+      {/* Mobile navbar */}
+      <div className="hidden sticky top-0 md:flex sm:flex justify-end bg-[#00162B] bg-opacity-50 px-[1.25rem] w-full py-4 z-10 md:mb-10">
+        <MobileNavbar />
+      </div>
+
       {/* HERO SECTION */}
-      <section className="pt-6 sm:py-4 sm:mt-36 mb-6">
-        {/* Fixed navbar for mobile */}
-        <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
-          {/* Horizontal rule */}
-          <div className="mb-12 sm:mb-4">
-            <HorizontalRule />
-          </div>
-          {/* Mobile navbar */}
-          <div className="hidden md:flex sm:flex justify-end px-[1.25rem]">
-            <MobileNavbar />
-          </div>
-        </div>   
+      <section className="pt-6 mb-6">
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ABOUT ME</h1>
