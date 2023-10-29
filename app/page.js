@@ -16,25 +16,21 @@ export default function Home() {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden sm:block">
-        {/* <MobileNavMenu /> */}
+      {/* <div><MobileNavMenu /></div> */}
+
+      <div className="mt-6">
+        <HorizontalRule />
+      </div>
+
+      {/* Mobile navbar */}
+      <div className="hidden sticky top-0 md:flex sm:flex justify-end px-[1.25rem] w-full py-4 z-10 bg-[#00162B] bg-opacity-50">
+        <MobileNavbar />
       </div>
 
       {/* HERO SECTION */}
-      <section className="flex flex-col pt-6 sm:py-4 sm:mt-36">
-        {/* Fixed navbar for mobile */}
-        <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
-          {/* Horizontal rule */}
-          <div className="mb-6 sm:mb-4">
-            <HorizontalRule />
-          </div>
-          {/* Mobile navbar */}
-          <div className="hidden sm:flex justify-end px-[1.25rem]">
-            <MobileNavbar />
-          </div>
-        </div>
+      <section className="flex flex-col md:mt-10">
         {/* Title */}
-        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mt-36">
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-3">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-7">NNEJI</h1>
           <div className="flex justify-end mb-6">
@@ -47,7 +43,7 @@ export default function Home() {
       </section>
 
       {/* Navbar */}
-      <div className="sm:hidden sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
+      <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
       {/* Horizontal rule */}
       <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-8"><HorizontalRule /></div>
 

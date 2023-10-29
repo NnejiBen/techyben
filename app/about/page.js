@@ -7,25 +7,24 @@ import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 import HorizontalRule from "@/components/HorizontalRule"
 import MobileNavbar from "@/components/MobileNavbar"
+import MobileNavMenu from "@/components/MobileNavMenu"
 
 const about = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden sm:block">
-        {/* <MobileNavMenu /> */}
-      </div>
+      <div><MobileNavMenu /></div>
       
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 sm:mt-36 mb-32 md:mb-24 sm:mb-10">
+      <section className="pt-6 sm:py-4 sm:mt-36 mb-6">
         {/* Fixed navbar for mobile */}
         <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
           {/* Horizontal rule */}
-          <div className="mb-6 sm:mb-4">
+          <div className="mb-12 sm:mb-4">
             <HorizontalRule />
           </div>
           {/* Mobile navbar */}
-          <div className="hidden sm:flex justify-end px-[1.25rem]">
+          <div className="hidden md:flex sm:flex justify-end px-[1.25rem]">
             <MobileNavbar />
           </div>
         </div>   
@@ -37,6 +36,11 @@ const about = () => {
           </div>
         </div>
       </section>
+
+      {/* Navbar */}
+      <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
+      {/* Horizontal rule */}
+      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-8"><HorizontalRule /></div>
 
       {/* ABOUT SECTION */}
       <section className="flex md:flex-col-reverse items-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-52 md:mb-24 sm:mb-16">
