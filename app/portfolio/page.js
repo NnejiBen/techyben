@@ -14,29 +14,35 @@ import MobileNavbar from "@/components/MobileNavbar"
 const portfolio = () => {
   return (
     <>
+      {/* Mobile navigation menu */}
+      {/* <div><MobileNavMenu /></div> */}
+      
+      {/* Horizontal rule */}
+      <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
+        <HorizontalRule />
+      </div>
+
+      {/* Mobile navbar */}
+      <div className="hidden sticky top-0 md:flex sm:flex justify-end bg-[#00162B] bg-opacity-50 px-[1.25rem] w-full py-4 z-10 md:mb-10">
+        <MobileNavbar />
+      </div>
+
       {/* HERO SECTION */}
-      <section className="py-6 sm:py-4 mb-16 sm:mb-4">
-        <div className="mb-12 sm:mb-4">
-          <HorizontalRule />
-        </div>
-        {/* Mobile navbar */}
-        <div className="hidden sm:flex justify-end px-[1.25rem] mb-20">
-          <MobileNavbar />
-        </div>
+      <section className="pt-6 mb-6">
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">MY PORTFOLIO</h1>
           <div className="flex justify-end mb-4 sm:mb-8">
             <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Here are some of the projects that I've worked on as a frontend software developer. I'm always looking for new challenges and I'm passionate about building innovative and user-friendly websites and web applications. If you have a project in mind, please feel free to contact me.</p>
           </div>
-          <div className="sm:hidden mb-12">
-            <Navbar />
-          </div>
-        </div>
-        <div className="mb-12">
-          <HorizontalRule />
         </div>
       </section>
+
+      {/* Navbar */}
+      <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
+     
+      {/* Horizontal rule */}
+      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
       {/* PROJECTS SECTION */}
       <section className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-16">

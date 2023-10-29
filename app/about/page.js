@@ -15,7 +15,8 @@ const about = () => {
       {/* Mobile navigation menu */}
       {/* <div><MobileNavMenu /></div> */}
       
-      <div className="bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
+      {/* Horizontal rule */}
+      <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
         <HorizontalRule />
       </div>
 
@@ -37,6 +38,7 @@ const about = () => {
 
       {/* Navbar */}
       <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
+     
       {/* Horizontal rule */}
       <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
