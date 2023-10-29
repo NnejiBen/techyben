@@ -18,25 +18,25 @@ export default function Home() {
       {/* Mobile navigation menu */}
       {/* <div><MobileNavMenu /></div> */}
 
-      <div className="mt-6">
+      <div className="mt-6 mb-8 md:mb-0">
         <HorizontalRule />
       </div>
 
       {/* Mobile navbar */}
-      <div className="hidden sticky top-0 md:flex sm:flex justify-end px-[1.25rem] w-full py-4 z-10 bg-[#00162B] bg-opacity-50">
+      <div className="hidden sticky top-0 md:flex sm:flex justify-end bg-[#00162B] bg-opacity-50 px-[1.25rem] w-full py-4 z-10 md:mb-10">
         <MobileNavbar />
       </div>
 
       {/* HERO SECTION */}
-      <section className="flex flex-col md:mt-10">
+      <section className="flex flex-col">
         {/* Title */}
-        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mt-36">
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-3">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-7">NNEJI</h1>
           <div className="flex justify-end mb-6">
             <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
-          <div className="text-right flex justify-end sm:mb-4">
+          <div className="text-right flex justify-end">
             <ContactMeBtn />
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
       {/* Navbar */}
       <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
       {/* Horizontal rule */}
-      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-8"><HorizontalRule /></div>
+      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
       {/* ABOUT SECTION */}
       <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col-reverse mb-32 md:mb-24 sm:mb-16">
