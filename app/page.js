@@ -18,7 +18,7 @@ export default function Home() {
       {/* Mobile navigation menu */}
       {/* <div><MobileNavMenu /></div> */}
 
-      <div className="mt-6 mb-8 md:mb-0">
+      <div className="mt-6 sm:mt-4 mb-8 md:mb-0">
         <HorizontalRule />
       </div>
 
