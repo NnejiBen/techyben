@@ -18,9 +18,10 @@ export default function Home() {
       {/* Mobile navigation menu */}
       <div className="hidden sm:block">
         {/* <MobileNavMenu /> */}
-      </div>    
+      </div>
+
       {/* HERO SECTION */}
-      <section className="h-screen sm:h-fit flex flex-col justify-between py-6 sm:py-4 sm:mt-36 mb-32 xl:mb-52 md:mb-24 sm:mb-8">
+      <section className="flex flex-col pt-6 sm:py-4 sm:mt-36">
         {/* Fixed navbar for mobile */}
         <div className="sm:fixed sm:top-0 sm:w-full sm:py-4 z-10 sm:bg-[#00162B] sm:bg-opacity-50">
           {/* Horizontal rule */}
@@ -39,13 +40,16 @@ export default function Home() {
           <div className="flex justify-end mb-6">
             <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
-          <div className="text-right flex justify-end sm:mb-8">
+          <div className="text-right flex justify-end sm:mb-4">
             <ContactMeBtn />
           </div>
-          <div className="mb-8 sm:hidden"><Navbar /></div>
         </div>
-        <div><HorizontalRule /></div>
       </section>
+
+      {/* Navbar */}
+      <div className="sm:hidden sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
+      {/* Horizontal rule */}
+      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-8"><HorizontalRule /></div>
 
       {/* ABOUT SECTION */}
       <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col-reverse mb-32 md:mb-24 sm:mb-16">

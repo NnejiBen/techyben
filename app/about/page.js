@@ -11,6 +11,11 @@ import MobileNavbar from "@/components/MobileNavbar"
 const about = () => {
   return (
     <>
+      {/* Mobile navigation menu */}
+      <div className="hidden sm:block">
+        {/* <MobileNavMenu /> */}
+      </div>
+      
       {/* HERO SECTION */}
       <section className="py-6 sm:py-4 sm:mt-36 mb-32 md:mb-24 sm:mb-10">
         {/* Fixed navbar for mobile */}
@@ -30,11 +35,7 @@ const about = () => {
           <div className="flex justify-end mb-4 sm:mb-8">
             <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">If you're looking for a frontend software developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
           </div>
-          <div className="sm:hidden mb-12">
-            <Navbar />
-          </div>
         </div>
-        <div><HorizontalRule /></div>
       </section>
 
       {/* ABOUT SECTION */}
