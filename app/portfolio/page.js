@@ -10,12 +10,13 @@ import melodyGenie from "@/public/images/melody-genie.webp"
 import electetra from "@/public/images/electetra.webp"
 import jebAutoServices from "@/public/images/jeb-auto-services.webp"
 import MobileNavbar from "@/components/MobileNavbar"
+import MobileNavMenu from "@/components/MobileNavMenu"
 
 const portfolio = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      {/* <div><MobileNavMenu /></div> */}
+      <div className="hidden"><MobileNavMenu /></div>
       
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
