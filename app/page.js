@@ -123,9 +123,6 @@ export default function Home() {
       <section className="mb-32 md:mb-24 sm:mb-14">
         <ContactSection />
       </section>
-      
-      {/* FOOTER */}
-      <Footer />
     </>
   )
 }

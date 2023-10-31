@@ -80,9 +80,6 @@ const about = () => {
       <section className="mb-32 md:mb-24 sm:mb-16">
         <ContactSection />
       </section>
-
-      {/* FOOTER */}
-      <Footer />
     </>
   )
 }

@@ -62,7 +62,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={melodyGenie} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={melodyGenie} alt="Homepage screenshot of the Melody Genie website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
@@ -96,7 +96,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={electetra} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={electetra} alt="Homepage screenshot of the Electetra website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={jebAutoServices} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={jebAutoServices} alt="Homepage screenshot of the Jeb Auto Services website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
@@ -148,7 +148,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={framePortfolio} className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={framePortfolio} alt="Homepage screenshot of the website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>
@@ -158,9 +158,6 @@ const portfolio = () => {
       <div className="mb-32 md:mb-24 sm:mb-16">
         <ContactSection />
       </div>
-
-      {/* FOOTER SECTION */}
-      <Footer />
     </>
   )
 }

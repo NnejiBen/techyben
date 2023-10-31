@@ -1,5 +1,6 @@
 import './globals.css'
 import MobileNavMenu from '@/components/MobileNavMenu'
+import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Benjamin Nneji | Frontend Web Developer',
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <MobileNavMenu />
         {children}
+        <Footer />
       </body>
     </html>
   )

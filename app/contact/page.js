@@ -77,9 +77,6 @@ const contact = () => {
           <h2 className="text-[4rem] lg:text-5xl md:text-4xl text-[#EAEAEA] leading-[110%]">LET'S CONNECT</h2>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <Footer />
     </>
   )
 }
