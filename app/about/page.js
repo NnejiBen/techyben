@@ -7,7 +7,6 @@ import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 import HorizontalRule from "@/components/HorizontalRule"
 import MobileNavbar from "@/components/MobileNavbar"
-import MobileNavMenu from "@/components/MobileNavMenu"
 
 export const metadata = {
   title: "About | Benjamin Nneji | Frontend Web Developer",
@@ -16,10 +15,7 @@ export const metadata = {
 
 const about = () => {
   return (
-    <>
-      {/* Mobile navigation menu */}
-      <div><MobileNavMenu /></div>
-      
+    <>    
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
         <HorizontalRule />

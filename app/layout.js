@@ -1,7 +1,5 @@
-// import { Oswald } from 'next/font/google'
 import './globals.css'
-
-// const oswald = Oswald({ subsets: ['latin'] })
+import MobileNavMenu from '@/components/MobileNavMenu'
 
 export const metadata = {
   title: 'Benjamin Nneji | Frontend Web Developer',
@@ -11,15 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <MobileNavMenu />
+        {children}
+      </body>
     </html>
   )
 }
-
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en">
-//       <body className={oswald.className}>{children}</body>
-//     </html>
-//   )
-// }

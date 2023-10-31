@@ -6,7 +6,6 @@ import ContactCard from "@/components/ContactCard"
 import Footer from "@/components/Footer"
 import worldMap from "@/public/images/world-map.png"
 import MobileNavbar from "@/components/MobileNavbar"
-import MobileNavMenu from "@/components/MobileNavMenu"
 
 export const metadata = {
   title: "Contact | Benjamin Nneji | Frontend Web Developer",
@@ -16,9 +15,6 @@ export const metadata = {
 const contact = () => {
   return (
     <>
-      {/* Mobile navigation menu */}
-      <div><MobileNavMenu /></div>
-      
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
         <HorizontalRule />
