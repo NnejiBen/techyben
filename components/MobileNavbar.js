@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import profilePic from "../public/images/ben-nneji.webp"
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const MobileNavbar = () => {
   return (
@@ -12,10 +13,13 @@ const MobileNavbar = () => {
               </Link>
             </div>
         </div>
-        <div className="flex flex-col gap-1 mr-1">
+        {/* <div className="flex flex-col gap-1 mr-1">
             <div className="w-5 h-[2px] bg-[#1C1B1F]"></div>
             <div className="w-5 h-[2px] bg-[#1C1B1F]"></div>
             <div className="w-5 h-[2px] bg-[#1C1B1F]"></div>
+        </div> */}
+        <div>
+          <FaBars />
         </div>
     </nav>
   )
