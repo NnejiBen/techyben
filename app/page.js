@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       {/* Horizontal rule */}
-      <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
+      <div className="sticky md:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 z-10 mb-8 md:mb-0">
         <HorizontalRule />
       </div>
 
@@ -27,7 +27,7 @@ export default function Home() {
       <div className="hidden sticky top-0 md:flex sm:flex justify-end bg-[#00162B] bg-opacity-50 px-[1.25rem] w-full py-4 z-10 md:mb-10">
         <MobileNavbar />
       </div>
-
+      
       {/* HERO SECTION */}
       <section className="flex flex-col">
         {/* Title */}
