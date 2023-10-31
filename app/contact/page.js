@@ -1,9 +1,7 @@
-import Link from "next/link"
 import Image from "next/image"
 import HorizontalRule from "@/components/HorizontalRule"
 import Navbar from "@/components/Navbar"
 import ContactCard from "@/components/ContactCard"
-import Footer from "@/components/Footer"
 import worldMap from "@/public/images/world-map.png"
 import MobileNavbar from "@/components/MobileNavbar"
 

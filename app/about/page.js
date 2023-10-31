@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar"
 import benTall from "@/public/images/ben-nneji-tall.webp"
 import MySkills from "@/components/MySkills"
 import ContactSection from "@/components/ContactSection"
-import Footer from "@/components/Footer"
 import HorizontalRule from "@/components/HorizontalRule"
 import MobileNavbar from "@/components/MobileNavbar"
 
