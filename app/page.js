@@ -12,11 +12,16 @@ import PortfolioCard from "@/components/PortfolioCard"
 import MobileNavbar from "@/components/MobileNavbar"
 import MobileNavMenu from "@/components/MobileNavMenu"
 
+export const metadata = {
+  title: "Benjamin Nneji | Frontend Web Developer",
+  description: "Frontend Web Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.",
+}
+
 export default function Home() {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden"><MobileNavMenu /></div>
+      <div><MobileNavMenu /></div>
 
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
@@ -35,7 +40,7 @@ export default function Home() {
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-3">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-7">NNEJI</h1>
           <div className="flex justify-end mb-6">
-            <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
+            <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Web Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.</p>
           </div>
           <div className="text-right flex justify-end">
             <ContactMeBtn />
@@ -53,7 +58,7 @@ export default function Home() {
       <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col-reverse mb-32 md:mb-24 sm:mb-16">
         <div className="flex-1">
           <h2 className="text-[4rem] lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
-          <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal mb-8 sm:mb-6">I'm a frontend software developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
+          <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal mb-8 sm:mb-6">I'm a frontend web developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
         <div className="flex flex-1 justify-end md:justify-center md:mb-12 sm:mb-8">

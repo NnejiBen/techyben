@@ -12,11 +12,16 @@ import jebAutoServices from "@/public/images/jeb-auto-services.webp"
 import MobileNavbar from "@/components/MobileNavbar"
 import MobileNavMenu from "@/components/MobileNavMenu"
 
+export const metadata = {
+  title: "Portfolio | Benjamin Nneji | Frontend Web Developer",
+  description: "Here are some of the projects that I've worked on as a frontend web developer. If you have a project in mind, please feel free to contact me.",
+}
+
 const portfolio = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden"><MobileNavMenu /></div>
+      <div><MobileNavMenu /></div>
       
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
@@ -34,7 +39,7 @@ const portfolio = () => {
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">MY PORTFOLIO</h1>
           <div className="flex justify-end mb-4 sm:mb-8">
-            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Here are some of the projects that I've worked on as a frontend software developer. I'm always looking for new challenges and I'm passionate about building innovative and user-friendly websites and web applications. If you have a project in mind, please feel free to contact me.</p>
+            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Here are some of the projects that I've worked on as a frontend web developer. I'm always looking for new challenges and I'm passionate about building innovative and user-friendly websites and web applications. If you have a project in mind, please feel free to contact me.</p>
           </div>
         </div>
       </section>

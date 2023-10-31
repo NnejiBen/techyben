@@ -8,11 +8,16 @@ import worldMap from "@/public/images/world-map.png"
 import MobileNavbar from "@/components/MobileNavbar"
 import MobileNavMenu from "@/components/MobileNavMenu"
 
+export const metadata = {
+  title: "Contact | Benjamin Nneji | Frontend Web Developer",
+  description: "I work with clients of all sizes, from small businesses to large enterprises, to create websites that meet their specific needs and goals. Contact me today to learn more about my services.",
+}
+
 const contact = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden"><MobileNavMenu /></div>
+      <div><MobileNavMenu /></div>
       
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">

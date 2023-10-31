@@ -9,11 +9,16 @@ import HorizontalRule from "@/components/HorizontalRule"
 import MobileNavbar from "@/components/MobileNavbar"
 import MobileNavMenu from "@/components/MobileNavMenu"
 
+export const metadata = {
+  title: "About | Benjamin Nneji | Frontend Web Developer",
+  description: "If you're looking for a frontend web developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy.",
+}
+
 const about = () => {
   return (
     <>
       {/* Mobile navigation menu */}
-      <div className="hidden"><MobileNavMenu /></div>
+      <div><MobileNavMenu /></div>
       
       {/* Horizontal rule */}
       <div className="md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 mb-8 md:mb-0">
@@ -31,7 +36,7 @@ const about = () => {
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ABOUT ME</h1>
           <div className="flex justify-end mb-4 sm:mb-8">
-            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">If you're looking for a frontend software developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
+            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">If you're looking for a frontend web developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
           </div>
         </div>
       </section>

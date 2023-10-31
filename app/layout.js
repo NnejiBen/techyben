@@ -4,8 +4,8 @@ import './globals.css'
 // const oswald = Oswald({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Benjamin Nneji | Frontend Software Developer',
-  description: 'Frontend Software Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.',
+  title: 'Benjamin Nneji | Frontend Web Developer',
+  description: 'Frontend Web Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.',
 }
 
 export default function RootLayout({ children }) {

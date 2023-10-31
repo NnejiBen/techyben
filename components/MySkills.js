@@ -42,7 +42,7 @@ const MySkills = () => {
         {/* Skill item */}
         <MySkillItem 
             icon={nextJsIcon}
-            title="NextJS"
+            title="Next.js"
             linkHref="/portfolio"
         />
 
