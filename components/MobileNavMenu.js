@@ -21,7 +21,7 @@ const MobileNavMenu = () => {
 
   return (
     <>
-      <nav className="mobile-menu hidden flex-col justify-between fixed top-0 left-0 w-full h-full bg-[#00162B] text-white px-[1.25rem] pt-32 z-10">
+      <nav className="mobile-menu hidden md:flex sm:flex flex-col justify-between fixed top-0 left-0 w-full h-full bg-[#00162B] text-white px-[1.25rem] pt-28 z-10">
         <div>
           <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
             <Link href="/" onClick={closeMobileMenu}>
