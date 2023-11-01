@@ -39,8 +39,8 @@ const MelodyGenie = () => {
         {/* Horizontal rule */}
         <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
-        {/* PROJECT SECTION */}
-        <section className="mb-32 md:mb-24 sm:mb-14">
+        {/* PROJECT SECTION 01*/}
+        <section className="mb-16">
             <ProjectSectionLeftText 
                 title="HEADING HERE"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
@@ -54,12 +54,15 @@ const MelodyGenie = () => {
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
+        </section>
 
-            {/* Full page image */}
-            <div className="flex px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-16">
-                <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen object-cover"/>
-            </div>
+        {/* Full page image */}
+        <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
+            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
+        </div>
 
+        {/* PROJECT SECTION 02*/}
+        <section className="mb-32 md:mb-24 sm:mb-14">
             <ProjectSectionLeftText 
                 title="HEADING HERE"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
