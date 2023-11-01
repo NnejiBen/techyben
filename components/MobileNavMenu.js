@@ -21,67 +21,69 @@ const MobileNavMenu = () => {
 
   return (
     <>
-      <nav className="mobile-menu hidden flex-col justify-between fixed top-0 left-0 w-full h-full bg-[#00162B] text-white px-[1.25rem] pt-28 z-10">
-        <div>
-          <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
-            <Link href="/" onClick={closeMobileMenu}>
-              HOME
-            </Link>
+      <nav className="mobile-menu hidden fixed top-0 left-0 bg-[#00162B] text-white w-full h-full px-[1.25rem] pt-28 z-10">
+        <div className="flex flex-col items-end justify-between gap-10 w-full h-full">
+          <div className="flex flex-col w-full">
+            <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
+              <Link href="/" onClick={closeMobileMenu}>
+                HOME
+              </Link>
+            </div>
+            <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
+              <Link href="/about" onClick={closeMobileMenu}>
+                ABOUT
+              </Link>
+            </div>
+            <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
+              <Link href="/portfolio" onClick={closeMobileMenu}>
+                PORTFOLIO
+              </Link>
+            </div>
+            <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
+              <Link href="/contact" onClick={closeMobileMenu}>
+                CONTACT
+              </Link>
+            </div>
           </div>
-          <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
-            <Link href="/about" onClick={closeMobileMenu}>
-              ABOUT
-            </Link>
-          </div>
-          <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
-            <Link href="/portfolio" onClick={closeMobileMenu}>
-              PORTFOLIO
-            </Link>
-          </div>
-          <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
-            <Link href="/contact" onClick={closeMobileMenu}>
-              CONTACT
-            </Link>
-          </div>
-        </div>
 
-        {/* Contact icons */}
-        <div className="flex justify-center gap-4 border-[#EAEAEA] py-8">
-          {/* Contact icon */}
-          <div>
-            <Link href="mailto:nnejiben@gmail.com" target="_blank" onClick={closeMobileMenu}>
-              <Image src={gmailIcon} title="Email" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
-          </div>
-          {/* Contact icon */}
-          <div>
-            <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank" onClick={closeMobileMenu}>
-              <Image src={whatsappIcon} title="WhatsApp" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
-          </div>
-          {/* Contact icon */}
-          <div>
-            <Link href="https://github.com/NnejiBen" target="_blank" onClick={closeMobileMenu}>
-              <Image src={githubIcon} title="GitHub" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
-          </div>
-          {/* Contact icon */}
-          <div>
-            <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank" onClick={closeMobileMenu}>
-              <Image src={linkedinIcon} title="LinkedIn" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
-          </div>
-          {/* Contact icon */}
-          <div>
-            <Link href="https://twitter.com/ben_nneji" target="_blank" onClick={closeMobileMenu}>
-              <Image src={xIcon} title="X (Twitter)" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
-          </div>
-          {/* Contact icon */}
-          <div>
-            <Link href="https://web.facebook.com/techyben" target="_blank" onClick={closeMobileMenu}>
-              <Image src={facebookIcon} title="Facebook" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
-            </Link>
+          {/* Contact icons */}
+          <div className="flex justify-center gap-4 w-full py-8">
+            {/* Contact icon */}
+            <div>
+              <Link href="mailto:nnejiben@gmail.com" target="_blank" onClick={closeMobileMenu}>
+                <Image src={gmailIcon} title="Email" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
+            {/* Contact icon */}
+            <div>
+              <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank" onClick={closeMobileMenu}>
+                <Image src={whatsappIcon} title="WhatsApp" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
+            {/* Contact icon */}
+            <div>
+              <Link href="https://github.com/NnejiBen" target="_blank" onClick={closeMobileMenu}>
+                <Image src={githubIcon} title="GitHub" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
+            {/* Contact icon */}
+            <div>
+              <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank" onClick={closeMobileMenu}>
+                <Image src={linkedinIcon} title="LinkedIn" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
+            {/* Contact icon */}
+            <div>
+              <Link href="https://twitter.com/ben_nneji" target="_blank" onClick={closeMobileMenu}>
+                <Image src={xIcon} title="X (Twitter)" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
+            {/* Contact icon */}
+            <div>
+              <Link href="https://web.facebook.com/techyben" target="_blank" onClick={closeMobileMenu}>
+                <Image src={facebookIcon} title="Facebook" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
