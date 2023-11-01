@@ -8,28 +8,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Properties */
+/* CSS Styles*/
 
-:root {
-  --clr-dark-blue-bg: #00162B;
-  --clr-orange-accent: #FB8500;
-  --clr-gray-text: #F9F8F8;
-  --clr-dark-text: #1E1E1E;
-  --clr-dark-hamburger-line: #1C1B1F;
-  --clr-gray-heading: #EAEAEA;
-  --clr-gray-card-bg: #C0D6DF;
-  --clr-dark-blue-navbar-text: #023047;
-  --clr-dark-blue-footer: #020617;
-  --clr-light-blue-img-border: #8ECAE6;
-  --clr-gold-card: #FFB703;
-  --clr-blue-card: #219EBC;
-  --ff-oswald: 'Oswald', sans-serif;
-  --ff-akira: 'AkiraFont', sans-serif;
-}
-
-/* General Styles*/
-
-* {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +18,10 @@
 
 body {
   background: linear-gradient(to bottom, hsl(254, 58%, 16%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%));
-  font-family: var(--ff-oswald);
 }
 
-h1, h2, h3 {font-family: var(--ff-akira);}
+/* Tailwind Styles */
+
+h1, h2, h3 {
+  @apply font-akira;
+}
