@@ -25,7 +25,7 @@ const MobileNavMenu = () => {
 
   return (
     <>
-      <nav className={`mobile-menu ${menuOpen ? "" : "hidden"} fixed top-0 left-0 bg-[#00162B] text-white w-full h-full px-[1.25rem] pt-28 z-10`}>
+      <nav className={`mobile-menu ${menuOpen ? "" : "hidden"} fixed top-0 left-0 bg-[#00162B] font-akira text-white w-full h-full px-[1.25rem] pt-28 z-10`}>
         <div className="flex flex-col items-end justify-between gap-10 w-full h-full">
           <div className="flex flex-col w-full">
             <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
