@@ -19,6 +19,10 @@ module.exports = {
       'sm': {'max': '576px'},
       // => @ media (max-width: 576px) { ... }
     },
+    fontFamily: {
+      'akira': ['AkiraFont', 'ui-sans-serif'],
+      'oswald': ['Oswald', 'ui-sans-serif']
+    }
   },
   plugins: [],
 }

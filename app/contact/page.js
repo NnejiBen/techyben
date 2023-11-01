@@ -51,14 +51,14 @@ const contact = () => {
         </div>
         {/* Form */}
         <form id="" action="" method="post" className="min-w-[40%] md:min-w-full flex flex-col gap-6">
-          <label for="name" id="name-label" className="flex flex-col gap-2 text-lg text-[#EAEAEA] font-medium">NAME
-            <input id="name" name="name" type="text" placeholder="Enter your name" required autocomplete="on" className="bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"/>
+          <label for="name" id="name-label" className="flex flex-col gap-2 text-lg text-[#EAEAEA] font-akira font-medium">NAME
+            <input id="name" name="name" type="text" placeholder="Enter your name" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"/>
           </label>
-          <label for="email" id="email-label" className="flex flex-col gap-2 text-[#EAEAEA] font-medium">EMAIL
-            <input  id="email" name="email" type="email" placeholder="Enter your Email" required autocomplete="on" className="bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none "/>
+          <label for="email" id="email-label" className="flex flex-col gap-2 text-[#EAEAEA] font-akira font-medium">EMAIL
+            <input  id="email" name="email" type="email" placeholder="Enter your Email" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none "/>
           </label>
-          <label for="textarea" id="textarea-label" className="flex flex-col gap-2 text-[#EAEAEA] font-medium">MESSAGE
-            <textarea id="textarea" name="textarea" rows="4" cols="" placeholder="Type your message" className="bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"></textarea>
+          <label for="textarea" id="textarea-label" className="flex flex-col gap-2 text-[#EAEAEA] font-akira font-medium">MESSAGE
+            <textarea id="textarea" name="textarea" rows="4" cols="" placeholder="Type your message" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"></textarea>
           </label>
           <div className="text-right">
             <input id="submit" type="submit" value="SUBMIT" className="bg-[#FB8500] text-[#00162B] text-lg font-medium py-[14.5px] px-8 rounded-3xl w-max"/>
