@@ -16,7 +16,7 @@ const MobileNavMenu = () => {
     mobileMenu.classList.add("hidden");
     const menuToggle = document.querySelector("#menuToggle");
     // Set the menuToggle to FaBars when closing the menu
-    menuToggle.innerHTML = <FaBars />;
+    menuToggle.innerHTML = "<FaBars />";
   };
 
   return (
@@ -44,41 +44,42 @@ const MobileNavMenu = () => {
             </Link>
           </div>
         </div>
+
         {/* Contact icons */}
         <div className="flex justify-center gap-4 border-[#EAEAEA] py-8">
           {/* Contact icon */}
           <div>
-            <Link href="mailto:nnejiben@gmail.com" target="_blank">
+            <Link href="mailto:nnejiben@gmail.com" target="_blank" onClick={closeMobileMenu}>
               <Image src={gmailIcon} title="Email" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
           {/* Contact icon */}
           <div>
-            <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank">
+            <Link href="https://api.whatsapp.com/send?phone=2348063062992" target="_blank" onClick={closeMobileMenu}>
               <Image src={whatsappIcon} title="WhatsApp" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
           {/* Contact icon */}
           <div>
-            <Link href="https://github.com/NnejiBen" target="_blank">
+            <Link href="https://github.com/NnejiBen" target="_blank" onClick={closeMobileMenu}>
               <Image src={githubIcon} title="GitHub" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
           {/* Contact icon */}
           <div>
-            <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank">
+            <Link href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank" onClick={closeMobileMenu}>
               <Image src={linkedinIcon} title="LinkedIn" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
           {/* Contact icon */}
           <div>
-            <Link href="https://twitter.com/ben_nneji" target="_blank">
+            <Link href="https://twitter.com/ben_nneji" target="_blank" onClick={closeMobileMenu}>
               <Image src={xIcon} title="X (Twitter)" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
           {/* Contact icon */}
           <div>
-            <Link href="https://web.facebook.com/techyben" target="_blank">
+            <Link href="https://web.facebook.com/techyben" target="_blank" onClick={closeMobileMenu}>
               <Image src={facebookIcon} title="Facebook" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
             </Link>
           </div>
