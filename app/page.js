@@ -64,8 +64,14 @@ export default function Home() {
       </section>
 
       {/* PORTFOLIO SECTION */}
-      <section className="home-portfolio-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col-reverse gap-20 lg:gap-10 sm:gap-8 mb-32 md:mb-24 sm:mb-16">
+      <section className="home-portfolio-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col gap-20 lg:gap-10 sm:gap-8 mb-32 md:mb-24 sm:mb-16">
         
+        {/* Heading and description text for mobile only */}
+        <div className="hidden md:block portfolio--text">
+          <h2 className="text-[4rem] lg:text-[3rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-8 sm:mb-6">WHAT I DO</h2>
+          <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I'm always up for a challenge, and I love working on new and innovative projects.</p>
+        </div>
+
         {/* Home Portfolio Section Left */}
         <div className="flex flex-col gap-14 lg:gap-8">
 
@@ -96,8 +102,8 @@ export default function Home() {
 
         {/* Home Portfolio Section Right */}
         <div className="flex flex-col gap-20 lg:gap-10 sm:gap-8">
-          {/* Heading and description text */}
-          <div className="portfolio--text">
+          {/* Heading and description text for desktop only */}
+          <div className="md:hidden portfolio--text">
             <h2 className="text-[4rem] lg:text-[3rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-8 sm:mb-6">WHAT I DO</h2>
             <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I'm always up for a challenge, and I love working on new and innovative projects.</p>
           </div>
