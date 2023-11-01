@@ -37,7 +37,7 @@ const MelodyGenie = () => {
       <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
       <ProjectSectionLeftText 
-        title="MELODY GENIE"
+        title="HEADING HERE"
         content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
         imgHref={melodyGenie}
         imgAlt="A short description of the image"
