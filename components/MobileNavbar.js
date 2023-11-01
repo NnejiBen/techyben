@@ -3,14 +3,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import profilePic from "../public/images/ben-nneji.webp";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import the icons from react-icons
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react"; // Import useState
 
 const MobileNavbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false); // State variable to track menu open state
+
   const toggleMobileMenu = () => {
     const mobileMenu = document.querySelector(".mobile-menu");
-    const menuToggle = document.querySelector("#menuToggle");
+    setMenuOpen(!menuOpen); // Toggle the state
     mobileMenu.classList.toggle("hidden");
-    menuToggle.innerHTML = mobileMenu.classList.contains("hidden") ? <FaBars /> : <FaTimes />;
   };
 
   return (
@@ -23,7 +25,7 @@ const MobileNavbar = () => {
         </div>
       </div>
       <div id="menuToggle" onClick={toggleMobileMenu}>
-        <FaBars />
+        {menuOpen ? <FaTimes /> : <FaBars />} {/* Render the icons based on menuOpen state */}
       </div>
     </nav>
   );
