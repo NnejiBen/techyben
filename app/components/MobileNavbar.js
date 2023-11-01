@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import profilePic from "../public/images/ben-nneji.webp";
+import profilePic from "@/public/images/ben-nneji.webp";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react"; // Import useState
 

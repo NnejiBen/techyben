@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import profilePic from "../public/images/ben-nneji.webp"
+import profilePic from "@/public/images/ben-nneji.webp"
 
 const Navbar = () => {
   return (

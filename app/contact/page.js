@@ -1,9 +1,9 @@
 import Image from "next/image"
-import HorizontalRule from "@/components/HorizontalRule"
-import Navbar from "@/components/Navbar"
-import ContactCard from "@/components/ContactCard"
+import HorizontalRule from "@/app/components/HorizontalRule"
+import Navbar from "@/app/components/Navbar"
+import ContactCard from "@/app/components/ContactCard"
 import worldMap from "@/public/images/world-map.png"
-import MobileNavbar from "@/components/MobileNavbar"
+import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
   title: "Contact | Benjamin Nneji | Frontend Web Developer",

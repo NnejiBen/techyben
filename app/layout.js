@@ -1,6 +1,6 @@
 import './globals.css'
-import MobileNavMenu from '@/components/MobileNavMenu'
-import Footer from '@/components/Footer'
+import MobileNavMenu from '@/app/components/MobileNavMenu'
+import Footer from '@/app/components/Footer'
 
 export const metadata = {
   title: 'Benjamin Nneji | Frontend Web Developer',

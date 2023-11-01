@@ -1,11 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
-import Navbar from "@/components/Navbar"
+import Navbar from "@/app/components/Navbar"
 import benTall from "@/public/images/ben-nneji-tall.webp"
-import MySkills from "@/components/MySkills"
-import ContactSection from "@/components/ContactSection"
-import HorizontalRule from "@/components/HorizontalRule"
-import MobileNavbar from "@/components/MobileNavbar"
+import MySkills from "@/app/components/MySkills"
+import ContactSection from "@/app/components/ContactSection"
+import HorizontalRule from "@/app/components/HorizontalRule"
+import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
   title: "About | Benjamin Nneji | Frontend Web Developer",

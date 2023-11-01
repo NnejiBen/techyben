@@ -1,14 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
-import Navbar from "@/components/Navbar"
+import Navbar from "@/app/components/Navbar"
 import framePortfolio from "@/public/images/frame-portfolio.png"
-import HorizontalRule from "@/components/HorizontalRule"
-import ReadMoreBtnSolid from "@/components/ReadMoreBtnSolid"
-import ContactSection from "@/components/ContactSection"
+import HorizontalRule from "@/app/components/HorizontalRule"
+import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
+import ContactSection from "@/app/components/ContactSection"
 import melodyGenie from "@/public/images/melody-genie.webp"
 import electetra from "@/public/images/electetra.webp"
 import jebAutoServices from "@/public/images/jeb-auto-services.webp"
-import MobileNavbar from "@/components/MobileNavbar"
+import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
   title: "Portfolio | Benjamin Nneji | Frontend Web Developer",
