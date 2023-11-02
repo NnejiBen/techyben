@@ -23,5 +23,5 @@ body {
 /* Tailwind Styles */
 
 h1, h2, h3 {
-  @apply font-akira;
+  @apply font-akira font-bold;
 }
