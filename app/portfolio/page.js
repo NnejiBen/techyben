@@ -33,6 +33,7 @@ const portfolio = () => {
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">MY PORTFOLIO</h1>
+          {/* Subtitle */}
           <div className="flex justify-end mb-4 sm:mb-8">
             <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Here are some of the projects that I've worked on as a frontend web developer. I'm always looking for new challenges and I'm passionate about building innovative and user-friendly websites and web applications. If you have a project in mind, please feel free to contact me.</p>
           </div>

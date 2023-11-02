@@ -46,9 +46,9 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span></li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span></li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
                             <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>

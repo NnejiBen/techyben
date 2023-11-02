@@ -30,7 +30,7 @@ export default function Home() {
       
       {/* HERO SECTION */}
       <section className="flex flex-col">
-        {/* Title */}
+        {/* Title and subtitle */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-3">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-7">NNEJI</h1>

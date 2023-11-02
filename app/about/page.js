@@ -30,6 +30,7 @@ const about = () => {
         <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
           {/* Title */}
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ABOUT ME</h1>
+          {/* Subtitle */}
           <div className="flex justify-end mb-4 sm:mb-8">
             <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">If you're looking for a frontend web developer who is skilled, experienced, dedicated to customer satisfaction, and has a love for learning and teaching, then I'm your guy. I'm confident that I can help you build a website that is both beautiful and functional.</p>
           </div>

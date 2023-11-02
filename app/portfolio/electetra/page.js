@@ -28,7 +28,7 @@ const Electetra = () => {
                 <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">ELECTETRA</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
                 </div>
             </div>
         </section>
@@ -46,10 +46,11 @@ const Electetra = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span></li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span></li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span></li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Electetra Engineering</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a new website to showcase the company’s products and services.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CCS, JavaScript</li>
+                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://electetra.netlify.app/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Note: </span>The website is still under construction.</li>
                         </ul>
                     </>
                 }
