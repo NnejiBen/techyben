@@ -9,7 +9,7 @@ function ProjectSectionRightText({ title, content, imgHref, imgAlt }) {
         </div>        
         {/* Right side: text */}
         <div className="flex flex-col flex-1">
-            <h2 className="text-[4rem] lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6 md:mb-4">{title}</h2>
+            <h2 className="text-5xl lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6 md:mb-4">{title}</h2>
             <div className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">{content}</div>
         </div>
     </section>

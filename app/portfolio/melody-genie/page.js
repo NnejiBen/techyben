@@ -80,15 +80,15 @@ const MelodyGenie = () => {
         {/* PROJECT SECTION 02*/}
         <section className="mb-32 md:mb-24 sm:mb-14">
             <ProjectSectionLeftText 
-                title="MUSIC PLAYER"
-                content="The site features a custom and attractive music player on each page. It has loop and shuffle controls as well as a playlist."
+                title="CHALLENGES"
+                content="Bringing the animation to life was a tough challenge. Other challenges included coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
 
             <ProjectSectionRightText 
-                title="HEADING HERE"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                title="LESSONS LEARNED"
+                content="I learned that having images inside divs makes styling (such as resizing and scaling) easier. I also learned that conflicts can occur in your JavaScript code when you have different HTML elements with the same class names or IDs. I needed to apply this lesson to make two music players on the same page work properly."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />

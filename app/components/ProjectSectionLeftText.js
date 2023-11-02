@@ -5,7 +5,7 @@ function ProjectSectionLeftText({ title, content, imgHref, imgAlt }) {
     <section className="flex md:flex-col-reverse gap-14 items-center sm:gap-10 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-16">
         {/* Left side: text */}
         <div className="flex-1">
-            <h2 className="text-[4rem] lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6 md:mb-4">{title}</h2>
+            <h2 className="text-5xl lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6 md:mb-4">{title}</h2>
             <div className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">{content}</div>
         </div>
         {/* Right side: image */}
