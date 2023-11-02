@@ -42,15 +42,32 @@ const Electetra = () => {
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
             <ProjectSectionLeftText 
-                title="HEADING HERE"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                title="OVERVIEW"
+                content={
+                    <>
+                        <ul>
+                            <li className="mb-3"><span className="font-medium">Client: </span></li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span></li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span></li>
+                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                        </ul>
+                    </>
+                }
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
 
             <ProjectSectionRightText 
-                title="HEADING HERE"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                title="FEATURES"
+                content={
+                    <>
+                        <ul>
+                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
+                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                        </ul>
+                    </>
+                }
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
@@ -64,14 +81,14 @@ const Electetra = () => {
         {/* PROJECT SECTION 02*/}
         <section className="mb-32 md:mb-24 sm:mb-14">
             <ProjectSectionLeftText 
-                title="HEADING HERE"
+                title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
 
             <ProjectSectionRightText 
-                title="HEADING HERE"
+                title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
