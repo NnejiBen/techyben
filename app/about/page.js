@@ -41,10 +41,10 @@ const about = () => {
       <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
      
       {/* Horizontal rule */}
-      <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
+      <div className="mb-32 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
       {/* ABOUT SECTION */}
-      <section className="flex md:flex-col-reverse items-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-52 md:mb-24 sm:mb-16">
+      <section className="flex md:flex-col-reverse items-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-16">
         <div className="flex-1">
           {/* Heading */}
           <h2 className="text-[#EAEAEA] text-[4rem] lg:text-[3rem] sm:text-[2rem] leading-none mb-10 sm:mb-6">MY STORY</h2>

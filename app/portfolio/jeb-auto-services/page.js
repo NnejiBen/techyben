@@ -37,7 +37,7 @@ const JebAutoServices = () => {
         <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-8"><Navbar /></div>
      
         {/* Horizontal rule */}
-        <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
+        <div className="mb-32 md:mb-24 sm:mb-16"><HorizontalRule /></div>
 
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
