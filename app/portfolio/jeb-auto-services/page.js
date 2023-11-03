@@ -28,7 +28,7 @@ const JebAutoServices = () => {
                 <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">JEB AUTO SERVICES</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms.</p>
                 </div>
             </div>
         </section>
@@ -41,15 +41,16 @@ const JebAutoServices = () => {
 
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
+            {/* Overview */}
             <ProjectSectionLeftText 
                 title="OVERVIEW"
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span></li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span></li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span></li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Jeb Auto Services</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a new website to showcase the company’s services. Because the client needed to be able to manage the website's content, a content management system was chosen.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>WordPress</li>
+                            <li><span className="font-medium">Live Link: </span><Link href="https://jebautoservices.com/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
@@ -57,14 +58,14 @@ const JebAutoServices = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Features */}
             <ProjectSectionRightText 
                 title="FEATURES"
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Design: </span>The website's interface is visually appealing and matches the company's industry and target audience.</li>
+                            <li className="mb-3"><span className="font-medium">Chat button: </span>A WhatsApp chat button is placed prominently on the website so that users can easily and quickly contact the company.</li>
                         </ul>
                     </>
                 }
@@ -74,12 +75,13 @@ const JebAutoServices = () => {
         </section>
 
         {/* Full page image */}
-        <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
+        <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
             <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
-        <section className="mb-32 md:mb-24 sm:mb-14">
+        <section className="hidden mb-32 md:mb-24 sm:mb-14">
+            {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
@@ -87,6 +89,7 @@ const JebAutoServices = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."

@@ -41,6 +41,7 @@ const ProjectName = () => {
 
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
+            {/* Overview */}
             <ProjectSectionLeftText 
                 title="OVERVIEW"
                 content={
@@ -57,6 +58,7 @@ const ProjectName = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Features */}
             <ProjectSectionRightText 
                 title="FEATURES"
                 content={
@@ -80,6 +82,7 @@ const ProjectName = () => {
 
         {/* PROJECT SECTION 02*/}
         <section className="mb-32 md:mb-24 sm:mb-14">
+            {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
@@ -87,6 +90,7 @@ const ProjectName = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
