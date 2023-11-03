@@ -88,7 +88,7 @@ export default function Home() {
                 and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.
               </>
             }
-            linkHref="/portfolio"
+            linkHref="/portfolio/melody-genie"
           />
 
           {/* Portfolio card 02 */}
