@@ -41,6 +41,7 @@ const Electetra = () => {
 
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
+            {/* Overview */}
             <ProjectSectionLeftText 
                 title="OVERVIEW"
                 content={
@@ -58,14 +59,15 @@ const Electetra = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Features */}
             <ProjectSectionRightText 
                 title="FEATURES"
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Touch sliders: </span>The beautifully styled services and testimonial sections are touch sliders built with Swiper JS.</li>
+                            <li className="mb-3"><span className="font-medium">Social media integration: </span>A section displays social media feeds from the company’s Facebook and Instagram accounts.</li>
+                            <li><span className="font-medium">Live chat: </span>A floating chat button lets visitors chat with customer support.</li>
                         </ul>
                     </>
                 }
@@ -81,16 +83,18 @@ const Electetra = () => {
 
         {/* PROJECT SECTION 02*/}
         <section className="mb-32 md:mb-24 sm:mb-14">
+            {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="Besides development, I had to write some content for the website. I also had to collaborate with the UI/UX designer in designing the various sections and pages. A lot of research was involved. There were also some coding challenges. For example, after trying unsuccessfully to code the sliders using vanilla JavaScript, I had to resort to using Swiper JS."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />
 
+            {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="I learned how to use Swiper JS to build sliders. I also learned how to build infinite scroll marquees using just HTML and CSS, all thanks to the internet and a developer friend. I also learned to use Google material symbols, how to center an absolute element, and using flex-shrink set to zero to prevent a div from shrinking. I was also introduced to some new HTML tags such as “figure” and “figcaption”."
                 imgHref={melodyGenie}
                 imgAlt="A short description of the image"
             />

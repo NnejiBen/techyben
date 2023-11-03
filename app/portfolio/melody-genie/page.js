@@ -41,6 +41,7 @@ const MelodyGenie = () => {
 
         {/* PROJECT SECTION 01*/}
         <section className="mb-16">
+            {/* Overview */}
             <ProjectSectionLeftText 
                 title="OVERVIEW"
                 content={
@@ -56,6 +57,7 @@ const MelodyGenie = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Features */}
             <ProjectSectionRightText 
                 title="FEATURES"
                 content={
@@ -77,6 +79,7 @@ const MelodyGenie = () => {
             <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
         </div>
 
+        {/* Challenges */}
         {/* PROJECT SECTION 02*/}
         <section className="mb-32 md:mb-24 sm:mb-14">
             <ProjectSectionLeftText 
@@ -86,6 +89,7 @@ const MelodyGenie = () => {
                 imgAlt="A short description of the image"
             />
 
+            {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="I learned that having images inside divs makes styling (such as resizing and scaling) easier. I also learned that conflicts can occur in your JavaScript code when you have different HTML elements with the same class names or IDs. I needed to apply this lesson to make two music players on the same page work properly."
