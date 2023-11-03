@@ -7,6 +7,11 @@ import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
+import melodyGenieMusicPlayer01 from "@/public/images/melody-genie-music-player-01.webp"
+import melodyGenieMusicPlayer02 from "@/public/images/melody-genie-music-player-02.webp"
+import melodyGenieMusicPlayer03 from "@/public/images/melody-genie-music-player-03.webp"
+import melodyGenieFullPage from "@/public/images/melody-genie-full-page.webp"
+import melodyGenieMobileScreens from "@/public/images/melody-genie-mobile-screens.webp"
 
 const MelodyGenie = () => {
   return (
@@ -69,14 +74,14 @@ const MelodyGenie = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={melodyGenieMusicPlayer01}
                 imgAlt="A short description of the image"
             />
         </section>
 
         {/* Full page image */}
         <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
+            <Image src={melodyGenieMobileScreens} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
         </div>
 
         {/* Challenges */}
@@ -85,7 +90,7 @@ const MelodyGenie = () => {
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Bringing the animation to life was a tough challenge. Other challenges included coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
-                imgHref={melodyGenie}
+                imgHref={melodyGenieMusicPlayer02}
                 imgAlt="A short description of the image"
             />
 
@@ -93,7 +98,7 @@ const MelodyGenie = () => {
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="I learned that having images inside divs makes styling (such as resizing and scaling) easier. I also learned that conflicts can occur in your JavaScript code when you have different HTML elements with the same class names or IDs. I needed to apply this lesson to make two music players on the same page work properly."
-                imgHref={melodyGenie}
+                imgHref={melodyGenieMusicPlayer03}
                 imgAlt="A short description of the image"
             />
         </section>
