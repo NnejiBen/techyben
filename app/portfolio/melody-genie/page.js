@@ -58,7 +58,7 @@ const MelodyGenie = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={melodyGenieMobileScreens}
                 imgAlt="A short description of the image"
             />
 
@@ -81,7 +81,7 @@ const MelodyGenie = () => {
 
         {/* Full page image */}
         <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenieMobileScreens} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
+            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
         </div>
 
         {/* Challenges */}

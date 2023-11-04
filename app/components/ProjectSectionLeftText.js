@@ -9,7 +9,7 @@ function ProjectSectionLeftText({ title, content, imgHref, imgAlt }) {
             <div className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">{content}</div>
         </div>
         {/* Right side: image */}
-        <div className="flex flex-1 w-full h-full">
+        <div className="flex-1 w-full h-full">
             <Image src={imgHref} alt={imgAlt} className="w-full h-full object-cover" />
         </div>
     </section>

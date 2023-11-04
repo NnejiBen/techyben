@@ -4,7 +4,7 @@ function ProjectSectionRightText({ title, content, imgHref, imgAlt }) {
   return (
     <section className="flex md:flex-col gap-14 sm:gap-10 items-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-16">
         {/* Left side: image */}
-        <div className="flex flex-1 w-full h-full">
+        <div className="flex-1 w-full h-full">
             <Image src={imgHref} alt={imgAlt} className="w-full h-full object-cover" />
         </div>        
         {/* Right side: text */}
