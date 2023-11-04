@@ -1,15 +1,16 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
-import electetra from "@/public/images/electetra.webp"
-import electetraFull from "@/public/images/electetra-full.webp"
+import electetraContactSection from "@/public/images/electetra-contact-section.webp"
 import electetraSlider from "@/public/images/electetra-slider.webp"
+import electetraFull from "@/public/images/electetra-full.webp"
+import electetraContactPage from "@/public/images/electetra-contact-page.webp"
+import electetraServices from "@/public/images/electetra-services.webp"
 
 
 const Electetra = () => {
@@ -59,7 +60,7 @@ const Electetra = () => {
                         </ul>
                     </>
                 }
-                imgHref={electetra}
+                imgHref={electetraServices}
                 imgAlt="A short description of the image"
             />
 
@@ -91,7 +92,7 @@ const Electetra = () => {
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Besides development, I had to write some content for the website. I also had to collaborate with the UI/UX designer in designing the various sections and pages. A lot of research was involved. There were also some coding challenges. For example, after trying unsuccessfully to code the sliders using vanilla JavaScript, I had to resort to using Swiper JS."
-                imgHref={melodyGenie}
+                imgHref={electetraContactPage}
                 imgAlt="A short description of the image"
             />
 
@@ -99,7 +100,7 @@ const Electetra = () => {
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="I learned how to use Swiper JS to build sliders. I also learned how to build infinite scroll marquees using just HTML and CSS, all thanks to the internet and a developer friend. I also learned to use Google material symbols, how to center an absolute element, and using flex-shrink set to zero to prevent a div from shrinking. I was also introduced to some new HTML tags such as “figure” and “figcaption”."
-                imgHref={melodyGenie}
+                imgHref={electetraContactSection}
                 imgAlt="A short description of the image"
             />
         </section>

@@ -96,7 +96,7 @@ export default function Home() {
             number="2"
             title="ELECTETRA"
             content="I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features."
-            linkHref="/portfolio"
+            linkHref="/portfolio/electetra"
           />
         </div>
 

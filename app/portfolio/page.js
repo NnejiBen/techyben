@@ -82,7 +82,7 @@ const portfolio = () => {
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">ELECTETRA</h2>
             <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
             <div className="flex">
-              <Link href="#"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/electetra"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
           {/* Right side: Card dots and image */}
