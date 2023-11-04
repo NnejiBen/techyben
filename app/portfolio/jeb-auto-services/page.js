@@ -1,12 +1,15 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
+import melodyGenie from "@/public/images/melody-genie.webp"
+import jebAutoServicesFull from "@/public/images/jeb-auto-services-full.webp"
+import jebAutoServicesServices from "@/public/images/jeb-auto-services-services.webp"
+import jebAutoServicesForm from "@/public/images/jeb-auto-services-form.webp"
 
 const JebAutoServices = () => {
   return (
@@ -54,7 +57,7 @@ const JebAutoServices = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={jebAutoServicesServices}
                 imgAlt="A short description of the image"
             />
 
@@ -69,14 +72,14 @@ const JebAutoServices = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={jebAutoServicesForm}
                 imgAlt="A short description of the image"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
-            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={jebAutoServicesFull} alt="A short description of the image" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
