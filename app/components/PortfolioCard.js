@@ -19,7 +19,7 @@ function PortfolioCard({ number, title, imgSrc, imgAlt, btnLinkHref }) {
           </div>
           <hr className="border-0 h-[1px] bg-black" />
           {/* Heading and number */}
-          <div className="flex items-center gap-6 px-8 lg:px-4 py-6 lg:py-6 sm:py-8">
+          <div className="flex items-center gap-6 px-8 lg:px-4 py-6">
               <div>
                   <p className="text-[#00162B] text-5xl font-bold">{number}</p>
               </div>
