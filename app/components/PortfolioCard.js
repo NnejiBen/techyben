@@ -13,8 +13,8 @@ function PortfolioCard({ number, title, imgSrc, imgAlt, btnLinkHref }) {
                 <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
                 <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
               </div>
-              <div className='text-[#219EBC] text-lg md:text-base font-medium flex items-center px-8'>
-                <Link href="#">VIEW PROJECT</Link>
+              <div className='text-[#219EBC] hover:text-[#FB8500] text-lg md:text-base font-medium flex items-center px-8'>
+                <Link href={btnLinkHref}>VIEW PROJECT</Link>
               </div>
           </div>
           <hr className="border-0 h-[1px] bg-black" />
