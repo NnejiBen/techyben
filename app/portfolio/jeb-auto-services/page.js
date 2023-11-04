@@ -58,7 +58,7 @@ const JebAutoServices = () => {
                     </>
                 }
                 imgHref={jebAutoServicesServices}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Jeb Auto Services"
             />
 
             {/* Features */}
@@ -73,13 +73,13 @@ const JebAutoServices = () => {
                     </>
                 }
                 imgHref={jebAutoServicesForm}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Jeb Auto Services"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
-            <Image src={jebAutoServicesFull} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={jebAutoServicesFull} alt="A sreenshot from the website of Jeb Auto Services" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -89,7 +89,7 @@ const JebAutoServices = () => {
                 title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Jeb Auto Services"
             />
 
             {/* Lessons Learned */}
@@ -97,7 +97,7 @@ const JebAutoServices = () => {
                 title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Jeb Auto Services"
             />
         </section>
       

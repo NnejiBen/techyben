@@ -61,7 +61,7 @@ const Electetra = () => {
                     </>
                 }
                 imgHref={electetraServices}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Electetra"
             />
 
             {/* Features */}
@@ -77,13 +77,13 @@ const Electetra = () => {
                     </>
                 }
                 imgHref={electetraSlider}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Electetra"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={electetraFull} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={electetraFull} alt="A sreenshot from the website of Electetra" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -93,7 +93,7 @@ const Electetra = () => {
                 title="CHALLENGES"
                 content="Besides development, I had to write some content for the website. I also had to collaborate with the UI/UX designer in designing the various sections and pages. A lot of research was involved. There were also some coding challenges. For example, after trying unsuccessfully to code the sliders using vanilla JavaScript, I had to resort to using Swiper JS."
                 imgHref={electetraContactPage}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Electetra"
             />
 
             {/* Lessons Learned */}
@@ -101,7 +101,7 @@ const Electetra = () => {
                 title="LESSONS LEARNED"
                 content="I learned how to use Swiper JS to build sliders. I also learned how to build infinite scroll marquees using just HTML and CSS, all thanks to the internet and a developer friend. I also learned to use Google material symbols, how to center an absolute element, and using flex-shrink set to zero to prevent a div from shrinking. I was also introduced to some new HTML tags such as “figure” and “figcaption”."
                 imgHref={electetraContactSection}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Electetra"
             />
         </section>
       

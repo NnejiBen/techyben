@@ -58,7 +58,7 @@ const MelodyGenie = () => {
                     </>
                 }
                 imgHref={melodyGenieMusicPlayer04}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Melody Genie"
             />
 
             {/* Features */}
@@ -74,13 +74,13 @@ const MelodyGenie = () => {
                     </>
                 }
                 imgHref={melodyGenieMusicPlayer01}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Melody Genie"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenieFull} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={melodyGenieFull} alt="A sreenshot from the website of Melody Genie" className="w-full h-full object-cover"/>
         </div>
 
         {/* Challenges */}
@@ -90,7 +90,7 @@ const MelodyGenie = () => {
                 title="CHALLENGES"
                 content="Bringing the animation to life was a tough challenge. Other challenges included coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
                 imgHref={melodyGenieMusicPlayer02}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Melody Genie"
             />
 
             {/* Lessons Learned */}
@@ -98,7 +98,7 @@ const MelodyGenie = () => {
                 title="LESSONS LEARNED"
                 content="I learned that having images inside divs makes styling (such as resizing and scaling) easier. I also learned that conflicts can occur in your JavaScript code when you have different HTML elements with the same class names or IDs. I needed to apply this lesson to make two music players on the same page work properly."
                 imgHref={melodyGenieMusicPlayer03}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of Melody Genie"
             />
         </section>
       

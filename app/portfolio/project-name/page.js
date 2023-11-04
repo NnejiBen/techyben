@@ -55,7 +55,7 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of ..."
             />
 
             {/* Features */}
@@ -71,13 +71,13 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of ..."
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={melodyGenie} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -87,7 +87,7 @@ const ProjectName = () => {
                 title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of ..."
             />
 
             {/* Lessons Learned */}
@@ -95,7 +95,7 @@ const ProjectName = () => {
                 title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
                 imgHref={melodyGenie}
-                imgAlt="A short description of the image"
+                imgAlt="A sreenshot from the website of ..."
             />
         </section>
       
