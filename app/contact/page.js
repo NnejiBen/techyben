@@ -8,11 +8,6 @@ import ContactCard from "@/app/components/ContactCard"
 import worldMap from "@/public/images/world-map.png"
 import MobileNavbar from "@/app/components/MobileNavbar"
 
-// export const metadata = {
-//   title: "Contact | Benjamin Nneji | Frontend Web Developer",
-//   description: "I work with clients of all sizes, from small businesses to large enterprises, to create websites that meet their specific needs and goals. Contact me today to learn more about my services.",
-// }
-
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -67,7 +62,6 @@ export default function Contact() {
 
   return (
     <>
-
       {/* Horizontal rule */}
       <div className="sticky md:bg-[#00162B] sm:bg-[#00162B] bg-opacity-50 pt-6 sm:pt-4 z-10 mb-8 md:mb-0">
         <HorizontalRule />
@@ -117,7 +111,7 @@ export default function Contact() {
             <input id="name" name="name" onChange={handleInput} value={formData.name} type="text" placeholder="Enter your name" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"/>
           </label>
           <label for="email" id="email-label" className="flex flex-col gap-2 text-[#EAEAEA] font-akira font-medium">EMAIL
-            <input  id="email" name="email" onChange={handleInput} value={formData.email} type="email" placeholder="Enter your Email" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none "/>
+            <input  id="email" name="email" onChange={handleInput} value={formData.email} type="email" placeholder="Enter your Email" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"/>
           </label>
           <label for="textarea" id="textarea-label" className="flex flex-col gap-2 text-[#EAEAEA] font-akira font-medium">MESSAGE
             <textarea id="message" name="message" onChange={handleInput} value={formData.message} rows="4" cols="" placeholder="Type your message" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"></textarea>

@@ -9,6 +9,9 @@ import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/app/components/PortfolioCard"
 import MobileNavbar from "@/app/components/MobileNavbar"
+import melodyGenie from "@/public/images/melody-genie.webp"
+import electetra from "@/public/images/electetra.webp"
+import jebAutoServices from "@/public/images/jeb-auto-services.webp"
 
 export const metadata = {
   title: "Benjamin Nneji | Frontend Web Developer",
@@ -73,35 +76,29 @@ export default function Home() {
         </div>
 
         {/* Home Portfolio Section Left */}
-        <div className="flex flex-col gap-14 lg:gap-8">
+        <div className="flex flex-1 flex-col gap-14 lg:gap-8">
 
           {/* Portfolio card 01 */}
           <PortfolioCard
             number="1"
             title="MELODY GENIE"
-            content={
-              <>
-                This website was designed by{' '}
-                <Link href="https://joygirl.super.site/" className="hover:text-[#FB8500] underline decoration-solid" target="_blank">
-                  Joygirl
-                </Link>{' '}
-                and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.
-              </>
-            }
-            linkHref="/portfolio/melody-genie"
+            imgSrc={melodyGenie}
+            imgAlt="Screenshot of the Melody Genie website home page"
+            btnLinkHref="/portfolio/melody-genie"
           />
 
           {/* Portfolio card 02 */}
           <PortfolioCard
             number="2"
             title="ELECTETRA"
-            content="I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features."
-            linkHref="/portfolio/electetra"
+            imgSrc={electetra}
+            imgAlt="Screenshot of the Electetra website home page"
+            btnLinkHref="/portfolio/electetra"
           />
         </div>
 
         {/* Home Portfolio Section Right */}
-        <div className="flex flex-col gap-20 lg:gap-10 sm:gap-8">
+        <div className="flex flex-1 flex-col gap-20 lg:gap-10 sm:gap-8">
           {/* Heading and description text for desktop only */}
           <div className="md:hidden">
             <h2 className="text-[4rem] lg:text-[3rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-8 sm:mb-6">WHAT I DO</h2>
@@ -112,8 +109,9 @@ export default function Home() {
           <PortfolioCard
             number="3"
             title="JEB AUTO SERVICES"
-            content="I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms."
-            linkHref="/portfolio/jeb-auto-services"
+            imgSrc={jebAutoServices}
+            imgAlt="Screenshot of the Jeb Auto Services website home page"
+            btnLinkHref="/portfolio/jeb-auto-services"
           />
         </div>
       </section>
