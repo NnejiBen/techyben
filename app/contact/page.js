@@ -51,7 +51,7 @@ const contact = () => {
           </div>
         </div>
         {/* Form */}
-        <form id="" action="/api/contact" method="POST" className="min-w-[40%] md:min-w-full flex flex-col gap-6">
+        <form id="" action="https://formspree.io/f/xwkdzbyq" method="POST" className="min-w-[40%] md:min-w-full flex flex-col gap-6">
           <label for="name" id="name-label" className="flex flex-col gap-2 text-lg text-[#EAEAEA] font-akira font-medium">NAME
             <input id="name" name="name" type="text" placeholder="Enter your name" required autocomplete="on" className="font-oswald bg-transparent py-[14.5px] px-8 rounded-3xl border-[1px] border-[#D4D4D4] focus:outline-none"/>
           </label>
