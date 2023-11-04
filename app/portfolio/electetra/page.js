@@ -8,6 +8,7 @@ import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
 import electetra from "@/public/images/electetra.webp"
+import electetraFull from "@/public/images/electetra-full.webp"
 import electetraSlider from "@/public/images/electetra-slider.webp"
 
 
@@ -81,7 +82,7 @@ const Electetra = () => {
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={electetra} alt="A short description of the image" className="w-full h-full object-cover"/>
+            <Image src={electetraFull} alt="A short description of the image" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}

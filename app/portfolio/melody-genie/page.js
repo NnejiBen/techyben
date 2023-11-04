@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
+import melodyGenieFull from "@/public/images/melody-genie-full.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -10,8 +10,7 @@ import ContactSection from "@/app/components/ContactSection"
 import melodyGenieMusicPlayer01 from "@/public/images/melody-genie-music-player-01.webp"
 import melodyGenieMusicPlayer02 from "@/public/images/melody-genie-music-player-02.webp"
 import melodyGenieMusicPlayer03 from "@/public/images/melody-genie-music-player-03.webp"
-import melodyGenieFullPage from "@/public/images/melody-genie-full-page.webp"
-import melodyGenieMobileScreens from "@/public/images/melody-genie-mobile-screens.webp"
+import melodyGenieMusicPlayer04 from "@/public/images/melody-genie-music-player-04.webp"
 
 const MelodyGenie = () => {
   return (
@@ -58,7 +57,7 @@ const MelodyGenie = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenieMobileScreens}
+                imgHref={melodyGenieMusicPlayer04}
                 imgAlt="A short description of the image"
             />
 
@@ -80,8 +79,8 @@ const MelodyGenie = () => {
         </section>
 
         {/* Full page image */}
-        <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
+            <Image src={melodyGenieFull} alt="A short description of the image" className="w-full h-full object-cover"/>
         </div>
 
         {/* Challenges */}

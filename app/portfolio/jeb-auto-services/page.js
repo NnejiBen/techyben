@@ -75,8 +75,8 @@ const JebAutoServices = () => {
         </section>
 
         {/* Full page image */}
-        <div className="flex px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
-            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-screen sm:h-full object-cover"/>
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
+            <Image src={melodyGenie} alt="A short description of the image" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
