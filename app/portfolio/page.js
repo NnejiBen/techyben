@@ -122,7 +122,7 @@ const portfolio = () => {
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JEB AUTO SERVICES</h2>
             <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms.</p>
             <div className="flex">
-              <Link href="/portfolio/electetra"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/jeb-auto-services"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
         </div>
