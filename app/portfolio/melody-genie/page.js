@@ -53,7 +53,8 @@ const MelodyGenie = () => {
                         <ul>
                             <li className="mb-3"><span className="font-medium">Purpose: </span>I took this on as a fun project to challenge myself and bring a beautiful design to life.</li>
                             <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CSS, JavaScript</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="https://melody-genie.netlify.app/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://melody-genie.netlify.app/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Note: </span>The website is still under construction.</li>
                         </ul>
                     </>
                 }
