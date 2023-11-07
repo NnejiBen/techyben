@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <Draggable 
       bounds="parent"
-      cancel=".menu-link .profile-picture"
+      cancel=".menu-link, .profile-picture"
     >
       <nav title="Click and drag to move" className="md:hidden sm:hidden flex items-center gap-10 w-max bg-[#F9F8F8] rounded-r-[110px] text-[#023047] text-base font-medium p-4 cursor-grab">
         <div className="flex flex-col justify-center ml-6">
