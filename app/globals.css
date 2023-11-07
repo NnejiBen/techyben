@@ -17,8 +17,7 @@
 }
 
 body {
-  /* background: linear-gradient(to bottom, hsl(225, 100%, 15%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%)); */
-  background: black;
+  background: linear-gradient(to bottom, hsl(225, 100%, 15%) 1%, hsl(209, 100%, 24%) 30%, hsl(209, 100%, 24%));
 }
 
 /* Active menu link styles */
