@@ -56,7 +56,7 @@ export default function Home() {
       <section className="home-about-section px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] flex md:flex-col-reverse mb-32 md:mb-24 sm:mb-16">
         <div className="flex-1">
           <h2 className="text-[4rem] lg:text-[3rem] md:text-[2.5rem] sm:text-[2rem] text-[#EAEAEA] leading-[110%] mb-6">HI THERE, BEN HERE</h2>
-          <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal mb-8 sm:mb-6">I'm a frontend web developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver, but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
+          <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal mb-8 sm:mb-6">I'm a frontend web developer with a passion for building beautiful and user-friendly websites. I got my start in web development back in 2007 using Dreamweaver (and later had a career change), but I've since transitioned to using the latest technologies, such as React and Next.js. I work hard to understand my client's needs and deliver a product that they're happy with. I also pay keen attention to detail and make sure that my code is clean and well-organized.</p>
           <Link href="/about"><ReadMoreBtnSolid /></Link>
         </div>
         <div className="flex flex-1 justify-end md:justify-center md:mb-12 sm:mb-8">
