@@ -30,37 +30,20 @@ body {
 
 /* Styles for Navbar Animation */
 
-.card {
-  /* height: 340px; */
-  /* width: 250px; */
-  height: 6em;
-  width: 6em;
-  position: relative;
-  transition: all 1s linear;
+.navbar--img-container:hover .navbar--img-wrapper {
+  transform: rotateY(180deg);
+}
+
+.navbar--img-wrapper {
   transform-style: preserve-3d;
 }
 
-.front,
-.back {
-  position: absolute;
-}
-
-.front {
-  z-index: 2;
+.navbar--img-wrapper-front {
   backface-visibility: hidden;
 }
 
-.back {
-  z-index: 1;
+.navbar--img-wrapper-back {
   transform: rotateY(180deg);
-}
-
-.container:hover .card {
-  transform: rotateY(180deg);
-}
-
-.container {
-  perspective: 1000px;
 }
 
 /* TAILWIND STYLES */

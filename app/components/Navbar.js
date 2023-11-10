@@ -31,14 +31,14 @@ function Navbar() {
             Contact
           </Link> 
         </div>
-        <div className="container">
-          <div className="card">
-            <div className="front max-w-[6em] border-4 border-solid border-[#8ECAE6] rounded-full">
+        <div className="navbar--img-container">
+          <div className="navbar--img-wrapper min-w-[6em] min-h-[6em] relative transition-all duration-1000 ease-linear">
+            <div className="navbar--img-wrapper-front absolute z-[2] border-4 border-solid border-[#8ECAE6] rounded-full">
               <Link href="/">
                 <Image src={profilePic} alt="Ben Nneji profile picture" title="Home" className="profile-picture rounded-full" />
               </Link>
             </div>
-            <div className="back max-w-[6em] border-4 border-solid border-[#8ECAE6] rounded-full">
+            <div className="navbar--img-wrapper-back absolute z-[1] border-4 border-solid border-[#8ECAE6] rounded-full">
               <Link href="/">
                 <Image src={TecybenLogo} alt="Ben Nneji profile picture" title="Home" className="profile-picture rounded-full" />
               </Link>
