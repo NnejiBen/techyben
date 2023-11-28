@@ -19,7 +19,7 @@ const ContactSection = () => {
             {/* Buttons */}
             <div className="flex flex-col items-center gap-4 px-5 py-8">
                 <Link href="mailto:nnejiben@gmail.com" target="_blank" title="Email me" className="bg-transparent text-[#00162B] hover:text-[#FB8500] text-[1.125rem] font-medium py-3 px-14 md:px-6 sm:px-14 border-[1px] border-[#FB8500] rounded-3xl">nnejiben@gmail.com</Link>
-                <Link href="tel:+2348063062992" target="_blank" title="Call me" className="bg-transparent text-[#00162B] hover:text-[#FB8500] text-[1.125rem] font-medium py-3 px-14 md:px-6 sm:px-14 border-[1px] border-[#FB8500] rounded-3xl">234-806-306-2992</Link>
+                <Link href="tel:+2348063062992" target="_blank" title="Call me" className="bg-transparent text-[#00162B] hover:text-[#FB8500] text-[1.125rem] font-medium py-3 px-14 md:px-6 sm:px-14 border-[1px] border-[#FB8500] rounded-3xl">+234-806-306-2992</Link>
             </div>
         </div>
     </div>
