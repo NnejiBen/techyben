@@ -40,7 +40,7 @@ const MobileNavMenu = () => {
             </div>
             <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
               <Link href="/portfolio" onClick={closeMobileMenu}>
-                PORTFOLIO
+                PROJECTS
               </Link>
             </div>
             <div className="mobile-menu-item border-b-[1px] border-[#EAEAEA] py-8 text-xl text-center">
