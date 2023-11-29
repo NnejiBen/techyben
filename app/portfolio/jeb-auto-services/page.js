@@ -10,6 +10,7 @@ import melodyGenie from "@/public/images/melody-genie.webp"
 import jebAutoServicesFull from "@/public/images/jeb-auto-services-full.webp"
 import jebAutoServicesServices from "@/public/images/jeb-auto-services-services.webp"
 import jebAutoServicesForm from "@/public/images/jeb-auto-services-form.webp"
+import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
 const JebAutoServices = () => {
   return (
@@ -78,7 +79,7 @@ const JebAutoServices = () => {
         </section>
 
         {/* Full page image */}
-        <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-32 md:mb-24 sm:mb-16">
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16 md:mb-14 sm:mb-10">
             <Image src={jebAutoServicesFull} alt="A sreenshot from the website of Jeb Auto Services" className="w-full h-full object-cover"/>
         </div>
 
@@ -100,6 +101,11 @@ const JebAutoServices = () => {
                 imgAlt="A sreenshot from the website of Jeb Auto Services"
             />
         </section>
+
+        {/* BACK TO PROJECTS BUTTON */}
+        <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
+            <BackToProjectsBtn />
+        </div>
       
         {/* CONTACT SECTION */}
         <section className="mb-32 md:mb-24 sm:mb-14">

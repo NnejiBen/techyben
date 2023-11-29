@@ -11,7 +11,7 @@ import electetraSlider from "@/public/images/electetra-slider.webp"
 import electetraFull from "@/public/images/electetra-full.webp"
 import electetraContactPage from "@/public/images/electetra-contact-page.webp"
 import electetraServices from "@/public/images/electetra-services.webp"
-
+import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
 const Electetra = () => {
   return (
@@ -87,7 +87,7 @@ const Electetra = () => {
         </div>
 
         {/* PROJECT SECTION 02*/}
-        <section className="mb-32 md:mb-24 sm:mb-14">
+        <section>
             {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
@@ -104,6 +104,11 @@ const Electetra = () => {
                 imgAlt="A sreenshot from the website of Electetra"
             />
         </section>
+
+        {/* BACK TO PROJECTS BUTTON */}
+        <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
+            <BackToProjectsBtn />
+        </div>
       
         {/* CONTACT SECTION */}
         <section className="mb-32 md:mb-24 sm:mb-14">

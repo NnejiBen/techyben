@@ -11,6 +11,7 @@ import melodyGenieMusicPlayer01 from "@/public/images/melody-genie-music-player-
 import melodyGenieMusicPlayer02 from "@/public/images/melody-genie-music-player-02.webp"
 import melodyGenieMusicPlayer03 from "@/public/images/melody-genie-music-player-03.webp"
 import melodyGenieMusicPlayer04 from "@/public/images/melody-genie-music-player-04.webp"
+import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
 const MelodyGenie = () => {
   return (
@@ -86,7 +87,7 @@ const MelodyGenie = () => {
 
         {/* Challenges */}
         {/* PROJECT SECTION 02*/}
-        <section className="mb-32 md:mb-24 sm:mb-14">
+        <section>
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Bringing the animation to life was a tough challenge. Other challenges included coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
@@ -102,6 +103,11 @@ const MelodyGenie = () => {
                 imgAlt="A sreenshot from the website of Melody Genie"
             />
         </section>
+
+        {/* BACK TO PROJECTS BUTTON */}
+        <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
+            <BackToProjectsBtn />
+        </div>
       
         {/* CONTACT SECTION */}
         <section className="mb-32 md:mb-24 sm:mb-14">
