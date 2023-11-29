@@ -25,7 +25,7 @@ function Navbar() {
             About
           </Link> 
           <Link href="/portfolio" className={currentRoute === "/portfolio" ? "active-link" : "menu-link"}>
-            Portfolio
+            Projects
           </Link> 
           <Link href="/contact" className={currentRoute === "/contact" ? "active-link" : "menu-link"}>
             Contact
