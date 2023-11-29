@@ -77,3 +77,17 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+IMPORT FOR HAMBURGER ICONS
+// import { FaBars, FaTimes } from "react-icons/fa";
+
+
+// Create custom components for hamburger icons
+const HamburgerBars = () => (
+  <Image src="/images/hamburger-bars-icon.png" alt="Hamburger Bars Icon" width={20} height={20} />
+);
+
+const HamburgerTimes = () => (
+  <Image src="/images/hamburger-times-icon.png" alt="Hamburger Times Icon" width={20} height={20} />
+);
