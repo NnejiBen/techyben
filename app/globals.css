@@ -46,6 +46,11 @@ body {
   transform: rotateY(180deg);
 }
 
+
+.mobile-menu {
+  transition: 0.3s;
+}
+
 /* TAILWIND STYLES */
 
 h1, h2, h3 {

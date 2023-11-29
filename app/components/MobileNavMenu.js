@@ -8,7 +8,6 @@ import gmailIcon from "@/public/images/gmail.png";
 import whatsappIcon from "@/public/images/whatsapp.png";
 import xIcon from "@/public/images/x.png";
 import facebookIcon from "@/public/images/facebook.png";
-import { FaBars } from "react-icons/fa";
 import { useState } from "react"; // Import useState
 
 const MobileNavMenu = () => {
@@ -18,9 +17,6 @@ const MobileNavMenu = () => {
     setMenuOpen(false); // Close the mobile menu
     const mobileMenu = document.querySelector(".mobile-menu");
     mobileMenu.classList.add("hidden");
-    const menuToggle = document.querySelector("#menuToggle");
-    // Set the menuToggle to FaBars when closing the menu
-    menuToggle.innerHTML = "<FaBars />";
   };
 
   return (
