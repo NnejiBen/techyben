@@ -79,7 +79,7 @@ export default function Contact() {
           <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">CONTACT ME</h1>
           {/* Subtitle */}
           <div className="flex justify-end mb-4 sm:mb-8">
-            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I work with clients of all sizes, from small businesses to large enterprises, to create websites that meet their specific needs and goals. I'm always up for a challenge, and I love working on new and innovative projects. Contact me today to learn more about my services.</p>
+            <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I work with clients of all sizes, from small businesses to large enterprises, to create websites that meet their specific needs and goals. I'm always up for a challenge, and I love working on new and innovative projects. Please contact me if you have a project in mind.</p>
           </div>
         </div>
       </section>
