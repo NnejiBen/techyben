@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Committed to excellence and customer satisfaction. I build modern, elegant and functional websites.',
   ogTitle: 'Benjamin Nneji Portfolio | Frontend Web Developer',
   ogDescription: 'Committed to excellence and customer satisfaction. I build modern, elegant and functional websites.',
-  ogImage: 'https://i.postimg.cc/TPxhNhww/joygirl-social-preview.webp',
+  ogImage: 'https://i.postimg.cc/m2YM4pMS/techyben-social-preview.webp',
   ogUrl: 'https://techyben.com/',
   ogType: 'website',
 };
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:site" content="@ben_nneji" />
         <meta name="twitter:title" content="Benjamin Nneji Portfolio | Frontend Web Developer" />
         <meta name="twitter:description" content="Committed to excellence and customer satisfaction. I build modern, elegant and functional websites." />
-        <meta name="twitter:image" content="https://i.postimg.cc/TPxhNhww/joygirl-social-preview.webp" />
+        <meta name="twitter:image" content="https://i.postimg.cc/m2YM4pMS/techyben-social-preview.webp" />
 
         <MobileNavMenu />
         {children}
