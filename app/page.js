@@ -38,7 +38,7 @@ export default function Home() {
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] sm:mb-3">BENJAMIN</h1>
           <h1 className="text-[7rem] xl:text-[6rem] lg:text-[4.5rem] sm:text-[2.5rem] text-[#F1F1F1] leading-[90%] text-right mb-2 sm:mb-7">NNEJI</h1>
           <div className="flex justify-end mb-6">
-            <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Web Developer. I craft websites that reach new heights, fueled by my love for learning and airplanes. I pay keen attention to detail.</p>
+            <p className="text-right sm:text-left text-[1.5rem] sm:text-lg text-[#F1F1F1] font-normal w-3/5 sm:w-full">Frontend Web Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay keen attention to detail.</p>
           </div>
           <div className="text-right flex justify-end">
             <ContactMeBtn />
