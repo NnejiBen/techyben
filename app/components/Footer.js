@@ -1,11 +1,11 @@
 import Link from "next/link"
 import Image from "next/image";
-import githubIcon from "@/public/images/github.png"
-import linkedinIcon from "@/public/images/linkedin.png"
-import gmailIcon from "@/public/images/gmail.png"
-import whatsappIcon from "@/public/images/whatsapp.png"
-import xIcon from "@/public/images/x.png"
-import facebookIcon from "@/public/images/facebook.png"
+import githubIcon from "@/public/images/github.svg"
+import linkedinIcon from "@/public/images/linkedin.svg"
+import gmailIcon from "@/public/images/gmail.svg"
+import whatsappIcon from "@/public/images/whatsapp.svg"
+import xIcon from "@/public/images/x.svg"
+import facebookIcon from "@/public/images/facebook.svg"
 
 const Footer = () => {
     const today = new Date();
