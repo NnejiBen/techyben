@@ -7,11 +7,11 @@ import { useState } from "react"; // Import useState
 
 // Create custom components for hamburger icons
 const HamburgerBars = () => (
-  <Image src="/images/hamburger-bars-icon.png" alt="Hamburger Bars Icon" width={24} height={24} />
+  <Image src="/images/hamburger-bars-icon.svg" alt="Hamburger Bars Icon" width={24} height={24} />
 );
 
 const HamburgerTimes = () => (
-  <Image src="/images/hamburger-times-icon.png" alt="Hamburger Times Icon" width={24} height={24} />
+  <Image src="/images/hamburger-times-icon.svg" alt="Hamburger Times Icon" width={24} height={24} />
 );
 
 const MobileNavbar = () => {
