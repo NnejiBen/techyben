@@ -7,6 +7,7 @@ import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
+import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
 const ProjectName = () => {
   return (
@@ -25,16 +26,18 @@ const ProjectName = () => {
         <section className="pt-6 mb-6">
             <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
                 {/* Title */}
-                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">PROJECT NAME</h1>
+                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">JOBENY RESOURCES</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">
+                        I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and very attractive modern interface. In addition to development, I was also responsible for the content writing of this website.
+                    </p>
                 </div>
             </div>
         </section>
 
         {/* Navbar */}
-        <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
      
         {/* Horizontal rule */}
         <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
@@ -47,10 +50,10 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Jobeny Resources</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a new website to showcase the agency's services and write an engaging copy.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Next.js, Tailwind CSS, Swiper.js, Email.js</li>
+                            <li><span className="font-medium">Live Link: </span><Link href="https://www.jobeny.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
@@ -64,9 +67,9 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Typewriter effect animation: </span>This is on the hero section of the home page.</li>
+                            <li className="mb-3"><span className="font-medium">Linear gradient border: </span>A linear gradient was applied to the border of a container (a contact card).</li>
+                            <li><span className="font-medium">Offset borders: </span>Certain containers feature dual borders, with the second border positioned at a specific distance from the first</li>
                         </ul>
                     </>
                 }
@@ -85,7 +88,7 @@ const ProjectName = () => {
             {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="Crafting an engaging copy was a challenge. I made good use of ChatGPT and Bard but did not rely solely on these AI tools. Also, a decent amount of time went into researching such features as the typewriter effect, social media sharing preview, and linear gradient border."
                 imgHref={melodyGenie}
                 imgAlt="A sreenshot from the website of ..."
             />
@@ -93,11 +96,16 @@ const ProjectName = () => {
             {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall packages I no longer need using npm uninstall."
                 imgHref={melodyGenie}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
+
+        {/* BACK TO PROJECTS BUTTON */}
+        <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
+            <BackToProjectsBtn />
+        </div>
       
         {/* CONTACT SECTION */}
         <section className="mb-32 md:mb-24 sm:mb-14">

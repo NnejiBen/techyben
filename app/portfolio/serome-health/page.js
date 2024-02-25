@@ -7,6 +7,7 @@ import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
+import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
 const ProjectName = () => {
   return (
@@ -98,7 +99,12 @@ const ProjectName = () => {
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
-      
+
+        {/* BACK TO PROJECTS BUTTON */}
+        <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
+            <BackToProjectsBtn />
+        </div>
+        
         {/* CONTACT SECTION */}
         <section className="mb-32 md:mb-24 sm:mb-14">
             <ContactSection />
