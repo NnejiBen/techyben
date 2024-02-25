@@ -94,7 +94,7 @@ export default function Home() {
             title="JOYGIRL"
             imgSrc={joygirlPortfolio}
             imgAlt="Screenshot of the Joygirl portfolio website home page"
-            btnLinkHref="/portfolio/joygirl"
+            btnLinkHref="/portfolio/joygirl-portfolio"
           />
         </div>
 
