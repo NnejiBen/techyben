@@ -9,10 +9,9 @@ import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/app/components/PortfolioCard"
 import MobileNavbar from "@/app/components/MobileNavbar"
-import jobenyResources from "@/public/images/jobeny-resources-new.webp"
-import melodyGenie from "@/public/images/melody-genie.webp"
-import joygirlPortfolio from "@/public/images/joygirl-portfolio.webp"
-import electetra from "@/public/images/electetra.webp"
+import jobenyResources from "@/public/images/jobeny-home.webp"
+import joygirlPortfolio from "@/public/images/joygirl-home.webp"
+import electetra from "@/public/images/electetra-home.webp"
 
 export const metadata = {
   title: "Benjamin Nneji | Frontend Web Developer",
