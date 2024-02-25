@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
+import melodyGenie from "@/public/images/melody-genie-home.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -26,7 +26,7 @@ const ProjectName = () => {
         <section className="pt-6 mb-6">
             <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
                 {/* Title */}
-                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">PROJECT NAME</h1>
+                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">JOYGIRL PORTFOLIO</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
                     <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
@@ -35,7 +35,7 @@ const ProjectName = () => {
         </section>
 
         {/* Navbar */}
-        <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
      
         {/* Horizontal rule */}
         <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
