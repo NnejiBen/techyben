@@ -2,6 +2,10 @@ import Link from "next/link"
 import Image from "next/image"
 import melodyGenie from "@/public/images/melody-genie.webp"
 import jobenyServices from "@/public/images/jobeny-services.webp"
+import jobenyValue from "@/public/images/jobeny-value.webp"
+import jobenyFull from "@/public/images/jobeny-full.webp"
+import jobenyPortfolio from "@/public/images/jobeny-portfolio.webp"
+import jobenyCollaborate from "@/public/images/jobeny-collaborate.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -74,14 +78,14 @@ const ProjectName = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={jobenyValue}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={jobenyFull} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -90,7 +94,7 @@ const ProjectName = () => {
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Crafting an engaging copy was a challenge. I made good use of ChatGPT and Bard but did not rely solely on these AI tools. Also, a decent amount of time went into researching such features as the typewriter effect, social media sharing preview, and linear gradient border."
-                imgHref={melodyGenie}
+                imgHref={jobenyPortfolio}
                 imgAlt="A sreenshot from the website of ..."
             />
 
@@ -98,7 +102,7 @@ const ProjectName = () => {
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall packages I no longer need using npm uninstall."
-                imgHref={melodyGenie}
+                imgHref={jobenyCollaborate}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
