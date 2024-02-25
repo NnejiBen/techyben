@@ -27,7 +27,7 @@ function PortfolioCard({ number, title, imgSrc, imgAlt, btnLinkHref }) {
               <Image src={imgSrc} alt={imgAlt} className="object-cover rounded-b-3xl" />
         </div>
         {/* Button */}
-        <div className='flex items-center justify-end absolute bottom-0 w-full rounded-b-3xl bg-[#00162B] bg-opacity-50 text-[#F9F8F8] hover:text-[#FB8500] text-lg md:text-base font-medium px-8 py-3'>
+        <div className='flex items-center justify-end absolute bottom-0 w-full rounded-b-3xl bg-[#00162B] bg-opacity-70 text-[#F9F8F8] hover:text-[#FB8500] text-lg md:text-base font-medium px-8 py-3'>
           <Link href={btnLinkHref}>VIEW PROJECT</Link>
         </div>
       </div>

@@ -9,9 +9,10 @@ import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/app/components/PortfolioCard"
 import MobileNavbar from "@/app/components/MobileNavbar"
+import jobenyResources from "@/public/images/jobeny-resources.webp"
 import melodyGenie from "@/public/images/melody-genie.webp"
+import joygirlPortfolio from "@/public/images/joygirl-portfolio.webp"
 import electetra from "@/public/images/electetra.webp"
-import jebAutoServices from "@/public/images/jeb-auto-services.webp"
 
 export const metadata = {
   title: "Benjamin Nneji | Frontend Web Developer",
@@ -81,19 +82,19 @@ export default function Home() {
           {/* Portfolio card 01 */}
           <PortfolioCard
             number="1"
-            title="MELODY GENIE"
-            imgSrc={melodyGenie}
-            imgAlt="Screenshot of the Melody Genie website home page"
-            btnLinkHref="/portfolio/melody-genie"
+            title="JOBENY"
+            imgSrc={jobenyResources}
+            imgAlt="Screenshot of the Jobeny Resources website home page"
+            btnLinkHref="/portfolio/jobeny-resources"
           />
 
           {/* Portfolio card 02 */}
           <PortfolioCard
             number="2"
-            title="ELECTETRA"
-            imgSrc={electetra}
-            imgAlt="Screenshot of the Electetra website home page"
-            btnLinkHref="/portfolio/electetra"
+            title="JOYGIRL"
+            imgSrc={joygirlPortfolio}
+            imgAlt="Screenshot of the Joygirl portfolio website home page"
+            btnLinkHref="/portfolio/joygirl"
           />
         </div>
 
@@ -108,10 +109,10 @@ export default function Home() {
           {/* Portfolio card 03 */}
           <PortfolioCard
             number="3"
-            title="JEB AUTO SERVICES"
-            imgSrc={jebAutoServices}
-            imgAlt="Screenshot of the Jeb Auto Services website home page"
-            btnLinkHref="/portfolio/jeb-auto-services"
+            title="ELECTETRA"
+            imgSrc={electetra}
+            imgAlt="Screenshot of the Electetra website home page"
+            btnLinkHref="/portfolio/electetra"
           />
         </div>
       </section>
