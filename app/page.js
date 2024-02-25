@@ -15,7 +15,7 @@ import electetra from "@/public/images/electetra-home.webp"
 
 export const metadata = {
   title: "Benjamin Nneji | Frontend Web Developer",
-  description: "Frontend Web Developer with a love for learning and airplanes. I build modern, elegant and functional websites. I pay great attention to detail.",
+  description: "Committed to excellence and customer satisfaction. I build modern, elegant and functional websites.",
 }
 
 export default function Home() {
