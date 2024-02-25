@@ -4,6 +4,7 @@ import Navbar from "@/app/components/Navbar"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import ContactSection from "@/app/components/ContactSection"
+import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
 import melodyGenie from "@/public/images/melody-genie-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
 import jebAutoServices from "@/public/images/jeb-auto-services-home.webp"
@@ -147,7 +148,7 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={framePortfolio} alt="Homepage screenshot of the website" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={imagePlaceholder} alt="Homepage screenshot of the website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>

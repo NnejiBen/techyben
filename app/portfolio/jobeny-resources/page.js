@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
 import jobenyServices from "@/public/images/jobeny-services.webp"
 import jobenyValue from "@/public/images/jobeny-value.webp"
 import jobenyFull from "@/public/images/jobeny-full.webp"
