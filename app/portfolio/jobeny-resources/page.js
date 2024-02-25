@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import melodyGenie from "@/public/images/melody-genie.webp"
+import jobenyServices from "@/public/images/jobeny-services.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -57,7 +58,7 @@ const ProjectName = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={jobenyServices}
                 imgAlt="A sreenshot from the website of ..."
             />
 
