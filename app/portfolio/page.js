@@ -1,13 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
 import Navbar from "@/app/components/Navbar"
-import framePortfolio from "@/public/images/frame-portfolio.png"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import ContactSection from "@/app/components/ContactSection"
-import melodyGenie from "@/public/images/melody-genie.webp"
-import electetra from "@/public/images/electetra.webp"
-import jebAutoServices from "@/public/images/jeb-auto-services.webp"
+import melodyGenie from "@/public/images/melody-genie-home.webp"
+import electetra from "@/public/images/electetra-home.webp"
+import jebAutoServices from "@/public/images/jeb-auto-services-home.webp"
 import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
