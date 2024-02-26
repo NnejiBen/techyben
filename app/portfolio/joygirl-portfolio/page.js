@@ -29,7 +29,7 @@ const ProjectName = () => {
                 <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">JOYGIRL PORTFOLIO</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed a portfolio website for Joygirl, a Product Designer. The website, built from scratch using Next.js and Tailwind CSS, features a captivating dark-themed design, making it both beautiful and engaging.</p>
                 </div>
             </div>
         </section>
@@ -48,10 +48,10 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Joygirl (a Product Designer)</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a new website from Figma design to showcase the client's work.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Next.js, Tailwind CSS, Swiper.js</li>
+                            <li><span className="font-medium">Live Link: </span><Link href="https://hijoygirl.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
@@ -65,9 +65,9 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Video and Google Slides: </span>The home page features a video set to autoplay and loop indefinitely. Additionally, Google Slides are embedded to showcase features of select client projects.</li>
+                            <li className="mb-3"><span className="font-medium">Testimonial slider: </span>A custom Slider.js slider for testimonials.</li>
+                            <li><span className="font-medium">Filter tabs: </span>Tabs are used to filter projects by categories.</li>
                         </ul>
                     </>
                 }
@@ -86,7 +86,7 @@ const ProjectName = () => {
             {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="Styling the testimonial section was difficult and time consuming. This is because the UI is somewhat complex and the design for mobile screens is quite different from the desktop design. Though not very challenging, it was fun figuring out how to customize the border styling of form inputs when they are focused, which was needed for the contact form."
                 imgHref={melodyGenie}
                 imgAlt="A sreenshot from the website of ..."
             />
@@ -94,7 +94,7 @@ const ProjectName = () => {
             {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
+                content="(1) An HTML element's attribute (e.g. 'target') can be passed in as a prop. (2) Used the flex-row-reverse CSS property for the first time. (3) It's acceptable practice to apply flexbox properties to heading elements (such as h2). This helped with styling an inline span element within an h2 element. (4) Used the CSS unit svh (small viewport height) in place of vh (viewport height) for the first time."
                 imgHref={melodyGenie}
                 imgAlt="A sreenshot from the website of ..."
             />
