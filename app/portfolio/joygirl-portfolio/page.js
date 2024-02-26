@@ -60,7 +60,7 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={joygirlAbout}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Joygirl portfolio showing the About section of the home page"
             />
 
             {/* Features */}
@@ -76,7 +76,7 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={joygirlGoogleSlides}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Joygirl portfolio showing an embedded Google Slide"
             />
         </section>
 
@@ -92,7 +92,7 @@ const ProjectName = () => {
                 title="CHALLENGES"
                 content="Styling the testimonial section was difficult and time consuming. This is because the UI is somewhat complex and the design for mobile screens is quite different from the desktop design. Though not very challenging, it was fun figuring out how to customize the border styling of form inputs when they are focused, which was needed for the contact form."
                 imgHref={joygirlTestimonial}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Joygirl portfolio showing the testimonial section"
             />
 
             {/* Lessons Learned */}
@@ -100,7 +100,7 @@ const ProjectName = () => {
                 title="LESSONS LEARNED"
                 content="(1) An HTML element's attribute (e.g. 'target') can be passed in as a prop. (2) Used the flex-row-reverse CSS property for the first time. (3) It's acceptable practice to apply flexbox properties to heading elements (such as h2). This helped with styling an inline span element within an h2 element. (4) Used the CSS unit svh (small viewport height) in place of vh (viewport height) for the first time."
                 imgHref={joygirlDesigns}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Joygirl portfolio showing a section of the My Designs page"
             />
         </section>
 
