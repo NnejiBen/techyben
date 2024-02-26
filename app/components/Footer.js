@@ -22,7 +22,7 @@ const Footer = () => {
                 <p>Designed by <Link href="https://hijoygirl.com" target="_blank" title="Visit portfolio" className="hover:text-[#FB8500] underline decoration-solid">Joygirl</Link></p>
             </div>
         </div>
-        <div className='flex gap-6 md:gap-3'>
+        <div className='flex items-center gap-6 md:gap-3'>
             {/* Contact icon */}
             <div>
                 <Link href="mailto:nnejiben@gmail.com" target="_blank">

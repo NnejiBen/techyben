@@ -47,7 +47,7 @@ const MobileNavMenu = () => {
           </div>
 
           {/* Contact icons container */}
-          <div className="flex justify-center gap-4 w-full py-8">
+          <div className="flex justify-center items-center gap-4 w-full py-8">
             {/* Contact icon */}
             <div>
               <Link href="mailto:nnejiben@gmail.com" target="_blank">
