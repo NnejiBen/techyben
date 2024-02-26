@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
+import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -51,11 +51,11 @@ const ProjectName = () => {
                             <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
                             <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
                             <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={imagePlaceholder}
                 imgAlt="A sreenshot from the website of ..."
             />
 
@@ -71,14 +71,14 @@ const ProjectName = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={imagePlaceholder}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={imagePlaceholder} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -87,7 +87,7 @@ const ProjectName = () => {
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
+                imgHref={imagePlaceholder}
                 imgAlt="A sreenshot from the website of ..."
             />
 
@@ -95,7 +95,7 @@ const ProjectName = () => {
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
+                imgHref={imagePlaceholder}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
