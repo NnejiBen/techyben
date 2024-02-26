@@ -1,6 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import melodyGenie from "@/public/images/melody-genie.webp"
+import deekesServices from "@/public/images/deekes-services.webp"
+import deekesContactForm from "@/public/images/deekes-contact-form.webp"
+import deekesFull from "@/public/images/deekes-full.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -26,16 +29,16 @@ const ProjectName = () => {
         <section className="pt-6 mb-6">
             <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
                 {/* Title */}
-                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">PROJECT NAME</h1>
+                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">DEEKES CONSTRUCTION</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I created this WordPress website for Deekes Construction and Real Estate Ltd. The site features a visually appealing interface, intuitive navigation, and full responsiveness.</p>
                 </div>
             </div>
         </section>
 
         {/* Navbar */}
-        <div className="sticky top-0 px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
+        <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] z-20 mb-8"><Navbar /></div>
      
         {/* Horizontal rule */}
         <div className="mb-32 xl:mb-52 md:mb-24 sm:mb-16"><HorizontalRule /></div>
@@ -48,15 +51,15 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Deekes Construction and Real Estate Ltd</li>
+                            <li className="mb-3"><span className="font-medium">Purpose: </span>Create a new website to highlight the company's services and showcase images of completed projects and real estate properties.</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>WordPress</li>
+                            <li><span className="font-medium">Live Link: </span><Link href="https://deekesconstruction.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of ..."
+                imgHref={deekesServices}
+                imgAlt="A sreenshot from the website of Deekes Construction showing parts of the company statistics and services sections of the home page "
             />
 
             {/* Features */}
@@ -65,40 +68,21 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3"><span className="font-medium">Contact form: </span>Contact form with hCaptcha integration to effectively combat spam.</li>
+                            <li className="mb-3"><span className="font-medium">Chat button: </span>A prominent floating WhatsApp chat button for easy and quick communication with the company.</li>
+                            <li><span className="font-medium">Google Maps: </span>Provide users with accurate location information and directions through Google Maps integration on the contact page.</li>
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of ..."
+                imgHref={deekesContactForm}
+                imgAlt="A sreenshot from the website of Deekes Construction showing the contact form and FAQ sections"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={deekesFull} alt="A sreenshot from the website of Deekes Construction showing the navbar and hero section" className="w-full h-full object-cover"/>
         </div>
-
-        {/* PROJECT SECTION 02*/}
-        <section className="mb-32 md:mb-24 sm:mb-14">
-            {/* Challenges */}
-            <ProjectSectionLeftText 
-                title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of ..."
-            />
-
-            {/* Lessons Learned */}
-            <ProjectSectionRightText 
-                title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of ..."
-            />
-        </section>
 
         {/* BACK TO PROJECTS BUTTON */}
         <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
