@@ -75,7 +75,7 @@ const MobileNavMenu = () => {
             {/* Contact icon */}
             <div>
               <Link href="https://twitter.com/ben_nneji" target="_blank">
-                <Image src={xIcon} title="X (Twitter)" className="max-w-[3.2em] max-h-[3.2em] object-cover" />
+                <Image src={xIcon} title="X (Twitter)" className="max-w-[1.8em] max-h-[1.8em] object-cover" />
               </Link>
             </div>
             {/* Contact icon */}
