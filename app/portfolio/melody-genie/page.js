@@ -90,7 +90,7 @@ const MelodyGenie = () => {
         <section>
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Bringing the animation to life was a tough challenge. Other challenges included coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
+                content="Bringing the homepage animation to life is a tough challenge. Other challenges include coding the custom music players, positioning some of the elements, and the mobile view for some of the sections."
                 imgHref={melodyGenieMusicPlayer02}
                 imgAlt="A sreenshot from the website of Melody Genie"
             />
