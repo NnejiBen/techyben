@@ -7,10 +7,10 @@ import ContactSection from "@/app/components/ContactSection"
 import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
 import jobenyResources from "@/public/images/jobeny-home.webp"
 import joygirlPortfolio from "@/public/images/joygirl-home.webp"
-
-import melodyGenie from "@/public/images/melody-genie-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
-import jebAutoServices from "@/public/images/jeb-auto-services-home.webp"
+import seromeHealth from "@/public/images/serome-home.webp"
+import melodyGenie from "@/public/images/melody-genie-home.webp"
+import deekesConstruction from "@/public/images/deekes-home.webp"
 import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
@@ -104,10 +104,59 @@ const portfolio = () => {
           </div>
         </div>
 
+        {/* Project 03 - Electetra */}
+        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
+          {/* Left side: Card dots and image */}
+          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
+            </div>
+            <hr className="border-0 h-[1px] bg-black mb-8"/>
+            {/* Image */}
+            <div className="w-full h-full">
+              <Image src={electetra} alt="Homepage screenshot of the Jeb Auto Services website" className="rounded-b-[24px] w-full h-full object-cover"/>
+            </div>
+          </div>
+          {/* Right side: Heading, description, and button */}
+          <div className="flex flex-col min-w-[40%]">
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">ELECTETRA</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
+            <div className="flex">
+              <Link href="/portfolio/electetra"><ReadMoreBtnSolid /></Link>
+            </div>
+          </div>
+        </div>
 
+        {/* Project 04 - Serome Health */}
+        <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
+          {/* Left side: Heading, description, and button */}
+          <div className="flex flex-col min-w-[40%]">
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">SEROME HEALTH</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a visually appealing landing page for Serome Limited, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and it is hosted on a cPanel Linux hosting plan.</p>
+            <div className="flex">
+              <Link href="/portfolio/serome-health"><ReadMoreBtnSolid /></Link>
+            </div>
+          </div>
+          {/* Right side: Card dots and image */}
+          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
+            </div>
+            <hr className="border-0 h-[1px] bg-black mb-8"/>
+            {/* Image */}
+            <div className="w-full h-full">
+              <Image src={seromeHealth} alt="Homepage screenshot of the Serome Health website" className="rounded-b-[24px] w-full h-full object-cover"/>
+            </div>
+          </div>
+        </div>
 
-
-        {/* Project 01 */}
+        {/* Project 05 - Melody Genie */}
         <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}
           <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
@@ -133,14 +182,14 @@ const portfolio = () => {
           </div>
         </div>
 
-        {/* Project 02 */}
+        {/* Project 06 - Deekes Construction */}
         <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">ELECTETRA</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">DEEKES</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I created this WordPress website for Deekes Construction and Real Estate Ltd. The site features a visually appealing interface, intuitive navigation, and full responsiveness.</p>
             <div className="flex">
-              <Link href="/portfolio/electetra"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/deekes-construction"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
           {/* Right side: Card dots and image */}
@@ -154,62 +203,11 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={electetra} alt="Homepage screenshot of the Electetra website" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={deekesConstruction} alt="Homepage screenshot of the Deekes Construction website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
-        {/* Project 03 */}
-        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
-          {/* Left side: Card dots and image */}
-          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
-            {/* Card dots */}
-            <div className="flex gap-2 px-8 py-3">
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
-            </div>
-            <hr className="border-0 h-[1px] bg-black mb-8"/>
-            {/* Image */}
-            <div className="w-full h-full">
-              <Image src={jebAutoServices} alt="Homepage screenshot of the Jeb Auto Services website" className="rounded-b-[24px] w-full h-full object-cover"/>
-            </div>
-          </div>
-          {/* Right side: Heading, description, and button */}
-          <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JEB AUTO SERVICES</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms.</p>
-            <div className="flex">
-              <Link href="/portfolio/jeb-auto-services"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 04 */}
-        <div className="hidden gap-14 sm:gap-10 items-center mb-16">
-          {/* Left side: Heading, description, and button */}
-          <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">PROJECT TITLE</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo.</p>
-            <div className="flex">
-              <Link href="#"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-          {/* Right side: Card dots and image */}
-          <div className="min-w-[55%] flex flex-col bg-[#C0D6DF] rounded-3xl">
-            {/* Card dots */}
-            <div className="flex gap-2 px-8 py-3">
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
-            </div>
-            <hr className="border-0 h-[1px] bg-black mb-8"/>
-            {/* Image */}
-            <div className="w-full h-full">
-              <Image src={imagePlaceholder} alt="Homepage screenshot of the website" className="rounded-b-[24px] w-full h-full object-cover"/>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* CONTACT SECTION */}

@@ -148,3 +148,32 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+JEB AUTO SERVICES - From Portfolio page
+
+        {/* Project 03 */}
+        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
+          {/* Left side: Card dots and image */}
+          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
+            </div>
+            <hr className="border-0 h-[1px] bg-black mb-8"/>
+            {/* Image */}
+            <div className="w-full h-full">
+              <Image src={jebAutoServices} alt="Homepage screenshot of the Jeb Auto Services website" className="rounded-b-[24px] w-full h-full object-cover"/>
+            </div>
+          </div>
+          {/* Right side: Heading, description, and button */}
+          <div className="flex flex-col min-w-[40%]">
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JEB AUTO SERVICES</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed this WordPress website for Jeb Auto Services, an auto repair company. It has a simple and beautiful interface. It is responsive and easy to navigate. Some of the salient features include a WhatsApp chat button and contact forms.</p>
+            <div className="flex">
+              <Link href="/portfolio/jeb-auto-services"><ReadMoreBtnSolid /></Link>
+            </div>
+          </div>
+        </div>
