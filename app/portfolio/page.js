@@ -49,6 +49,36 @@ const portfolio = () => {
       {/* PROJECTS SECTION */}
       <section className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-16">
 
+        {/* Project 01 - Jobeny Resources */}
+        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
+          {/* Left side: Card dots and image */}
+          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
+            </div>
+            <hr className="border-0 h-[1px] bg-black mb-8"/>
+            {/* Image */}
+            <div className="w-full h-full">
+              <Image src={melodyGenie} alt="Homepage screenshot of the Melody Genie website" className="rounded-b-[24px] w-full h-full object-cover"/>
+            </div>
+          </div>
+          {/* Right side: Heading, description, and button */}
+          <div className="flex flex-col min-w-[40%]">
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">MELODY GENIE</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">This website was designed by <Link href="https://hijoygirl.com/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
+            <div className="flex">
+              <Link href="/portfolio/melody-genie"><ReadMoreBtnSolid /></Link>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
         {/* Project 01 */}
         <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}

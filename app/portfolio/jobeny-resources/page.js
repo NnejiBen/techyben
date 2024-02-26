@@ -62,7 +62,7 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={jobenyServices}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Jobeny Resources showing parts of the About and Services sections of the home page"
             />
 
             {/* Features */}
@@ -78,13 +78,13 @@ const ProjectName = () => {
                     </>
                 }
                 imgHref={jobenyValue}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Jobeny Resources showing parts of the Why Choose Us and Features Work sections of the home page"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={jobenyFull} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={jobenyFull} alt="A sreenshot from the website of Jobeny Resources showing the navbar and hero sections" className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -94,7 +94,7 @@ const ProjectName = () => {
                 title="CHALLENGES"
                 content="Crafting an engaging copy was a challenge. I made good use of ChatGPT and Gemini but did not rely solely on these AI tools. Also, a decent amount of time went into researching such features as the typewriter effect, social media sharing preview, and linear gradient border."
                 imgHref={jobenyPortfolio}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Jobeny Resources showing a section of the Portolio page"
             />
 
             {/* Lessons Learned */}
@@ -102,7 +102,7 @@ const ProjectName = () => {
                 title="LESSONS LEARNED"
                 content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall unneeded packages using npm uninstall."
                 imgHref={jobenyCollaborate}
-                imgAlt="A sreenshot from the website of ..."
+                imgAlt="A sreenshot from the website of Jobeny Resources showing the Let's Collaborate section of the home page"
             />
         </section>
 
