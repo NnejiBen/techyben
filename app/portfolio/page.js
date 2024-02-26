@@ -5,6 +5,8 @@ import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import ContactSection from "@/app/components/ContactSection"
 import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
+import jobenyResources from "@/public/images/jobeny-home.webp"
+
 import melodyGenie from "@/public/images/melody-genie-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
 import jebAutoServices from "@/public/images/jeb-auto-services-home.webp"
@@ -62,13 +64,13 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={melodyGenie} alt="Homepage screenshot of the Melody Genie website" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image src={jobenyResources} alt="Homepage screenshot of the Jobeny Resources website showing the navbar and hero section of the home page" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">MELODY GENIE</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">This website was designed by <Link href="https://hijoygirl.com/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JOBENY RESOURCES</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and attractive modern interface. In addition to development, I was also responsible for the content writing of this website.</p>
             <div className="flex">
               <Link href="/portfolio/melody-genie"><ReadMoreBtnSolid /></Link>
             </div>
