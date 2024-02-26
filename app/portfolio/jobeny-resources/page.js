@@ -34,7 +34,7 @@ const ProjectName = () => {
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
                     <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">
-                        I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and very attractive modern interface. In addition to development, I was also responsible for the content writing of this website.
+                        I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and attractive modern interface. In addition to development, I was also responsible for the content writing of this website.
                     </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@ const ProjectName = () => {
             {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Crafting an engaging copy was a challenge. I made good use of ChatGPT and Bard but did not rely solely on these AI tools. Also, a decent amount of time went into researching such features as the typewriter effect, social media sharing preview, and linear gradient border."
+                content="Crafting an engaging copy was a challenge. I made good use of ChatGPT and Gemini but did not rely solely on these AI tools. Also, a decent amount of time went into researching such features as the typewriter effect, social media sharing preview, and linear gradient border."
                 imgHref={jobenyPortfolio}
                 imgAlt="A sreenshot from the website of ..."
             />
@@ -100,7 +100,7 @@ const ProjectName = () => {
             {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
-                content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall packages I no longer need using npm uninstall."
+                content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall unneeded packages using npm uninstall."
                 imgHref={jobenyCollaborate}
                 imgAlt="A sreenshot from the website of ..."
             />
