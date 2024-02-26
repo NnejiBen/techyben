@@ -134,7 +134,7 @@ const portfolio = () => {
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">SEROME HEALTH</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a visually appealing landing page for Serome Limited, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and it is hosted on a cPanel Linux hosting plan.</p>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a visually appealing landing page for Serome Limited, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and is hosted on a cPanel Linux hosting plan.</p>
             <div className="flex">
               <Link href="/portfolio/serome-health"><ReadMoreBtnSolid /></Link>
             </div>
