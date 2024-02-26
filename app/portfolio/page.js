@@ -6,6 +6,7 @@ import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import ContactSection from "@/app/components/ContactSection"
 import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
 import jobenyResources from "@/public/images/jobeny-home.webp"
+import joygirlPortfolio from "@/public/images/joygirl-home.webp"
 
 import melodyGenie from "@/public/images/melody-genie-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
@@ -72,11 +73,36 @@ const portfolio = () => {
             <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JOBENY RESOURCES</h2>
             <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and attractive modern interface. In addition to development, I was also responsible for the content writing of this website.</p>
             <div className="flex">
-              <Link href="/portfolio/melody-genie"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/jobeny-resources"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
         </div>
 
+        {/* Project 02 - Joygirl Portfolio */}
+        <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
+          {/* Left side: Heading, description, and button */}
+          <div className="flex flex-col min-w-[40%]">
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JOYGIRL PORTFOLIO</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a portfolio website for Joygirl, a Product Designer. The website, built from scratch using Next.js and Tailwind CSS, features a captivating dark-themed design, making it both beautiful and engaging.</p>
+            <div className="flex">
+              <Link href="/portfolio/joygirl-portfolio"><ReadMoreBtnSolid /></Link>
+            </div>
+          </div>
+          {/* Right side: Card dots and image */}
+          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
+            {/* Card dots */}
+            <div className="flex gap-2 px-8 py-3">
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
+              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
+            </div>
+            <hr className="border-0 h-[1px] bg-black mb-8"/>
+            {/* Image */}
+            <div className="w-full h-full">
+              <Image src={joygirlPortfolio} alt="Homepage screenshot of the Joygirl portfolio website" className="rounded-b-[24px] w-full h-full object-cover"/>
+            </div>
+          </div>
+        </div>
 
 
 
