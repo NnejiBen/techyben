@@ -33,7 +33,7 @@ const MelodyGenie = () => {
                 <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">MELODY GENIE</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">This website was designed by <Link href="https://hijoygirl.com/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">This website was designed by <Link href="https://hijoygirl.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
                 </div>
             </div>
         </section>
@@ -54,7 +54,7 @@ const MelodyGenie = () => {
                         <ul>
                             <li className="mb-3"><span className="font-medium">Purpose: </span>I took this on as a fun project to challenge myself and bring a beautiful design to life.</li>
                             <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CSS, JavaScript</li>
-                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://melody-genie.netlify.app/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://melody-genie.netlify.app/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                             <li className="mb-3"><span className="font-medium">Note: </span>The website is still under construction.</li>
                         </ul>
                     </>

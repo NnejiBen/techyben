@@ -55,7 +55,7 @@ const Electetra = () => {
                             <li className="mb-3"><span className="font-medium">Client: </span>Electetra Engineering</li>
                             <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a new website to showcase the company’s products and services.</li>
                             <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CCS, JavaScript</li>
-                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://electetra.netlify.app/" target="_blank" className="hover:text-[#FB8500] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Live Link: </span><Link href="https://electetra.netlify.app/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                             <li className="mb-3"><span className="font-medium">Note: </span>The website is still under construction.</li>
                         </ul>
                     </>
