@@ -1,6 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie-home.webp"
+import joygirlAbout from "@/public/images/joygirl-about.webp"
+import joygirlGoogleSlides from "@/public/images/joygirl-google-slides.webp"
+import joygirlFull from "@/public/images/joygirl-full.webp"
+import joygirlTestimonial from "@/public/images/joygirl-testimonial.webp"
+import joygirlDesigns from "@/public/images/joygirl-designs.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -55,7 +59,7 @@ const ProjectName = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={joygirlAbout}
                 imgAlt="A sreenshot from the website of ..."
             />
 
@@ -71,14 +75,14 @@ const ProjectName = () => {
                         </ul>
                     </>
                 }
-                imgHref={melodyGenie}
+                imgHref={joygirlGoogleSlides}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={melodyGenie} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={joygirlFull} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
         </div>
 
         {/* PROJECT SECTION 02*/}
@@ -87,7 +91,7 @@ const ProjectName = () => {
             <ProjectSectionLeftText 
                 title="CHALLENGES"
                 content="Styling the testimonial section was difficult and time consuming. This is because the UI is somewhat complex and the design for mobile screens is quite different from the desktop design. Though not very challenging, it was fun figuring out how to customize the border styling of form inputs when they are focused, which was needed for the contact form."
-                imgHref={melodyGenie}
+                imgHref={joygirlTestimonial}
                 imgAlt="A sreenshot from the website of ..."
             />
 
@@ -95,7 +99,7 @@ const ProjectName = () => {
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
                 content="(1) An HTML element's attribute (e.g. 'target') can be passed in as a prop. (2) Used the flex-row-reverse CSS property for the first time. (3) It's acceptable practice to apply flexbox properties to heading elements (such as h2). This helped with styling an inline span element within an h2 element. (4) Used the CSS unit svh (small viewport height) in place of vh (viewport height) for the first time."
-                imgHref={melodyGenie}
+                imgHref={joygirlDesigns}
                 imgAlt="A sreenshot from the website of ..."
             />
         </section>
