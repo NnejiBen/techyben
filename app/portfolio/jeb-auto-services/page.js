@@ -6,7 +6,6 @@ import Navbar from "@/app/components/Navbar"
 import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
-import melodyGenie from "@/public/images/melody-genie.webp"
 import jebAutoServicesFull from "@/public/images/jeb-auto-services-full.webp"
 import jebAutoServicesServices from "@/public/images/jeb-auto-services-services.webp"
 import jebAutoServicesForm from "@/public/images/jeb-auto-services-form.webp"
@@ -82,25 +81,6 @@ const JebAutoServices = () => {
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16 md:mb-14 sm:mb-10">
             <Image src={jebAutoServicesFull} alt="A sreenshot from the website of Jeb Auto Services" className="w-full h-full object-cover"/>
         </div>
-
-        {/* PROJECT SECTION 02*/}
-        <section className="hidden mb-32 md:mb-24 sm:mb-14">
-            {/* Challenges */}
-            <ProjectSectionLeftText 
-                title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of Jeb Auto Services"
-            />
-
-            {/* Lessons Learned */}
-            <ProjectSectionRightText 
-                title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={melodyGenie}
-                imgAlt="A sreenshot from the website of Jeb Auto Services"
-            />
-        </section>
 
         {/* BACK TO PROJECTS BUTTON */}
         <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
