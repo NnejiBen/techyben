@@ -87,15 +87,15 @@ export default function Home() {
             btnLinkHref="/portfolio/jobeny-resources"
           />
 
-          {/* Portfolio card 03 */}
+          {/* Portfolio card 02 */}
           <PortfolioCard
-            number="3"
-            title="ELECTETRA"
-            imgSrc={electetra}
-            imgAlt="Screenshot of the Electetra website home page"
-            btnLinkHref="/portfolio/electetra"
+            number="2"
+            title="JOYGIRL"
+            imgSrc={joygirlPortfolio}
+            imgAlt="Screenshot of the Joygirl portfolio website home page"
+            btnLinkHref="/portfolio/joygirl-portfolio"
           />
-
+          
         </div>
 
         {/* Home Portfolio Section Right */}
@@ -106,15 +106,14 @@ export default function Home() {
             <p className="text-2xl lg:text-xl sm:text-lg text-[#F9F8F8] font-normal">I build beautiful and user-friendly websites using the latest frontend development technologies, such as React, Next.js, and WordPress. I'm always up for a challenge, and I love working on new and innovative projects.</p>
           </div>
 
-          {/* Portfolio card 02 */}
+          {/* Portfolio card 03 */}
           <PortfolioCard
-            number="2"
-            title="JOYGIRL"
-            imgSrc={joygirlPortfolio}
-            imgAlt="Screenshot of the Joygirl portfolio website home page"
-            btnLinkHref="/portfolio/joygirl-portfolio"
+            number="3"
+            title="ELECTETRA"
+            imgSrc={electetra}
+            imgAlt="Screenshot of the Electetra website home page"
+            btnLinkHref="/portfolio/electetra"
           />
-
         </div>
       </section>
 
