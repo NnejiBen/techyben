@@ -24,7 +24,7 @@ function NavbarDesktopFixed() {
 
   return (
     <nav className={`md:hidden fixed w-full bg-[#1C1140] bg-opacity-90 z-20 ${isScrolled ? 'visible' : 'invisible'}`}>
-      <div className="section-px flex justify-end gap-4 text-[#F9F8F8] text-base font-normal py-2">
+      <div className="section-px flex justify-end gap-4 text-[#F9F8F8] text-base font-medium py-2">
         {/* Home */}
         <Link href="/" className={currentRoute === '/' ? 'active-link-desktop-fixed' : 'menu-link'}>
           Home
