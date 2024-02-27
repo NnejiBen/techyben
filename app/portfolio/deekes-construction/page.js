@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import melodyGenie from "@/public/images/melody-genie.webp"
 import deekesServices from "@/public/images/deekes-services.webp"
 import deekesContactForm from "@/public/images/deekes-contact-form.webp"
 import deekesFull from "@/public/images/deekes-full.webp"
