@@ -15,7 +15,7 @@ function MySkillItem({ icon, title, linkHref, }) {
             </div>
         </div>
         {/* Link */}
-        <div className='text-[#FB8500] text-lg md:text-base font-medium flex items-center'>
+        <div className='text-[#FB8500] hover:text-[#F9F8F8] text-lg md:text-base font-medium flex items-center'>
             <Link href={linkHref}>SEE PROJECTS</Link>
         </div>
     </div>
