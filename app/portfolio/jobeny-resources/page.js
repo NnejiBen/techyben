@@ -100,7 +100,7 @@ const ProjectName = () => {
             {/* Lessons Learned */}
             <ProjectSectionRightText 
                 title="LESSONS LEARNED"
-                content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned to uninstall unneeded packages using npm uninstall."
+                content="One of the best lessons was figuring out how to conditionally render a button based on a prop instead of having separate components one with a button and one without a button. I also learned how to set up Email.js to forward contact form submissions to email. Previously I had used Formspree. I also learned about uninstalling unneeded packages using npm uninstall."
                 imgHref={jobenyCollaborate}
                 imgAlt="A sreenshot from the website of Jobeny Resources showing the Let's Collaborate section of the home page"
             />

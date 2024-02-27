@@ -90,7 +90,7 @@ const ProjectName = () => {
             {/* Challenges */}
             <ProjectSectionLeftText 
                 title="CHALLENGES"
-                content="Styling the testimonial section was difficult and time consuming. This is because the UI is somewhat complex and the design for mobile screens is quite different from the desktop design. Though not very challenging, it was fun figuring out how to customize the border styling of form inputs when they are focused, which was needed for the contact form."
+                content="Styling the testimonial section was difficult and time consuming. This is because the UI is somewhat complex and the design for mobile screen is quite different from the desktop design. Though not very challenging, it was fun figuring out how to customize the border styling of form inputs when they are focused, which was needed for the contact form."
                 imgHref={joygirlTestimonial}
                 imgAlt="A sreenshot from the website of Joygirl portfolio showing the testimonial section"
             />
