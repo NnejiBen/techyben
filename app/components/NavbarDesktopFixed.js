@@ -8,8 +8,8 @@ function NavbarDesktopFixed() {
   const currentRoute = usePathname();
 
   return (
-        <nav className="md:hidden fixed w-full bg-[#1C1140] z-20">
-            <div className="section-px flex justify-end gap-4 text-[#F9F8F8] text-base font-medium">
+        <nav className="md:hidden fixed w-full bg-[#1C1140] bg-opacity-90 z-20">
+            <div className="section-px flex justify-end gap-4 text-[#F9F8F8] text-base font-normal">
 
                 {/* Home */}
                 <Link href="/" className={currentRoute === '/' ? 'active-link-desktop-fixed' : 'menu-link'}>
