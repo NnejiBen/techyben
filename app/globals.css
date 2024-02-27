@@ -28,6 +28,9 @@ body {
 /* Menu link hover style */
 .menu-link:hover { color: #FB8500;}
 
+/* Active menu link style for the fixed desktop navbar*/
+.active-link-desktop-fixed { color: #FB8500; }
+
 /* Styles for Navbar Animation */
 
 .navbar--img-container:hover .navbar--img-wrapper {
@@ -50,4 +53,8 @@ body {
 
 h1, h2, h3 {
   @apply font-akira font-bold;
+}
+
+.section-px {
+  @apply px-[7.5rem] lg:px-[4rem] md:px-[1.25rem];
 }

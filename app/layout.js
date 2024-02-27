@@ -1,6 +1,7 @@
 import './globals.css'
 import MobileNavMenu from '@/app/components/MobileNavMenu'
 import Footer from '@/app/components/Footer'
+import NavbarDesktopFixed from './components/NavbarDesktopFixed';
 
 export const metadata = {
   title: 'Benjamin Nneji Portfolio | Frontend Web Developer',
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:description" content="Committed to excellence and customer satisfaction. I build modern, elegant and functional websites." />
         <meta name="twitter:image" content="https://i.postimg.cc/m2YM4pMS/techyben-social-preview.webp" />
 
+        <NavbarDesktopFixed />
         <MobileNavMenu />
         {children}
         <Footer />
