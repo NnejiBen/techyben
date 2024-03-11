@@ -18,7 +18,7 @@ const Footer = () => {
                 <p>&copy; {year} Benjamin Nneji</p>
             </div>
             {/* Attribution */}
-            <div className="text-[#EAEAEA] text-sm">
+            <div className="hidden text-[#EAEAEA] text-sm">
                 <p>Designed by <Link href="https://hijoygirl.com" target="_blank" title="Visit portfolio" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">Joygirl</Link></p>
             </div>
         </div>
