@@ -70,7 +70,7 @@ const about = () => {
           </div>
           {/* Description */}
           <div className="w-2/4 xl:w-2/3 md:w-full">
-            <p className="text-[#F9F8F8] text-xl sm:text-lg">I'm always looking for new ways to improve my skills and learn new technologies, and I'm passionate about helping others learn about web development. I obtained the freeCodeCamp's <Link href="https://www.freecodecamp.org/certification/nnejiben/responsive-web-design" target="_blank" title="View certificate" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">Responsive Web Design Certification</Link> and have completed other technical courses as well.</p>
+            <p className="text-[#F9F8F8] text-xl sm:text-lg">I'm always looking for new ways to improve my skills and learn new technologies, and I'm passionate about helping others learn about web development. I have completed freeCodeCamp's <Link href="https://www.freecodecamp.org/certification/nnejiben/responsive-web-design" target="_blank" title="View certificate" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">Responsive Web Design Certification</Link> and <Link href="https://www.freecodecamp.org/certification/nnejiben/javascript-algorithms-and-data-structures-v8" target="_blank" title="View certificate" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">JavaScript Algorithms and Data Structures</Link>, as well as other technical courses.</p>
           </div>
         </div>
         <MySkills />
