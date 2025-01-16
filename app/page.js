@@ -10,6 +10,9 @@ import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import PortfolioCard from "@/app/components/PortfolioCard"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import jobenyResources from "@/public/images/jobeny-home.webp"
+import complianceCiso from "@/public/images/compliance-ciso-full.webp"
+import parkscapes from "@/public/images/parkscapes-full.webp"
+import serome from "@/public/images/serome-full.webp"
 import joygirlPortfolio from "@/public/images/joygirl-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
 
@@ -83,19 +86,19 @@ export default function Home() {
           {/* Portfolio card 01 */}
           <PortfolioCard
             number="1"
-            title="JOBENY"
-            imgSrc={jobenyResources}
-            imgAlt="Screenshot of the Jobeny Resources website home page"
-            btnLinkHref="/portfolio/jobeny-resources"
+            title="Compliance CISO"
+            imgSrc={complianceCiso}
+            imgAlt="Screenshot of the Compliance CISO website home page"
+            btnLinkHref="/portfolio/compliance-ciso"
           />
 
           {/* Portfolio card 02 */}
           <PortfolioCard
             number="2"
-            title="JOYGIRL"
-            imgSrc={joygirlPortfolio}
-            imgAlt="Screenshot of the Joygirl portfolio website home page"
-            btnLinkHref="/portfolio/joygirl-portfolio"
+            title="Parkscapes"
+            imgSrc={parkscapes}
+            imgAlt="Screenshot of the Parkscapes website home page"
+            btnLinkHref="https://www.parkscapesllc.com/"
           />
           
         </div>
@@ -111,10 +114,10 @@ export default function Home() {
           {/* Portfolio card 03 */}
           <PortfolioCard
             number="3"
-            title="ELECTETRA"
-            imgSrc={electetra}
-            imgAlt="Screenshot of the Electetra website home page"
-            btnLinkHref="/portfolio/electetra"
+            title="Serome Health"
+            imgSrc={serome}
+            imgAlt="Screenshot of the Serome website home page"
+            btnLinkHref="/portfolio/serome-health"
           />
         </div>
       </section>

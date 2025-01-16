@@ -4,6 +4,9 @@ import Navbar from "@/app/components/Navbar"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import ReadMoreBtnSolid from "@/app/components/ReadMoreBtnSolid"
 import ContactSection from "@/app/components/ContactSection"
+import complianceCiso from "@/public/images/compliance-ciso-full.webp"
+import parkscapes from "@/public/images/parkscapes-full.webp"
+import serome from "@/public/images/serome-full.webp"
 import jobenyResources from "@/public/images/jobeny-home.webp"
 import joygirlPortfolio from "@/public/images/joygirl-home.webp"
 import electetra from "@/public/images/electetra-home.webp"
@@ -51,7 +54,7 @@ const portfolio = () => {
       {/* PROJECTS SECTION */}
       <section className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-16">
 
-        {/* Project 01 - Jobeny Resources */}
+        {/* Project 01 - Compliance CISO */}
         <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}
           <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
@@ -64,27 +67,34 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={jobenyResources} alt="Homepage screenshot of the Jobeny Resources website showing the navbar and hero section of the home page" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image 
+                src={complianceCiso} alt="Screenshot of the Compliance CISO website showing a section of the home page" 
+                className="rounded-b-[24px] w-full h-full object-cover"
+              />
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JOBENY RESOURCES</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Jobeny Resources, a web design and development agency. Built from scratch using Next.js and Tailwind CSS, this website has a unique and attractive modern interface. In addition to development, I was also responsible for the content writing of this website.</p>
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">Compliance CISO</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">
+              This project involved designing and developing a custom website for Compliance CISO, a cybersecurity firm. The goal was to create a professional, secure site showcasing the firm's services. Using provided Figma designs, I built the site from scratch with Next.js and Tailwind CSS.
+            </p>
             <div className="flex">
-              <Link href="/portfolio/jobeny-resources"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/compliance-ciso"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
         </div>
 
-        {/* Project 02 - Joygirl Portfolio */}
+        {/* Project 02 - Parkscapes */}
         <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">JOYGIRL PORTFOLIO</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a portfolio website for Joygirl, a Product Designer. The website, built from scratch using Next.js and Tailwind CSS, features a captivating dark-themed design, making it both beautiful and engaging.</p>
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">Parkscapes</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">
+              This project aimed to design and develop a clean, professional, and visually appealing website for Parkscapes LLC, a U.S.-based company specializing in commercial parking garage cleaning. Starting with the provided Figma designs, I built the website from scratch using Next.js and Tailwind CSS.
+            </p>
             <div className="flex">
-              <Link href="/portfolio/joygirl-portfolio"><ReadMoreBtnSolid /></Link>
+              <Link href="https://www.parkscapesllc.com/"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
           {/* Right side: Card dots and image */}
@@ -98,12 +108,15 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={joygirlPortfolio} alt="Homepage screenshot of the Joygirl portfolio website" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image 
+                src={parkscapes} alt="Screenshot of the Parkscapes website showing a section of the home page" 
+                className="rounded-b-[24px] w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
 
-        {/* Project 03 - Electetra */}
+        {/* Project 03 - Serome */}
         <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
           {/* Left side: Card dots and image */}
           <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
@@ -116,93 +129,21 @@ const portfolio = () => {
             <hr className="border-0 h-[1px] bg-black mb-8"/>
             {/* Image */}
             <div className="w-full h-full">
-              <Image src={electetra} alt="Homepage screenshot of the Jeb Auto Services website" className="rounded-b-[24px] w-full h-full object-cover"/>
+              <Image 
+                src={serome} 
+                alt="Screenshot of the Serome website showing a section of the home page" 
+                className="rounded-b-[24px] w-full h-full object-cover"
+              />
             </div>
           </div>
           {/* Right side: Heading, description, and button */}
           <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">ELECTETRA</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a new website for Electetra, an LED technology company. Built from scratch using HTML, CSS, and JavaScript, this website has a very aesthetically pleasing interface. It features two sliders, a marquee, and other features.</p>
-            <div className="flex">
-              <Link href="/portfolio/electetra"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 04 - Serome Health */}
-        <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
-          {/* Left side: Heading, description, and button */}
-          <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">SEROME HEALTH</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I developed a visually appealing landing page for Serome Limited, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and is hosted on a cPanel Linux hosting plan.</p>
+            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">Serome</h2>
+            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">
+              The project involved designing and developing a custom landing page for Serome Limited, a health insurance provider in Nigeria. The goal was to create a visually appealing and user-friendly page that reflects the brand. Using the provided Figma designs, I built the site from scratch with HTML, CSS, and JavaScript.
+            </p>
             <div className="flex">
               <Link href="/portfolio/serome-health"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-          {/* Right side: Card dots and image */}
-          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
-            {/* Card dots */}
-            <div className="flex gap-2 px-8 py-3">
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
-            </div>
-            <hr className="border-0 h-[1px] bg-black mb-8"/>
-            {/* Image */}
-            <div className="w-full h-full">
-              <Image src={seromeHealth} alt="Homepage screenshot of the Serome Health website" className="rounded-b-[24px] w-full h-full object-cover"/>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 05 - Melody Genie */}
-        <div className="flex md:flex-col gap-14 sm:gap-10 items-center mb-16">
-          {/* Left side: Card dots and image */}
-          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
-            {/* Card dots */}
-            <div className="flex gap-2 px-8 py-3">
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
-            </div>
-            <hr className="border-0 h-[1px] bg-black mb-8"/>
-            {/* Image */}
-            <div className="w-full h-full">
-              <Image src={melodyGenie} alt="Homepage screenshot of the Melody Genie website" className="rounded-b-[24px] w-full h-full object-cover"/>
-            </div>
-          </div>
-          {/* Right side: Heading, description, and button */}
-          <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">MELODY GENIE</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">This website was designed by <Link href="https://hijoygirl.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">Joygirl</Link> and I brought it to life using HTML, CSS, and JavaScript. This is one of my early projects and offered some very interesting challenges such as the animations and music player. It’s a beautiful site and I consider it a work of art.</p>
-            <div className="flex">
-              <Link href="/portfolio/melody-genie"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 06 - Deekes Construction */}
-        <div className="flex md:flex-col-reverse gap-14 sm:gap-10 items-center mb-16">
-          {/* Left side: Heading, description, and button */}
-          <div className="flex flex-col min-w-[40%]">
-            <h2 className="text-5xl xl:text-4xl text-[#EAEAEA] leading-[110%] mb-6">DEEKES</h2>
-            <p className="text-xl sm:text-lg text-[#F9F8F8] mb-8">I created this WordPress website for Deekes Construction and Real Estate Ltd. The site features a visually appealing interface, intuitive navigation, and full responsiveness.</p>
-            <div className="flex">
-              <Link href="/portfolio/deekes-construction"><ReadMoreBtnSolid /></Link>
-            </div>
-          </div>
-          {/* Right side: Card dots and image */}
-          <div className="min-w-[55%] md:min-w-full flex flex-col bg-[#C0D6DF] rounded-3xl">
-            {/* Card dots */}
-            <div className="flex gap-2 px-8 py-3">
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FFB703]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#219EBC]"></div>
-              <div className="min-w-[24px] min-h-[24px] rounded-full bg-[#FB8500]"></div>
-            </div>
-            <hr className="border-0 h-[1px] bg-black mb-8"/>
-            {/* Image */}
-            <div className="w-full h-full">
-              <Image src={deekesConstruction} alt="Homepage screenshot of the Deekes Construction website" className="rounded-b-[24px] w-full h-full object-cover"/>
             </div>
           </div>
         </div>
