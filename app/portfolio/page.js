@@ -143,7 +143,7 @@ const portfolio = () => {
               The project involved designing and developing a custom landing page for Serome Limited, a health insurance provider in Nigeria. The goal was to create a visually appealing and user-friendly page that reflects the brand. Using the provided Figma designs, I built the site from scratch with HTML, CSS, and JavaScript.
             </p>
             <div className="flex">
-              <Link href="/portfolio/serome-health"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/serome"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
         </div>

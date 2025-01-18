@@ -114,10 +114,10 @@ export default function Home() {
           {/* Portfolio card 03 */}
           <PortfolioCard
             number="3"
-            title="Serome Health"
+            title="Serome"
             imgSrc={serome}
             imgAlt="Screenshot of the Serome website home page"
-            btnLinkHref="/portfolio/serome-health"
+            btnLinkHref="/portfolio/serome"
           />
         </div>
       </section>

@@ -28,10 +28,10 @@ const ProjectName = () => {
         <section className="pt-6 mb-6">
             <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
                 {/* Title */}
-                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">SEROME HEALTH</h1>
+                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">SEROME</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed a visually appealing landing page for Serome Limited, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and it is hosted on a cPanel Linux hosting plan.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed a visually appealing landing page for Serome, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and it is hosted on a cPanel Linux hosting plan.</p>
                 </div>
             </div>
         </section>
@@ -50,7 +50,7 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span>Serome Health Ltd</li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Serome</li>
                             <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a landing page based on the Figma design. Visitors can access Serome's portal by clicking a link on this landing page.</li>
                             <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CSS, and JavaScript</li>
                             <li><span className="font-medium">Live Link: </span><Link href="https://seromehealth.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
