@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import imagePlaceholder from "@/public/images/image-placeholder-projects.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"

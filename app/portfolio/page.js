@@ -7,12 +7,6 @@ import ContactSection from "@/app/components/ContactSection"
 import complianceCiso from "@/public/images/compliance-ciso-full.webp"
 import parkscapes from "@/public/images/parkscapes-full.webp"
 import serome from "@/public/images/serome-full.webp"
-import jobenyResources from "@/public/images/jobeny-home.webp"
-import joygirlPortfolio from "@/public/images/joygirl-home.webp"
-import electetra from "@/public/images/electetra-home.webp"
-import seromeHealth from "@/public/images/serome-home.webp"
-import melodyGenie from "@/public/images/melody-genie-home.webp"
-import deekesConstruction from "@/public/images/deekes-home.webp"
 import MobileNavbar from "@/app/components/MobileNavbar"
 
 export const metadata = {
