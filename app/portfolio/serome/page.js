@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import seromeFull from "@/public/images/serome-full.webp"
 import seromePlans from "@/public/images/serome-plans.webp"
-import seromeFooter from "@/public/images/serome-footer.webp"
+import seromeTestimonialAndFooter from "@/public/images/serome-testimonial-and-footer.webp"
 import HorizontalRule from "@/app/components/HorizontalRule"
 import MobileNavbar from "@/app/components/MobileNavbar"
 import Navbar from "@/app/components/Navbar"
@@ -11,7 +11,7 @@ import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
 import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
 
-const ProjectName = () => {
+const Serome = () => {
   return (
     <>
         {/* Horizontal rule */}
@@ -53,8 +53,8 @@ const ProjectName = () => {
                     <>
                         <ul>
                             <li className="mb-3"><span className="font-medium">Client: </span>Serome</li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span>Develop a landing page based on the Figma design. Visitors can access Serome's portal by clicking a link on this landing page.</li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CSS, and JavaScript</li>
+                            <li className="mb-3"><span className="font-medium">My Role: </span>Full-Stack Web Developer</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>HTML, CSS, JavaScript, Swiper.js, Email.js</li>
                             <li><span className="font-medium">Live Link: </span><Link href="https://seromehealth.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
@@ -65,20 +65,20 @@ const ProjectName = () => {
 
             {/* Features */}
             <ProjectSectionRightText 
-                title="LESSONS"
+                title="FEATURES"
                 content={
                     <>
-                        <p>Learned how to host a website on a cPanel Linux hosting plan. I also learned that the language or technology stack used in developing a website determines the type of hosting required. For instance, React and Next.js sites necessitate Node.js hosting (or server-side JavaScript hosting), while vanilla sites like this one can utilize a regular cPanel web hosting plan.</p>
+                        <p>Set up Email.js for robust contact form handling, a dynamic testimonial carousel using Swiper.js, and integrated jsDelivr to seamlessly update testimonials via GitHub.</p>
                     </>
                 }
-                imgHref={seromeFooter}
-                imgAlt="A sreenshot from the website of Serome Health showing parts of the About and Footer sections"
+                imgHref={seromeTestimonialAndFooter}
+                imgAlt="A sreenshot from the website of Serome Health showing the testimonial and footer sections"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={seromeFull} alt="A sreenshot from the website of Serome Health website showing the navbar and hero section" className="w-full h-full object-cover"/>
+            <Image src={seromeFull} alt="A sreenshot from the website of Serome Health website showing a section of the home page" className="w-full h-full object-cover"/>
         </div>
 
         {/* BACK TO PROJECTS BUTTON */}
@@ -95,4 +95,4 @@ const ProjectName = () => {
   )
 }
 
-export default ProjectName
+export default Serome
