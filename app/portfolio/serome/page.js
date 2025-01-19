@@ -31,7 +31,9 @@ const ProjectName = () => {
                 <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">SEROME</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">I developed a visually appealing landing page for Serome, a health insurance provider based in Nigeria. The page was created using vanilla HTML, CSS, and JavaScript, and it is hosted on a cPanel Linux hosting plan.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">
+                        This project involved designing and developing a custom landing page for Serome, a health insurance provider. The goal was to create a visually appealing and user-friendly page that reflects the brand. Using the provided Figma designs, I built the site from scratch with HTML, CSS, and JavaScript.
+                    </p>
                 </div>
             </div>
         </section>

@@ -8,8 +8,11 @@ import ProjectSectionLeftText from "@/app/components/ProjectSectionLeftText"
 import ProjectSectionRightText from "@/app/components/ProjectSectionRightText"
 import ContactSection from "@/app/components/ContactSection"
 import BackToProjectsBtn from "@/app/components/BackToProjectsBtn"
+import parkscapesWhyChooseUs from "@/public/images/parkscapes-why-choose-us.webp"
+import parkscapesCarousel from "@/public/images/parkscapes-carousel.webp"
+import parkscapesFull from "@/public/images/parkscapes-full.webp"
 
-const ProjectName = () => {
+const Parkscapes = () => {
   return (
     <>
         {/* Horizontal rule */}
@@ -26,10 +29,12 @@ const ProjectName = () => {
         <section className="pt-6 mb-6">
             <div className="px-[7.5rem] lg:px-[4rem] md:px-[1.25rem]">
                 {/* Title */}
-                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">PROJECT NAME</h1>
+                <h1 className="text-[#F1F1F1] text-[4rem] sm:text-[2.5rem] leading-none mb-10 sm:mb-7">Parkscapes</h1>
                 {/* Subtitle */}
                 <div className="flex justify-end mb-4 sm:mb-8">
-                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="w-1/2 md:w-2/3 sm:w-full text-left text-[#F1F1F1] text-2xl lg:text-xl sm:text-lg">
+                        This project aimed to design and develop a clean, professional, and visually appealing website for Parkscapes LLC, a U.S.-based company specializing in commercial parking garage cleaning. Starting with the provided Figma designs, I built the website from scratch using Next.js and Tailwind CSS.
+                    </p>
                 </div>
             </div>
         </section>
@@ -48,15 +53,15 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Client: </span>Client name</li>
-                            <li className="mb-3"><span className="font-medium">Purpose: </span>Description of purpose.</li>
-                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Technology stack here</li>
-                            <li><span className="font-medium">Live Link: </span><Link href="" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
+                            <li className="mb-3"><span className="font-medium">Client: </span>Parkscapes LLC</li>
+                            <li className="mb-3"><span className="font-medium">My Role: </span>Full-Stack Web Developer</li>
+                            <li className="mb-3"><span className="font-medium">Technology Stack: </span>Next.js, Tailwind CSS, Swiper.js, Email.js</li>
+                            <li><span className="font-medium">Live Link: </span><Link href="https://www.parkscapesllc.com/" target="_blank" className="text-[#FB8500] hover:text-[#F9F8F8] underline decoration-solid">View site</Link></li>
                         </ul>
                     </>
                 }
-                imgHref={imagePlaceholder}
-                imgAlt="A sreenshot from the website of ..."
+                imgHref={parkscapesWhyChooseUs}
+                imgAlt="A sreenshot from the website of Parkscapes showing the Why Choose Us section"
             />
 
             {/* Features */}
@@ -65,40 +70,19 @@ const ProjectName = () => {
                 content={
                     <>
                         <ul>
-                            <li className="mb-3"><span className="font-medium">Feature 01: </span>Description of feature.</li>
-                            <li className="mb-3"><span className="font-medium">Feature 02: </span>Description of feature.</li>
-                            <li><span className="font-medium">Feature 03: </span>Description of feature.</li>
+                            <li className="mb-3">Implemented Email.js for a reliable contact form backend, Google reCAPTCHA for spam protection, and Swiper.js to create a smooth, interactive image carousel.</li>
                         </ul>
                     </>
                 }
-                imgHref={imagePlaceholder}
-                imgAlt="A sreenshot from the website of ..."
+                imgHref={parkscapesCarousel}
+                imgAlt="A sreenshot from the website of Parkscapes showing an image carousel"
             />
         </section>
 
         {/* Full page image */}
         <div className="px-[7.5rem] lg:px-[4rem] md:px-0 mb-16">
-            <Image src={imagePlaceholder} alt="A sreenshot from the website of ..." className="w-full h-full object-cover"/>
+            <Image src={parkscapesFull} alt="A sreenshot from the website of Parkscapes showing a section of the home page" className="w-full h-full object-cover"/>
         </div>
-
-        {/* PROJECT SECTION 02*/}
-        <section className="mb-32 md:mb-24 sm:mb-14">
-            {/* Challenges */}
-            <ProjectSectionLeftText 
-                title="CHALLENGES"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={imagePlaceholder}
-                imgAlt="A sreenshot from the website of ..."
-            />
-
-            {/* Lessons Learned */}
-            <ProjectSectionRightText 
-                title="LESSONS LEARNED"
-                content="Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ut sem mattis condimentum risus risus scelerisque leo. Nibh nec euismod sem pretium. Lorem ipsum dolor sit amet consectetur."
-                imgHref={imagePlaceholder}
-                imgAlt="A sreenshot from the website of ..."
-            />
-        </section>
 
         {/* BACK TO PROJECTS BUTTON */}
         <div className="flex justify-center px-[7.5rem] lg:px-[4rem] md:px-[1.25rem] mb-32 md:mb-24 sm:mb-14">
@@ -114,4 +98,4 @@ const ProjectName = () => {
   )
 }
 
-export default ProjectName
+export default Parkscapes

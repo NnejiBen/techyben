@@ -98,7 +98,7 @@ export default function Home() {
             title="Parkscapes"
             imgSrc={parkscapes}
             imgAlt="Screenshot of the Parkscapes website home page"
-            btnLinkHref="https://www.parkscapesllc.com/"
+            btnLinkHref="/portfolio/parkscapes"
           />
           
         </div>

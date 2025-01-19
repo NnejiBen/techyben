@@ -94,7 +94,7 @@ const portfolio = () => {
               This project aimed to design and develop a clean, professional, and visually appealing website for Parkscapes LLC, a U.S.-based company specializing in commercial parking garage cleaning. Starting with the provided Figma designs, I built the website from scratch using Next.js and Tailwind CSS.
             </p>
             <div className="flex">
-              <Link href="https://www.parkscapesllc.com/"><ReadMoreBtnSolid /></Link>
+              <Link href="/portfolio/parkscapes"><ReadMoreBtnSolid /></Link>
             </div>
           </div>
           {/* Right side: Card dots and image */}
